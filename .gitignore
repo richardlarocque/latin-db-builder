@@ -1,0 +1,4 @@
+dist/
+*.sqlite3
+Setup.hs
+enwiktionary*.xml
