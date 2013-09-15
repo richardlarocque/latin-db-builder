@@ -1,0 +1,101 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>pectus</title>
+    <ns>0</ns>
+    <id>74776</id>
+    <revision>
+      <id>21501064</id>
+      <parentid>21123182</parentid>
+      <timestamp>2013-08-02T18:37:31Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>recons &gt; term/t (temporary name)</comment>
+      <text xml:space="preserve">==English==
+
+===Etymology===
+{{borrowing|la}} {{lena}}.
+
+===Noun===
+{{en-noun|pectora}}
+
+# {{context|anatomy|zoology|lang=en}} The [[breast]], especially of a [[bird]].
+
+====Related terms====
+* [[pectus excavatum]]
+* [[pectus carinatum]]
+
+----
+
+==Latin==
+
+===Etymology===
+From {{etyl|ine-pro|la}} {{term/t|ine-pro|*peg||breast}}.
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈpek.tus/|lang=la}}
+
+===Noun===
+{{la-noun|pectus|pectoris|pectoris|n|third}}
+
+# [[chest]], [[breast]]
+# {{context|figuratively|lang=la}} [[heart]], breast, as the seat of [[emotion]]
+# {{context|figuratively|lang=la}} [[soul]], [[spirit]], [[mind]], [[understanding]]
+# [[person]], [[individual]] (as a being of passion)
+
+====Inflection====
+{{la-decl-3rd-N|pectus|pectus|pector}}
+
+====Derived terms====
+* [[in pectore]]
+* [[pectorale|pectorāle]]
+* [[pectoralis|pectorālis]]
+* [[pectorosus|pectorōsus]]
+* [[pectusculum]]
+* [[Pectuscum Palati|Pectuscum Palātī]]
+
+====Descendants====
+{{top2}}
+* Aromanian: {{l|rup|cheptu}}
+* Asturian: {{l|an|peito}}
+* Catalan: {{l|ca|pit}}
+* French: {{l|fr|pis}}, {{l|fr|poitrine}}
+* Galician: {{l|gl|peito}}
+* Italian: {{l|it|petto}}
+{{mid2}}
+* Portuguese: {{l|pt|peito}}
+* Romanian: {{l|ro|piept}}
+* Romansch: {{l|rm|pet}}, {{l|rm|pèz}}
+* Sicilian: {{l|scn|pettu}}
+* Spanish: {{l|es|pecho}}
+{{bottom}}
+
+====See also====
+* [[pecto|pectō]]
+* {{l|la|sinus}}
+
+[[Category:la:Anatomy]]
+
+[[zh-min-nan:pectus]]
+[[el:pectus]]
+[[es:pectus]]
+[[fr:pectus]]
+[[ko:pectus]]
+[[id:pectus]]
+[[it:pectus]]
+[[kn:pectus]]
+[[mg:pectus]]
+[[fj:pectus]]
+[[pl:pectus]]
+[[ru:pectus]]
+[[ta:pectus]]
+[[tr:pectus]]
+[[vi:pectus]]
+[[zh:pectus]]</text>
+      <sha1>dw6sv5bsiiyple7eylgsn3bsda5fkzx</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

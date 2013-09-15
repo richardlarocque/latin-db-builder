@@ -1,0 +1,142 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>abactor</title>
+    <ns>0</ns>
+    <id>254</id>
+    <revision>
+      <id>21659026</id>
+      <parentid>21069012</parentid>
+      <timestamp>2013-08-14T21:03:46Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>Remove macronless parameters from la-decl, no longer needed</comment>
+      <text xml:space="preserve">==English==
+
+===Etymology===
+From {{etyl|LL.|en}} {{term|abactor||cattle rustler|lang=la}}, from {{term|abigo|abigō|drive away|lang=la}}; from {{term|ab||from, away from|lang=la}} + {{term|ago|agō|drive|lang=la}}.&lt;ref&gt;{{reference-book | last =| first = | authorlink =  | coauthors =  | editor =Gove, Philip Babcock    | others =  | title = Webster's Third International Dictionary of the English Language Unabridged | origdate =  | origyear = 1909 | origmonth =  | url =  | format =  | accessdate =  | accessyear =  | accessmonth =  | edition =  | date =  | year =1976  | month =  | publisher =G. &amp; C. Merriam Co.  | location = Springfield, MA | language =  | id =  | doi = | isbn =0-87779-101-5 | lccn = | ol = | pages =3| chapter =  | chapterurl =  | quote =}}&lt;/ref&gt;
+
+===Pronunciation===
+* {{a|GenAm}} {{IPA|/ˈæˌbæk.tɚ/|/æˈbæk.tɚ/}}
+
+===Noun===
+{{en-noun}}
+
+# {{context|legal|obsolete|lang=en}} One who [[steal]]s and drives away [[cattle]] or beasts by [[herd]]s or [[drove]]s; a cattle [[rustler]]. {{defdate|Attested from the mid 17&lt;sup&gt;th&lt;/sup&gt; century until the early 19&lt;sup&gt;th&lt;/sup&gt; century.}}&lt;ref&gt;{{reference-book | last =| first = | authorlink =  | coauthors =  | editor =Brown, Lesley  | others =  | title = The Shorter Oxford English Dictionary | origdate =  | origyear = 1933| origmonth =  | url =  | format =  | accessdate =  | accessyear =  | accessmonth =  | edition = 5th | date =  | year =2003| month =  | publisher =Oxford University Press  | location =Oxford, UK | language =  | id =  | doi = | isbn =978-0-19-860575-7 | lccn = | ol = | pages =2| chapter =  | chapterurl =  | quote =}}&lt;/ref&gt;
+
+====Synonyms====
+* [[rustler]]
+
+====Translations====
+{{trans-top|one who steals and drives away cattle or beasts by herds}}
+* Dutch: {{t-|nl|runderdief|m}},  {{t+|nl|veedief|m}}
+* Finnish: {{t-|fi|karjavaras}}
+* Latin: {{t+|la|abactor|m}}
+{{trans-mid}}
+* Polish: {{t-|pl|złodziej bydła|m}}
+* Portuguese: {{t+|pt|abactor|m}}, {{t-|pt|abígeo|m}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* {{ttbc|bg}}: Крадец на добитък
+{{trans-mid}}
+* {{ttbc|pt}}: [[ladrão de gado]]
+{{trans-bottom}}
+
+===Anagrams===
+* [[acrobat#English|acrobat]]
+
+===References===
+&lt;references/&gt;
+
+----
+
+==Latin==
+
+===Etymology===
+From {{term|abigo|abigō|drive away|lang=la}}, from {{term|ab||from, away from|lang=la}} + {{term|ago|agō|drive|lang=la}}.
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/abˈak.tor/|lang=la}}
+
+===Noun===
+{{la-noun|abactor|abactoris|abactōris|m|third}}
+
+# A [[cattle]] [[thief]]; [[#English|abactor]] or [[rustler]].
+# A man who [[abduct]]s.
+# {{inflection of|abactor|abactor|voc|s|lang=la}}
+
+====Inflection====
+{{la-decl-3rd|abactor|abactōr}}
+
+====Synonyms====
+* {{sense|cattle thief}} [[abigeator|abigeātor]], [[abigeus]]
+
+====Related terms====
+{{top2}}
+* [[abactius]]
+* [[abactus]]
+* [[abagmentum]]
+* [[abiga]]
+{{mid2}}
+* [[abigeator|abigeātor]]
+* [[abigeatus|abigeātus]]
+* [[abigeus]]
+* [[abigo|abigō]]
+{{bottom}}
+
+====Descendants====
+* English: {{l/en|abactor}}
+* Portuguese: {{l/pt|abactor}}
+
+[[Category:Latin noun forms]]
+
+----
+
+==Portuguese==
+
+===Etymology===
+From {{etyl|la|pt}} {{term|abactor|lang=la}}.
+
+===Pronunciation===
+* {{a|Paulista|South Brazil}} {{IPA|/aˌbakˈtoɾ/|/aˌbakiˈtoɾ/|lang=pt}}
+* {{a|Paulista}} {{IPA|/aˌbakˈtoɹ/|/aˌbakiˈtoɹ/|lang=pt}}
+* {{a|South Brazil}} {{IPA|/aˌbakˈtoɻ/|/aˌbakiˈtoɻ/|lang=pt}}
+
+===Noun===
+{{pt-noun|m|es|f=abactora}}
+
+# {{l/en|abactor}} {{gloss|cattle thief}}
+
+====Synonyms====
+* {{l/pt|abígeo}}
+
+====Related terms====
+* {{l/pt|abacto}}
+
+[[Category:pt:Crime]]
+
+[[de:abactor]]
+[[et:abactor]]
+[[el:abactor]]
+[[fr:abactor]]
+[[it:abactor]]
+[[kn:abactor]]
+[[la:abactor]]
+[[hu:abactor]]
+[[mg:abactor]]
+[[nl:abactor]]
+[[pl:abactor]]
+[[pt:abactor]]
+[[ro:abactor]]
+[[ru:abactor]]
+[[fi:abactor]]
+[[sv:abactor]]
+[[ta:abactor]]</text>
+      <sha1>hn2h3f6ftu9kvc32g37i4zmahdb9e69</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

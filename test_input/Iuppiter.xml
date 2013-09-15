@@ -1,0 +1,74 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>Iuppiter</title>
+    <ns>0</ns>
+    <id>52288</id>
+    <revision>
+      <id>22112256</id>
+      <parentid>22112170</parentid>
+      <timestamp>2013-09-01T02:04:59Z</timestamp>
+      <contributor>
+        <username>Word dewd544</username>
+        <id>533603</id>
+      </contributor>
+      <minor />
+      <text xml:space="preserve">==Latin==
+[[File:Jupiter_Tonans.jpg|thumb|''Iuppiter Tonans'' (late first century statue)]]
+
+===Alternative forms===
+* [[Iupiter]]
+
+===Etymology===
+The main root {{term|Iovis|Iov-, Iovis|lang=la}} (cf. Old Latin ''Diovis'') is from {{etyl|ine-pro|la}} {{term/t|ine-pro|*dyew-||sky}} (whence also Latin {{term/t|la|diēs}}). Cognate with Ancient Greek {{term|sc=polytonic|Ζεύς|tr=Zeus|lang=grc}}, Hittite {{term|sc=unicode|𒅆𒍑|tr=sius|lang=hit}}, Sanskrit {{term|sc=Deva|द्यु|tr=dyú|lang=sa}}. The nominative {{term|Iuppiter|lang=la}} comes from a vocative combined with {{etyl|ine-pro|la}} {{term/t|ine-pro|*ph₂tḗr||father}} (whence also Latin {{term|pater|lang=la}}), and as such is cognate to Umbrian {{term|sc=Ital|𐌓𐌄𐌕𐌀𐌐𐌖𐌈|tr=iupater|lang=xum}}. The nominative form, essentially equivalent to ''Iovis Pater'', or &quot;father Jove&quot;, is probably from an earlier *''Diu-pater'', and corresponds to a {{etyl|itc-pro|la}} root *''dyew-patēr'', from a Proto-Indo-European *''Dyēus ph₂ter'' (&quot;sky father&quot;) (whence also Sanskrit {{l|sa|द्यौष्पितृ|tr=dyauṣ-pitṛ}}, Ancient Greek {{l|grc|Ζεύς πάτερ|Ζεῦ πάτερ|tr=Zeu pater}} (&quot;o father Zeus&quot;)).
+
+===Pronunciation===
+* {{IPA|/ˈjup.pi.ter/|lang=la}}
+* {{audio|la-cls-Iuppiter.ogg|Audio (Classical)}}
+
+===Proper noun===
+{{la-noun|Iuppiter|Iovis|Iovis|m|irregular}}
+
+# The god [[Jupiter]].
+# {{context|lang=la|poetic}} The [[sky]].
+# The planet [[Jupiter]].
+#* '''1584:''' [[w:Johannes Virdung|Johann Virdung of Hassfurt]], ''De Cognoscendis, et Medendis Morbis ex Corporum Coelestium Positione''
+#*: [f. 7r] ''Ex'' {{unicode|'''♃'''}} ''Peripneumonia, Apoplexia, Pleuriſis cardiaca, Angina,'' [...] ''oriuntur.''
+#*: [f. 7v] HABENT Namque Planetæ ſpeciales influentias ſuper humani corporis membra ob exiſtentiam eorum in ſignis, vt in Ariete, Saturnus habet pectus. '''Iupiter''' ventrem. Mars caput. [etc.]
+
+====Inflection====
+{{la-decl-3rd|Iuppiter|Iov}}
+
+====Derived terms====
+* [[dies Iovis]]
+* [[iovialis]]
+
+====Descendants====
+* English: {{l|en|Jupiter}}
+* French: {{l|fr|Jupiter}}
+* Italian: {{l|it|Giove}}
+* Portuguese: {{l|pt|Júpiter}}
+* Spanish: {{l|es|Júpiter}}
+
+====See also====
+* [[Diespiter]]
+
+[[Category:la:Gods]]
+[[Category:la:Planets]]
+[[Category:Latin irregular nouns]]
+
+[[zh-min-nan:Iuppiter]]
+[[cs:Iuppiter]]
+[[de:Iuppiter]]
+[[el:Iuppiter]]
+[[fr:Iuppiter]]
+[[it:Iuppiter]]
+[[la:Iuppiter]]
+[[lt:Iuppiter]]
+[[pl:Iuppiter]]
+[[ru:Iuppiter]]
+[[sv:Iuppiter]]</text>
+      <sha1>e95f80iqo9ry3ozz5q72sqtt71fgqh5</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

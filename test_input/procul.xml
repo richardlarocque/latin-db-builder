@@ -1,0 +1,41 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>procul</title>
+    <ns>0</ns>
+    <id>487187</id>
+    <revision>
+      <id>21747248</id>
+      <parentid>15988857</parentid>
+      <timestamp>2013-08-19T05:27:57Z</timestamp>
+      <contributor>
+        <username>Rukhabot</username>
+        <id>45268</id>
+      </contributor>
+      <minor />
+      <comment>interwikis: +[[chr:procul]]</comment>
+      <text xml:space="preserve">==Latin==
+===Adverb===
+'''procul'''
+
+# [[far]]; at a distance
+#: ''Brasilia '''procul''' ab Iaponia est.''
+#:: Brazil is '''far''' from Japan.
+
+[[Category:Latin adverbs]]
+
+[[de:procul]]
+[[fr:procul]]
+[[ko:procul]]
+[[hr:procul]]
+[[la:procul]]
+[[mg:procul]]
+[[fj:procul]]
+[[nl:procul]]
+[[pl:procul]]
+[[ru:procul]]
+[[chr:procul]]</text>
+      <sha1>t1w2fhvvil2u7rbmu583r3sqdcg9dvt</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

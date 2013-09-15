@@ -1,0 +1,214 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>lente</title>
+    <ns>0</ns>
+    <id>658</id>
+    <revision>
+      <id>21494681</id>
+      <parentid>21446660</parentid>
+      <timestamp>2013-08-02T01:55:29Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>recons &gt; term/t (temporary name)</comment>
+      <text xml:space="preserve">==Dutch==
+
+===Etymology===
+From {{etyl|dum|nl}} {{term|lentin|lang=dum}}, {{term|lenten|lang=dum}}, from {{etyl|odt|nl}} {{term|lentin|lang=odt}}, from {{etyl|gem-pro|nl}} {{term/t|gem-pro|*langatīnaz}}, compound of {{term/t|gem-pro|*langaz||long}} + {{term/t|gem-pro|*tīnaz||day}}. Cognate with {{etyl|en|-}} {{term|Lent|lang=en}}, {{etyl|de|-}} {{term|Lenz|lang=de}}.
+
+===Pronunciation===
+* {{IPA|/ˈlɛntə/|lang=nl}}, {{X-SAMPA|/&quot;lEnt@/|lang=nl}}
+* {{audio|Nl-lente.ogg|audio}}
+
+===Noun===
+{{nl-noun|f|lentes|lentetje}}
+
+# [[spring]]: the season between winter and summer
+
+====Synonyms====
+* [[voorjaar]]
+
+===See also===
+* {{list:seasons/nl}}
+
+===Anagrams===
+* [[leent#Dutch|leent]], [[netel#Dutch|netel]], [[telen#Dutch|telen]]
+
+----
+
+==French==
+
+===Pronunciation===
+* {{IPA|/lɑ̃t/}}, {{X-SAMPA|/lA~t/|lang=fr}}
+
+===Etymology 1===
+{{etyl|VL.|fr}} {{term/t|la|*lenditem}}, from {{etyl|la|fr}} {{term|lens|lang=la}}.
+
+====Noun====
+{{fr-noun|f}}
+
+# {{context|zoology|lang=fr}} [[nit]]
+
+====See also====
+* [[pou#French|pou]] {{m}}
+
+===Etymology 2===
+Inflected forms.
+
+====Adjective====
+{{fr-adj-form}}
+
+# {{feminine of|lent|lang=fr}}
+
+----
+
+==Galician==
+
+===Noun===
+{{gl-noun|f}}
+
+# [[lens]]
+
+====Related terms====
+* [[lentes]]
+
+[[Category:gl:Optics]]
+
+----
+
+==Ido==
+
+===Adverb===
+{{head|io|adverb}}
+
+# [[slowly]]
+
+----
+
+==Interlingua==
+
+===Noun===
+{{head|ia|noun}}
+
+# [[lens]]
+
+----
+
+==Italian==
+
+===Etymology 1===
+Inflected form of {{term|lento|lang=it}}.
+
+====Adjective====
+{{head|it|adjective form}} {{f}}{{p}}
+
+# {{feminine plural of|lento|lang=it}}
+
+===Etymology 2===
+From {{etyl|la|it}} {{term|lens|lēns|lentil|lang=la}}, ''lentis''.
+
+====Noun====
+{{it-noun|lent|f|e|i}}
+
+# [[lens]]
+
+=====Derived terms=====
+* [[lente a contatto]]
+* [[lente d'ingrandimento]]
+
+----
+
+==Jèrriais==
+
+===Adjective===
+{{roa-jer-adj-form|f}}
+
+# {{feminine of|lent|lang=roa-jer}}
+
+----
+
+==Latin==
+
+===Etymology===
+From {{suffix|lentus|e|alt2=ē|gloss1=slow|lang=la}}.
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈlen.teː/|lang=la}}
+* {{audio|la-cls-lente.ogg|Audio (Classical)}}
+
+===Adverb===
+{{la-adv|lent||e}}
+
+# [[slowly]]
+#: ''Marcus ambulat '''lente''' ad arborem.'' - ''Marcus walks slowly to the tree.''
+
+====Synonyms====
+* {{sense|slowly}} {{l|la|tarde|tardē}}
+
+====Related terms====
+* {{l|la|lentesco|lentēscō}}
+* {{l|la|lentitudo|lentitūdō}}
+* {{l|la|lentulus}}
+* {{l|la|lentus}}
+
+----
+
+==Spanish==
+
+===Etymology===
+From {{etyl|la|es}} {{term|lens|lēns|lentil|lang=la}}, ''lentis''.
+
+===Noun===
+{{es-noun|mf}}
+
+# [[lens]]
+
+====Related terms====
+* [[lenteja]]
+* [[lentejuela]]
+* [[liendre]]
+
+[[Category:es:Light]]
+
+[[ast:lente]]
+[[zh-min-nan:lente]]
+[[de:lente]]
+[[et:lente]]
+[[el:lente]]
+[[es:lente]]
+[[eo:lente]]
+[[eu:lente]]
+[[fr:lente]]
+[[fy:lente]]
+[[gl:lente]]
+[[ko:lente]]
+[[hy:lente]]
+[[io:lente]]
+[[id:lente]]
+[[it:lente]]
+[[ku:lente]]
+[[lo:lente]]
+[[lt:lente]]
+[[li:lente]]
+[[hu:lente]]
+[[mg:lente]]
+[[fj:lente]]
+[[nl:lente]]
+[[no:lente]]
+[[pl:lente]]
+[[pt:lente]]
+[[ru:lente]]
+[[fi:lente]]
+[[sv:lente]]
+[[th:lente]]
+[[tr:lente]]
+[[vi:lente]]
+[[vo:lente]]
+[[zh:lente]]</text>
+      <sha1>qp7uvprqja5psgvc2fj5d57lsjtgz6z</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

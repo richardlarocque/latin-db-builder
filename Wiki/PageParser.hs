@@ -1,10 +1,9 @@
+{-# LANGUAGE OverloadedStrings #-}
+
 module Wiki.PageParser(
-WikiLine,
 extractTemplates,
-getDefinitions,
 getPOSSections,
 getSection,
-hasInterestingHeadword,
 parsePage) where
 
 import qualified Data.Text as T
@@ -18,14 +17,6 @@ import Wiki.Markup
 import Latin.PartsOfSpeech
 
 import Latin.Types
-
-data WikiLine =
-	Section Int T.Text
-	| BlankLine
-	| Line T.Text
-	| Bullet T.Text
-	| NumBullet T.Text
-	deriving Show
 
 getTemplates :: T.Text -> [TemplateRef]
 getTemplates txt = 
@@ -54,7 +45,7 @@ line_parsers = [
 
 parseSectionHeader :: T.Text -> Maybe WikiLine
 parseSectionHeader line = do
-	matches <- (line =~~ "^(=+)([^=]+)")
+	matches <- (line =~~ ("^(=+)([^=]+)" :: String))
 	let matches' = getAllTextSubmatches matches :: [T.Text]
 	let equal_signs = matches' !! 1
 	let section_level = T.length equal_signs
@@ -122,52 +113,16 @@ getPOSStart (_:xs) = getPOSStart xs
 getPOSStart [] = Nothing
 
 header_part_map :: [(T.Text, PartOfSpeech)]
-header_part_map = [((T.pack.sectionHeader) p, p) | p <- latin_parts_of_speech]
-
--- Expects input to be pre-filtered to contain only the Latin POS section.
-
-getDefinitions :: [WikiLine] -> Definition
-getDefinitions = (Definition . getBullets)
-	where
-		getBullets ((NumBullet txt):xs) = txt:(getBullets xs)
-		getBullets ((Section _ _):_) = []
-		getBullets (_:xs) = getBullets xs
-		getBullets [] = []
-
---
-
-hasInterestingHeadword :: [TemplateRef] -> Bool
-hasInterestingHeadword = any hasInterestingHeadword'
-	where
-		hasInterestingHeadword' t = case t of
-			(TemplateRef (h:l:p:_))
-				| h == (T.pack "head") && l == (T.pack "la")
-				-> elem p interesting_parts
-			(TemplateRef (n:_)) -> elem n interesting_templates
-			_ -> False
-
-interesting_templates :: [T.Text]
-interesting_templates = map T.pack [
-	"la-verb",
-	"la-noun",
-	"la-proper noun",
-	"la-adj-1&2",
-	"la-adj-3rd-1E",
-	"la-adj-3rd-2E",
-	"la-adj-3rd-3E",
-	"la-adv",
-	"la-interj"]
-
-interesting_parts :: [T.Text]
-interesting_parts = map T.pack [
-	"adjective",
-	"adverb",
-	"conjunction",
-	"determiner",
-	"interjection",
-	"noun",
-	"numeral",
-	"particle",
-	"preposition",
-	"pronoun",
-	"verb"]
+header_part_map = [
+	("Adjective", Adjective),
+	("Adverb", Adverb),
+	("Conjunction", Conjunction),
+	("Determiner", Determiner),
+	("Interjection", Interjection),
+	("Noun", Noun),
+	("Proper noun", Noun),
+	("Numeral", Numeral),
+	("Particle", Particle),
+	("Preposition", Preposition),
+	("Pronoun", Pronoun),
+	("Verb", Verb)]

@@ -1,0 +1,86 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>multus</title>
+    <ns>0</ns>
+    <id>210324</id>
+    <revision>
+      <id>23280726</id>
+      <parentid>23086006</parentid>
+      <timestamp>2013-09-24T20:25:53Z</timestamp>
+      <contributor>
+        <username>MglovesfunBot</username>
+        <id>264304</id>
+      </contributor>
+      <minor />
+      <comment>bot: replacing bolded head word with {{head|}}</comment>
+      <text xml:space="preserve">==Esperanto==
+
+===Verb===
+{{head|eo}}
+
+# {{eo-form of|mult|us}}
+
+----
+
+==Latin==
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈmul.tus/|lang=la}}
+* {{audio|la-cls-multus.ogg|Audio (Classical)}}
+
+===Determiner===
+{{la-adj-1&amp;2|multus|multa|multa|multum|multum}}
+
+# [[much]], [[many]].
+
+====Inflection====
+{{la-decl-1&amp;2|mult}}
+
+* ''comparative'': '''[[plus#Latin|plūs]]''', ''superlative'': '''[[plurimus|plūrimus]]'''
+
+====Related terms====
+* [[multa]]
+* [[multitudo#Latin|multitūdō]]
+* [[multo|multō]]
+* [[multum]]
+
+====Derived terms====
+* [[permultus]]
+
+====Descendants====
+{{top2}}
+* Asturian: {{l|ast|munchu}}
+* Aromanian: {{l|rup|multu}}
+* Catalan: {{l|ca|molt}}
+* Emilian: {{l|egl|móllt}}, {{l|egl|môlt}}
+* Extremaduran: {{l|ext|munchu}}
+* French: {{l/fr|moult}}
+{{mid2}}
+* Italian: {{l/it|molto}}
+* Old Portuguese: {{l|roa-ptg|muito}}
+* Portuguese: {{l/pt|muito}}
+* Romagnol: {{l|rgn|molt}}
+* Romanian: {{l|ro|mult}}
+* Spanish:  {{l/es|mucho}}
+{{bottom}}
+
+[[Category:Latin determiners]]
+
+[[cs:multus]]
+[[es:multus]]
+[[fr:multus]]
+[[ko:multus]]
+[[hr:multus]]
+[[la:multus]]
+[[mg:multus]]
+[[ja:multus]]
+[[pl:multus]]
+[[pt:multus]]
+[[ru:multus]]
+[[sk:multus]]
+[[chr:multus]]</text>
+      <sha1>dcukoaz471rn8twz12zesgpjssyvwiv</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

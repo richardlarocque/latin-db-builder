@@ -1,0 +1,302 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>his</title>
+    <ns>0</ns>
+    <id>4155</id>
+    <revision>
+      <id>22607604</id>
+      <parentid>22303299</parentid>
+      <timestamp>2013-09-10T00:03:00Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>Add {{g| to gender templates</comment>
+      <text xml:space="preserve">{{also|His|hís}}
+==English==
+{{wikipedia}}
+
+===Etymology===
+From {{etyl|enm|en}}, from {{etyl|ang|en}} {{term|his||his, its|lang=ang}}, from {{etyl|gem-pro|en}} {{term/t|gem-pro|*hes||of this}}, genitive of {{term/t|gem-pro|*hiz||this, this one}}, from {{etyl|ine-pro|en}} {{term/t|ine-pro|*ḱe-}}, {{term/t|ine-pro|*ḱey-||this}}. Cognate with {{etyl|da|-}}, {{etyl|sv|-}}, {{etyl|no|-}}, {{etyl|is|-}} {{term|hans||his|lang=is}}. More at {{l|en|he}}.
+
+===Pronunciation===
+* {{IPA|/hɪz/}}, {{X-SAMPA|/hIz/}}
+* {{audio|en-us-his.ogg|Audio (US)}}
+* {{rhymes|ɪz}}
+
+===Pronoun===
+{{en-pron|desc=possessive pronoun}}
+
+# {{context|attributive|lang=en}} Belonging to [[him]].
+#* '''1596''', {{w|Edmund Spenser}}, ''{{w|The Faerie Queene}}'', IV.i:
+#*: With that he put '''his''' spurres vnto his steed, / With speare in rest, and toward him did fare, / Like shaft out of a bow preuenting speed.
+#*{{quote-book|year=1898|author={{w|Winston Churchill (novelist)|Winston Churchill}}
+|title={{w|The Celebrity}}|chapter=4
+|passage=No matter how early I came down, I would find him on the veranda, smoking cigarettes, or otherwise '''his''' man would be there with a message to say that '''his''' master would shortly join me if I would kindly wait.}}
+#* '''2011''', Xan Rice, ''The Guardian'', 8 Apr 2011:
+#*: In '''his''' first televised address since the siege in Abidjan began this week, Ouattara said he would focus on returning the country to normal to ease the plight of civilians.
+# {{context|obsolete|lang=en}} [[its|Its]]; belonging to it. (Now only when implying personification.) {{defdate|11th-17th c.}}
+#* '''1603''', {{w|John Florio}}, translating {{w|Michel de Montaigne}}, ''Essays'', II.2:
+#*: My stomacke could not well reach so farre: it is very much troubled to come to an end of that which it takes for '''his''' need.
+#* '''1611''', Matthew 5:13, King James Version:
+#*: Ye are the salt of the earth: but if the salt have lost '''his''' savour, wherewith shall it be salted?
+# {{context|archaic|lang=en}} Used erroneously in place of ''’s'' after a noun, especially a masculine noun ending in {{g|s}}, to express the possessive case.
+#: ''Ahab '''his''' mark'' for ''Ahab's mark''.
+
+====Usage notes====
+* When followed by a noun, it is sometimes referred to as a ''possessive adjective'', qualifying the following noun. It is, however, the [[possessive case]] of the personal pronoun [[he]].
+
+====Translations====
+{{trans-top|attributive: belonging to him}}
+* Albanian: {{t-|sq|tij}}
+* American Sign Language: {{tø|ase|FlatB@Chesthigh-FingerUp}}
+* Arabic: {{t-|ar|ه|alt=ـه|tr=-hu}}, {{qualifier|Possessive Pronoun}} {{t-|ar|له|tr=lah|sc=Arab}}
+*: Egyptian Arabic: {{tø|arz|ه|alt=ـه|tr=-u|sc=Arab}}, {{qualifier|Possessive Pronoun}} {{tø|arz|ليه|tr=li|sc=Arab}} {{tø|arz|بتاعو|m|tr=betaʕo|sc=Arab}} {{tø|arz|بتاعتو|f|tr=betaʕto|sc=Arab}} {{tø|arz|بتوعو|p|tr=betoʕo|sc=Arab}}
+* Armenian: {{t-|hy|նրա|tr=nra}}
+*: Old Armenian: {{tø|xcl|նորա|tr=nora}}
+* Aromanian: {{t-|rup|seu}}
+* Belarusian: {{t-|be|яго|tr=jahó}}, {{qualifier|common, colloquial}} {{t-|be|ягоны|tr=jahóny|sc=Cyrl}}, {{qualifier|own, generic}} {{t-|be|свой|tr=svoj}}
+* Breton: {{t+|br|e}}
+* Bulgarian: {{t-|bg|негов|tr=négov}}, {{t-|bg|свой|tr=svoj}} {{qualifier|own, generic}}
+* Catalan: {{t+|ca|seu}}
+* Chinese:
+*: Mandarin: {{t-|cmn|他|alt=他的|tr=tā-de|sc=Hani}}
+* Coptic: {{tø|cop|ⲡⲉϥ|m|tr=pef}}, {{tø|cop|ⲧⲉϥ|f|tr=tef}}, {{tø|cop|ⲛⲉϥ|m-p|f-p|tr=nef}}
+*: Bohairic: {{qualifier|possessive Pronoun}} {{tø|cop|ⲫⲱϥ|m|tr=phōf}}, {{tø|cop|ⲑⲱϥ|f|tr=θōf}}, {{tø|cop|ⲛⲟⲩϥ|m|tr=nwf}}
+*: Sahidic: {{qualifier|possessive Pronoun}} {{tø|cop|ⲡⲱϥ|m|tr=pōf}}, {{tø|cop|ⲧⲱϥ|f|tr=tōf}}, {{tø|cop|ⲛⲟⲩϥ|m|tr=nwf}}
+* Czech: {{t+|cs|jeho}}, {{t+|cs|svůj}} {{qualifier|own, generic}}
+* Danish: {{t-|da|hans}}
+* Dutch: {{t+|nl|zijn|m}}
+* Egyptian: {{tø|egy|𓆑|tr=f}}, {{qualifier|possessive Pronoun}} {{tø|egy|𓅮𓄿𓇌𓆑|m|tr=payf}},  {{qualifier|possessive Pronoun}} {{tø|egy|𓏏𓄿𓇌𓆑|f|tr=tayf}}, {{qualifier|possessive Pronoun}} {{tø|egy|𓈖𓄿𓄿𓇌𓆑|p|tr=nayf}}
+* Esperanto: {{t+|eo|lia}}
+* Finnish: {{t+|fi|hänen}} 
+* French: {{t+|fr|son|m}}, {{t+|fr|sa|f}}, {{t+|fr|ses|p}}
+* Friulian: {{tø|fur|so}}, {{tø|fur|sô}}
+* German: {{t+|de|sein|m}}, {{g|n}}, {{t+|de|seine|f}}, {{t+|de|seine|p}}
+* Gothic: {{tø|got|𐍃𐌴𐌹𐌽𐍃|tr=seins|sc=Goth}}
+* Greek: {{t+|el|του|m|tr=tou}}
+* Greenlandic: {{t-|kl|uuma}}
+* Hawaiian: {{tø|haw|kona}}, {{tø|haw|kāna}}
+* Hebrew: {{t+|he|שלו|tr=shello}}
+* Hindi: {{t-|hi|उसका|tr=uska}}, {{t-|hi|इसका|tr=iskā}}, {{t-|hi|उनका|tr=unka}} {{qualifier|formal}}
+* Hungarian: {{t+|hu|-a}}, {{t-|hu|-e}}, {{t-|hu|-ja}}, {{t-|hu|-je}}
+* Interlingua: {{t-|ia|su}}
+* Irish: {{t+|ga|a}}
+{{trans-mid}}
+* Italian: {{t+|it|suo|m}}, {{t+|it|sua|f}}, {{t+|it|suoi|p}}, {{t+|it|sue|f-p}}
+* Japanese: {{t+|ja|彼|alt=彼の|tr=かれの, kare-no}}
+* Korean: {{t-|ko|그의|tr=geu-ui|sc=Hang}}
+* Latin: {{t+|la|suus}}, {{t-|la|eius}}, {{t-|la|illius}}
+* Latvian: {{t+|lv|viņa}}
+* Lower Sorbian: {{tø|dsb|jogo}}
+* Luxembourgish: {{t-|lb|säi}}, {{t-|lb|senger}}
+* Macedonian: {{t-|mk|негов|tr=négov}}, {{t-|mk|свој|tr=svoj}} {{qualifier|own, generic}}
+* Maltese: {{t-|mt|tiegħu}}, {{t-|mt|tagħhom|p}}
+* Navajo: {{tø|nv|bi-}}
+* Ngarrindjeri: {{tø|nay|kinauwe}}
+* Norwegian: {{t+|no|hans}}, {{t+|no|sin}} {{qualifier|own, generic}}
+* Novial: {{tø|nov|lon}}
+* Occitan: {{t+|oc|seu}}, {{t+|oc|seuna}}
+* Ojibwe: {{tø|oj|o-}}
+* Persian: {{t+|fa|او|tr=u}}
+* Pipil: {{tø|ppl|i-}}
+* Polish: {{t+|pl|jego}}, {{t+|pl|swój}}
+* Portuguese: {{t+|pt|seu}}
+* Romanian: {{t-|ro|său|m}}, {{t-|ro|sa|f}}, {{t-|ro|săi|p}}, {{t+|ro|sale|f-p}}, {{t+|ro|lui}}
+* Romansch: {{t-|rm|ses}}, {{t-|rm|sia}}
+* Russian: {{t+|ru|его|tr=jegó}} (''read:'' jevó), {{t+|ru|свой|tr=svoj}} {{qualifier|own, generic}}
+* Scottish Gaelic: {{t-|gd|a}}
+* Serbo-Croatian:
+*: Cyrillic: {{t-|sh|њѐгов|sc=Cyrl}}, {{t-|sh|сво̑ј|sc=Cyrl}} {{qualifier|own, generic}}
+*: Roman: {{t-|sh|njègov}}, {{t-|sh|svȏj}} {{qualifier|own, generic}}
+* Slovak: {{t-|sk|jeho}}, {{t-|sk|svoj}} {{qualifier|own, generic}}
+* Slovene: {{t-|sl|njegôv}}, {{t-|sl|svój}} {{qualifier|own, generic}}
+* Spanish: {{t+|es|su}}
+* Swedish: {{t+|sv|hans}}, {{qualifier|reflexive}} {{t+|sv|sin}}
+* Telugu: {{qualifier|informal}} {{t+|te|వాడి|tr=vaaDi}}, {{t-|te|అతని|tr=atani}}, {{qualifier|formal}} {{t+|te|ఆయన|tr=aayana}}
+* Thai: {{t-|th|ของเขา|tr=kŏng kăo}}
+* Tlingit: {{tø|tli|du}}
+* Turkish: {{t+|tr|onun}}
+* Ukrainian: {{t+|uk|його|tr=johó}}, {{t-|uk|свій|tr=svij}} {{qualifier|own, generic}}
+* Upper Sorbian: {{t-|hsb|jeho}}
+* Urdu: {{t-|ur|اس کا|tr=us ka, is ka}}, {{qualifier|formal}} {{t-|ur|ان کا|tr=un ka}}
+* Vietnamese: {{t-|vi|của anh ấy}}, {{t-|vi|của nó}}, {{t-|vi|của hắn}}
+* Volapük: {{t+|vo|omik}}
+* West Frisian: {{t+|fy|syn}}
+* Zulu: possessive concord + {{t-|zu|khe|alt=-khe|c1}} {{qualifier|most common}}, {{t-|zu|wo|c3|alt=-wo}}, {{t-|zu|lo|c5|alt=-lo}}, {{t-|zu|so|c7|alt=-so}}, {{t-|zu|yo|c9|alt=-yo}}, {{t-|zu|lo|c11|alt=-lo}}
+{{trans-bottom}}
+
+====See also====
+{{English personal pronouns}}
+
+===Pronoun===
+{{en-pron|desc=possessive pronoun}}
+
+# That which belongs to [[him]]; the possessive case of [[he]], used without a following noun.
+#: ''The decision was '''his''' to live with.''
+
+====Translations====
+{{trans-top|that which belongs to him}}
+* American Sign Language: {{tø|ase|FlatB@Chesthigh-FingerUp}}
+* Armenian: {{t-|hy|իր|tr=ir|sc=Armn}}
+* Catalan: {{t-|ca|el seu|m}}, {{t-|ca|la seva|f}}, {{t-|ca|els seus|p}}, {{t-|ca|les seves|f-p}}
+* Czech: {{t+|cs|jeho}}
+* Danish: {{t-|da|hans}}
+* Dutch: {{t-|nl|de zijne}}, {{t-|nl|aan hem}}
+* Esperanto: {{t+|eo|lia}}
+* Finnish: {{t+|fi|hänen}}
+* French: {{t+|fr|le sien|m}}, {{t+|fr|la sienne|f}}, {{t+|fr|les siens|p}}, {{t+|fr|les siennes|f-p}}
+* {{ttbc|de}}: {{t+|de|seine|alt=der seine}} &lt;!-- was &quot;der [[seine]]&quot; - assumed inflected form or vocalised spelling; please verify if linking is acceptable. see [[User:Kephir/gadgets/xte#Translation_fixing]] --&gt;
+* Greek: {{t-|el|δικός του|m|sc=Grek}}, {{t-|el|δικός της|f|sc=Grek}}, {{t-|el|δικός τους|p|tr=if the thing owned is male|sc=Grek}}
+*: [[δική του]] {{g|m}}, [[δική της]] {{g|f}}, [[δική τους]] {{g|p}} (if the thing owned is female)
+*: [[δικό του]] {{g|m}}, [[δικό της]] {{g|f}}, [[δικό τους]] {{g|p}} (if the thing owned is neuter)
+{{trans-mid}}
+* {{trreq|he}}
+* {{ttbc|hu}}: {{t+|hu|övé|alt=az övé}} &lt;!-- was &quot;az [[övé]]&quot; - assumed inflected form or vocalised spelling; please verify if linking is acceptable. see [[User:Kephir/gadgets/xte#Translation_fixing]] --&gt;
+* Latin: {{t-|la|eius}}, {{t+|la|suus}}, {{t-|la|illius}}, {{t-|la|huius}}
+* Latvian: {{t+|lv|viņa}}, {{t-|lv|viņējs}}, {{t-|lv|viņējais}}
+* Norwegian: {{t+|no|hans}}
+* Novial: {{tø|nov|lon}}, {{tø|nov|de lo}}
+* Portuguese: {{t+|pt|dele}}
+* Russian: {{t+|ru|его|tr=jevó}}
+* Serbo-Croatian: {{t-|sh|njegov}}
+* Slovak: {{t-|sk|jeho}}
+* Slovene: {{t-|sl|njegôv}}
+* Swedish: {{t+|sv|hans}}
+{{trans-bottom}}
+
+===See also===
+* [[he]]
+* [[her]]
+* [[hers]]
+* [[him]]
+
+===Statistics===
+* {{rank|that|was|he|10|his|with|is|it}}
+
+===Anagrams===
+* [[IHS#English|IHS]]
+* [[ish#English|ish]], [[Ish#English|Ish]]
+* [[shi#English|shi]]
+
+[[Category:100 English basic words]]
+[[Category:English possessive pronouns]]
+[[Category:English third person pronouns]]
+
+----
+
+==Danish==
+
+===Noun===
+{{head|da|noun form|g=n}}
+
+# {{form of|genitive singular indefinite|hi|lang=da}}
+
+----
+
+==Latin==
+
+===Pronoun===
+'''hīs'''
+
+# {{inflection of|hic||dat|m|p|lang=la}}
+# {{inflection of|hic||dat|f|p|lang=la}}
+# {{inflection of|hic||dat|n|p|lang=la}}
+# {{inflection of|hic||abl|m|p|lang=la}}
+# {{inflection of|hic||abl|f|p|lang=la}}
+# {{inflection of|hic||abl|n|p|lang=la}}
+
+[[Category:Latin pronoun forms]]
+
+----
+
+==Navajo==
+
+===Alternative forms===
+* [[xis]] {{qualifier|in older Americanist literature}}
+
+===Pronunciation===
+* {{IPA|[xɪ̀s]|lang=nv}}
+
+===Noun===
+{{head|nv|noun}}
+
+# [[pus]]
+
+[[Category:nv:Bodily fluids]]
+
+----
+
+==Turkish==
+
+===Pronunciation===
+* {{IPA|[his]|lang=tr}}
+
+===Noun===
+{{tr-noun|hissi|ler}}
+
+# [[feeling]], [[sensation]], [[emotion]]
+
+====Declension====
+{{tr-noun-c|i|t|stem=hiss}}
+{{tr-poss-c|i|stem=hiss}}
+
+====Synonyms====
+* {{l|tr|duygu}}
+
+====Derived terms====
+* {{l|tr|hisli}} &gt; {{l|tr|hislilik}}
+* {{l|tr|hissiz}} &gt; {{l|tr|hissizlik}}
+* {{l|tr|hissetmek}} &gt; {{l|tr|hissettirmek}}
+* {{l|tr|hislenmek}}
+* {{l|tr|hissî}}
+* {{l|tr|hissiyat}}
+
+[[ang:his]]
+[[ar:his]]
+[[ast:his]]
+[[bs:his]]
+[[cs:his]]
+[[et:his]]
+[[el:his]]
+[[es:his]]
+[[eu:his]]
+[[fr:his]]
+[[ko:his]]
+[[hr:his]]
+[[io:his]]
+[[id:his]]
+[[it:his]]
+[[kk:his]]
+[[ku:his]]
+[[ky:his]]
+[[la:his]]
+[[lt:his]]
+[[li:his]]
+[[hu:his]]
+[[mg:his]]
+[[ml:his]]
+[[my:his]]
+[[nl:his]]
+[[ja:his]]
+[[no:his]]
+[[uz:his]]
+[[pa:his]]
+[[pl:his]]
+[[pt:his]]
+[[ru:his]]
+[[simple:his]]
+[[fi:his]]
+[[sv:his]]
+[[ta:his]]
+[[te:his]]
+[[th:his]]
+[[chr:his]]
+[[tr:his]]
+[[zh:his]]</text>
+      <sha1>7xi1tax558vjk5ujmno7bhcwzxnrjjb</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

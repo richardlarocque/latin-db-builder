@@ -1,0 +1,41 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>sum ubi</title>
+    <ns>0</ns>
+    <id>1604456</id>
+    <revision>
+      <id>23288845</id>
+      <parentid>15701550</parentid>
+      <timestamp>2013-09-25T01:33:06Z</timestamp>
+      <contributor>
+        <username>Rukhabot</username>
+        <id>45268</id>
+      </contributor>
+      <minor />
+      <comment>interwikis: +[[mg:sum ubi]]</comment>
+      <text xml:space="preserve">==Latin==
+===Etymology===
+From {{term|sum||I am|lang=la}} + {{term|ubi||in colloquial language: in which, by which, with which, wherewith; with whom, by whom|lang=la}}.
+
+===Verb===
+{{head|la|verb}}
+# [[sometimes]], [[sometime]] or [[another]], [[one day]]
+#* the play [[w:en:Pseudolus|Pseudolus]] by [[w:en:Plautus|T. Maccius Plautus]] (the [http://www.perseus.tufts.edu/hopper/text.jsp?doc=Perseus%3Atext%3A1999.02.0045%3Aact%3D5%3Ascene%3D2 text] may be read here)
+#*: Simo: '''''Erit ubi''' te ulciscar, si vivo.''
+#*: Pseudolus: ''Quid minitare? Habeo tergum.''
+#*:: Simo: There will be an opportunity for me to be revenged on you '''one day''', if I live.
+#*:: Pseudolus: Why do you threaten? I've got a back of my own.
+
+====See also====
+* [[sum cum]]
+
+====Inflection====
+The verb {{term|sum||I am|lang=la}} has an irregular conjugation.
+{{la-conj-irr-sum}}
+
+[[mg:sum ubi]]</text>
+      <sha1>6hl0yz7hcta3jpm8gge6f13u4u1b7d3</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

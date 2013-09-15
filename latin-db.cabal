@@ -18,8 +18,7 @@ executable latin-db
   main-is:             main.hs
   other-modules:       Latin.PartsOfSpeech
                        Latin.DatabaseWriter
-                       Latin.Conjugation
-                       Latin.Declension
+                       Latin.Grammar
                        Latin.Types
                        Wiki.PageParser
                        Wiki.Markup
@@ -29,8 +28,14 @@ executable latin-db
                        Wiki.Latin.NounDecl
                        Wiki.Latin.AdjectiveDecl
                        Wiki.Latin.VerbConjugation
+                       Wiki.Latin.AdverbForms
+                       Wiki.Latin.Pronouns
+                       Wiki.Latin.Headword
+                       Wiki.Latin.Definitions
+                       Util.Normalize
   build-depends:       base ==4.6.*,
                        text,
+                       text-icu,
                        regex-tdfa,
                        regex-tdfa-text,
                        hexpat,
@@ -38,3 +43,17 @@ executable latin-db
                        HDBC,
                        HDBC-sqlite3,
                        parsec
+
+Test-Suite hunit-tests
+  main-is:        Tests/Main.hs
+  other-modules:  Tests.PageTest
+  type:           exitcode-stdio-1.0
+  build-depends:  base,
+                  HUnit,
+                  text,
+                  parsec,
+                  regex-tdfa,
+                  regex-tdfa-text,
+                  hexpat,
+                  bytestring,
+                  filepath

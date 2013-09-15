@@ -1,0 +1,108 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>sanguis</title>
+    <ns>0</ns>
+    <id>47419</id>
+    <revision>
+      <id>21498966</id>
+      <parentid>20073250</parentid>
+      <timestamp>2013-08-02T16:14:38Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>recons &gt; term/t (temporary name)</comment>
+      <text xml:space="preserve">==Latin==
+
+===Alternative forms===
+* {{l|la|sanguen}}
+
+===Etymology===
+Originally ''sanguīs'', from older {{term|sanguen|lang=la}}, from {{term/t|la|*san-}} (compare {{term|sanies|saniēs|lang=la}} ‘[[ichor]]; ulcer’), from {{etyl|ine-pro|la}} {{term/t|ine-pro|*h₁sh₂-én-}}, oblique stem of {{term/t|ine-pro|*h₁ésh₂r̥||blood}}; cf. Old Latin {{term|assyr|lang=la}}, {{term|aser|lang=la}}, Hittite {{term|𒌍𒄩𒅈|lang=hit|tr=ešḫar}}, Sanskrit {{term|असृज्|tr=ásṛk|lang=sa}}, Ancient Greek {{term|ἔαρ|lang=grc|tr=ear}}, Old Armenian {{term|արիւն|sc=Armn|tr=ariwn|lang=xcl}}. The original paradigm must have been nominative {{term|assyr|lang=la}}, oblique ''san-'', which then split into doublets. The element -''guen'' is probably from {{term|unguen|lang=la}}, {{term|inguen|lang=la}}.
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈsaŋ.ɡwis/|lang=la}}
+* {{audio|la-cls-sanguis.ogg|Audio (Classical)}}
+
+===Noun===
+{{la-noun|sanguis|sanguinis|sanguinis|m|third}}
+
+# [[blood]]
+
+====Inflection====
+{{la-decl-3rd|sanguis|sanguis|sanguin}}
+
+====Derived terms====
+* {{l|la|sanguinarius}}
+* {{l|la|sanguinosus|sanguinōsus}}
+
+====Descendants====
+{{top3}}
+* Antillean Creole: {{l|gcf|san}}
+* Aragonese: {{l|an|sangre}}
+* Aromanian: {{l|rup|sãndze}}
+* Asturian: {{l|ast|sangre}}
+* Calabrian: [[sangu]]
+* Catalan: {{l|ca|sang}}
+* Corsican: {{l|co|sangui}}, {{l|co|sangue}}
+* Esperanto: {{l|eo|sango}}
+* French: {{l|fr|sang}}
+* Friulian: {{l|fur|sanc}}
+{{mid3}}
+* Galician: {{l|gl|sangue}}
+* Haitian Creole: {{l|ht|san}}
+* Ido: {{l|io|sango}}
+* Interlingua: {{l|ia|sanguine}}
+* Istro-Romanian: {{l|ruo|sănze}}
+* Italian: {{l|it|sangue}}
+* Lombard: {{l|lmo|sangu}}
+* Megleno-Romanian: {{l|ruq|sǫnzi}}
+* Middle French: {{l|frm|sang}}
+* Neapolitan: {{l|nap|sànghe}}
+* Occitan: {{l|oc|sang}}
+{{mid3}}
+* Old French: {{l|fro|sanc}}
+* Old Portuguese: {{l|roa-ptg|sangue}}, {{l|roa-ptg|sangre}}
+* Papiamentu: {{l|pap|sanger}}, {{l|pap|sangro}}
+* Portuguese: {{l|pt|sangue}}
+* Romanian: {{l|ro|sânge}}
+* Romansch: {{l|rm|sang}}
+* Sardinian: {{l|sc|sàmbani}}
+* Sicilian: {{l|scn|sangu}}, {{l|scn|sancu}}
+* Spanish: {{l|es|sangre}}
+* Venetian: {{l|vec|sangue}}
+* Walloon: {{l|wa|sonk}}
+{{bottom}}
+
+[[zh-min-nan:sanguis]]
+[[be:sanguis]]
+[[el:sanguis]]
+[[es:sanguis]]
+[[eu:sanguis]]
+[[fr:sanguis]]
+[[ko:sanguis]]
+[[hr:sanguis]]
+[[io:sanguis]]
+[[it:sanguis]]
+[[ku:sanguis]]
+[[lo:sanguis]]
+[[la:sanguis]]
+[[lt:sanguis]]
+[[mg:sanguis]]
+[[fj:sanguis]]
+[[nl:sanguis]]
+[[ja:sanguis]]
+[[pl:sanguis]]
+[[pt:sanguis]]
+[[ru:sanguis]]
+[[sv:sanguis]]
+[[ta:sanguis]]
+[[tr:sanguis]]
+[[vi:sanguis]]
+[[zh:sanguis]]</text>
+      <sha1>suknygv9qvhnle7be5rqxeoyfyjt9v6</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

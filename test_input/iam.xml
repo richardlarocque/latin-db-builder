@@ -1,0 +1,125 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>iam</title>
+    <ns>0</ns>
+    <id>195223</id>
+    <revision>
+      <id>21579364</id>
+      <parentid>21503091</parentid>
+      <timestamp>2013-08-09T16:30:26Z</timestamp>
+      <contributor>
+        <username>Liuscomaes</username>
+        <id>1056047</id>
+      </contributor>
+      <comment>/* Portuguese */</comment>
+      <text xml:space="preserve">{{also|i-am}}
+==Esperanto==
+
+===Etymology===
+{{term|i-|lang=eo||indeterminate [[:Category:Esperanto correlatives|correlative]] prefix}} + {{term|-am|lang=eo||correlative suffix of time}}
+
+===Pronunciation===
+* {{IPA|/ˈi.am/|lang=eo}}
+
+===Adverb===
+{{head|eo|correlative}}
+
+# [[sometime]], [[ever]] (indeterminate correlative of time)
+# [[once]]
+#* '''2000''', Antoine de Saint Exupéry, ''[http://i-espero.info/files/elibroj/eo%20-%20saint-exupery,%20antoine%20de%20-%20la%20eta%20princo.pdf La Eta Princo]'', translated by Pierre Delaire from the French
+#*: ''&lt;b&gt;Iam&lt;/b&gt;, kiam mi estis sesjara, mi vidis belegan bildon en iu libro pri la praarbaro, titolita &quot;Travivitaj rakontoj&quot;.''
+#*:: Once, when I was six years old, I saw a magnificent picture in some book, titled &quot;True Stories.&quot;
+
+====Derived terms====
+* {{l|eo|iam ajn|gloss=[[anytime]]}}
+* {{l|eo|iama}}
+
+{{eo BRO|1}}
+{{eo GCSE|0}}
+[[Category:Esperanto adverbs]]
+[[Category:Esperanto correlatives]]
+----
+
+==Latin==
+
+===Etymology===
+From {{etyl|ine-pro|la}} {{term/t|ine-pro|*yē||already}}. Cognate with {{etyl|got|-}} {{term|𐌾𐌰||tr=ja|lang=got}}, {{term|𐌾𐌰𐌹||yes|tr=jai|lang=got}}, {{etyl|goh|-}} {{term|ja|ja, jā|yes|tr={{etyl|de|-}} {{term|ja|lang=de}}|lang=goh}}, {{etyl|ang|-}} {{term|gea|ġēa|yea, yes|tr={{etyl|en|-}} {{term|yea|lang=en}}|lang=ang}}. More at {{l|en|yes}}.
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈjam/|lang=la}}
+* {{audio|la-cls-iam.ogg|Audio (Classical)}}
+
+===Adverb===
+{{la-adv||iam|-}}
+
+# [[already]]
+#: ''Birota '''iam''' refecta est.''
+#:: The bicycle has '''already''' been repaired.
+# [[now]]
+#* [[w:Curculio (play)|Curculio]] by [[w:Plautus|Plautus]], 5,3,5:
+#*: CAPPADOX: '''Iam iam''' faciam ut iusseris.&lt;ref&gt;[http://www.thelatinlibrary.com/plautus/curculio.shtml Latin]&lt;/ref&gt;
+#*:: CAPPADOX: '''Here''', '''here''', I’ll do as you say!&lt;ref&gt;[http://artemis.austincollege.edu/acad/cml/rcape/comedy/5-3.html English]&lt;/ref&gt;
+# [[anymore]]
+
+====Usage notes====
+{{term|iam|Iam|lang=la}} means, generally, “at some point previous” or “since some point previous”.  In English, {{term|already}}, the most common translation, is used only to emphasize that this point might have been expected to be later, whereas {{term|now}} is used to emphasize that the statement was once false, even when the statement refers to a point in the past or future.  {{term|iam|Iam|lang=la}} is used to express either.  (Likewise, the most common Latin word for {{term|now}}, {{term|nunc|lang=la}}, denotes only the literal present moment.)  Also, where {{term|iam|lang=la}} means {{term|now}}, it is often used in negative sentences, in which the most common English construction uses {{term|anymore}}.
+
+====Derived terms====
+* [[etiam]]
+* [[iamdudum]]
+* [[non iam]]
+* [[iam pridem]]
+
+====Descendants====
+{{top2}}
+* Catalan: {{l|ca|ja}}
+* Esperanto: {{l|eo|jam}}
+* French: {{l|fr|jà}}
+* Basque: {{l|eu|ia}}
+{{mid2}}
+* Italian: {{l|it|già}}
+* Portuguese: {{l|pt|já}}
+* Spanish: {{l|es|ya}}
+{{bottom}}
+
+====References====
+&lt;references/&gt;
+
+[[Category:la:Time]]
+
+----
+
+==Portuguese==
+
+===Pronunciation===
+* {{a|PT}} {{IPA|/ˈiɐ̃w̃/|lang=pt}}
+
+===Verb===
+{{pt-verb form}}
+
+# {{pt-verb form of|ir||indicative|imperfect|plural|third}}
+
+[[af:iam]]
+[[br:iam]]
+[[cs:iam]]
+[[el:iam]]
+[[fr:iam]]
+[[ko:iam]]
+[[io:iam]]
+[[la:iam]]
+[[lt:iam]]
+[[mg:iam]]
+[[nl:iam]]
+[[ja:iam]]
+[[no:iam]]
+[[pl:iam]]
+[[pt:iam]]
+[[ru:iam]]
+[[sk:iam]]
+[[fi:iam]]
+[[zh:iam]]</text>
+      <sha1>29ucro9pnwz9j9vfd07ukhdienk1uk7</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

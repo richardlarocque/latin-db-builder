@@ -1,0 +1,26 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>cujusmodi</title>
+    <ns>0</ns>
+    <id>2917763</id>
+    <revision>
+      <id>19928524</id>
+      <parentid>13049084</parentid>
+      <timestamp>2013-03-17T14:36:50Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>Fix form-of calls: remove raw-links</comment>
+      <text xml:space="preserve">==Latin==
+
+===Adverb===
+{{la-adv|cujusmodi|cūjusmodi|-}}
+
+# {{alternative form of|cuiusmodi|cūiusmodi|lang=la}}</text>
+      <sha1>ae6ovwcclnneywp31h5481tjtxxbw22</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

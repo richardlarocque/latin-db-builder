@@ -1,0 +1,163 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>consensus</title>
+    <ns>0</ns>
+    <id>2158</id>
+    <revision>
+      <id>21659163</id>
+      <parentid>20861142</parentid>
+      <timestamp>2013-08-14T21:09:18Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>Remove macronless parameters from la-decl, no longer needed</comment>
+      <text xml:space="preserve">==English==
+
+{{wikipedia}}
+
+===Etymology===
+From {{etyl|la|en}} {{term|consensus|cōnsēnsus|agreement, accordance, unanimity|lang=la}}, from {{term|consentio|cōnsentiō|feel together; agree|lang=la}}; see {{term|consent}}.
+
+===Noun===
+{{en-noun|es}}
+
+# A process of [[w:Decision making#Decision making in social setting|decision-making]] that seeks widespread agreement among group members.
+# [[general#Adjective|General]] agreement among the members of a given group or community, each of which exercises some [[discretion]] in decision-making and follow-up action.
+# Average projected value, as in the finance term [[consensus forecast]].
+
+====Related terms====
+* [[consensual]]
+* [[consent]]
+
+====Translations====
+{{trans-top|general agreement}}
+* Arabic: {{t-|ar|إجماع|m|tr='ijmaa`}}, {{t-|ar|توافق|m|tr=tawaafuq}}
+* Bulgarian: {{t+|bg|съгласие|n|tr=săglasie|sc=Cyrl}}, {{t+|bg|единодушие|n|tr=edinodušie|sc=Cyrl}}, {{t-|bg|консенсус|m|tr=konsensus|sc=Cyrl}}
+* Chinese:
+*: Mandarin: {{t|cmn|共識|sc=Hani}}, {{t|cmn|共识|tr=gòngshí|sc=Hani}}
+* Danish: {{t+|da|konsensus}}
+* Dutch: {{t+|nl|consensus|m}}, {{t+|nl|eensgezindheid}}, {{t+|nl|overeenstemming}}
+* Esperanto: {{t-|eo|interkonsento}}
+* Finnish: {{t-|fi|yksimielisyys}}, {{t+|fi|konsensus}}
+* French: {{t+|fr|consensus|m}}
+* German: {{t+|de|Konsens|m}}, {{t+|de|Einvernehmen|n}}
+* Hungarian: {{t+|hu|egyezség}}
+* Indonesian: {{t+|id|konsensus}}
+* Italian: {{t+|it|consenso|m}}
+{{trans-mid}}
+* Japanese: {{t+|ja|総意|tr=そうい, sōi}}, {{t-|ja|協心|tr=きょうしん, kyōshin}}, {{t-|ja|コンセンサス|tr=konsensasu}}
+* Persian: {{t+|fa|اجماع|m|tr=ejmâ'}}
+* Polish: {{t+|pl|konsensus|m}}
+* Portuguese: {{t+|pt|consenso|m}}
+* Russian: {{t+|ru|консенсус|m|tr=konsénsus}}, {{t+|ru|согласие|n|tr=soglásije}}, {{t+|ru|единодушие|n|tr=jedinidúšije}}
+* Serbo-Croatian:
+*: Cyrillic: {{t-|sh|консензус|m|alt=консѐнзус|sc=Cyrl}}, {{t-|sh|споразум|m|alt=спо̏разӯм|sc=Cyrl}}
+*: Roman: {{t-|sh|konsenzus|m|alt=konsènzus}}, {{t-|sh|sporazum|m|alt=spȍrazūm}}
+* Slovene: {{t-|sl|dogovor}}
+* Spanish: {{t+|es|consenso|m}}
+* Swedish: {{t+|sv|konsensus}}
+* Turkish: {{t-|tr|oybirliği}}
+* Vietnamese: {{t-|vi|đồng lòng}}
+{{trans-bottom}}
+
+====External links====
+* {{R:Webster 1913}}
+* {{R:Century 1911}}
+
+----
+
+==Dutch==
+
+===Noun===
+{{nl-noun|m|-|-}}
+
+# [[#English|consensus]]
+
+----
+
+==Latin==
+
+===Etymology===
+From {{term|consentio|cōnsentiō|feel together; agree|lang=la}}, a fusion of {{term|con-|cōn-|together|lang=la}} and {{term|sentio|sentiō|sense; perceive; feel|lang=la}}.
+
+===Noun===
+{{la-noun|cōnsēnsus|consensus|cōnsēnsūs|m|fourth}}
+
+# [[consensus#English|Consensus]], [[agreement]], [[accordance]], [[unanimity]], [[concord]].
+# A [[plot]], [[conspiracy]].
+
+====Inflection====
+{{la-decl-4th|cōnsēns}}
+
+====Synonyms====
+* {{sense|concord, agreement}} {{l|la|concentus}}, {{l|la|concordatio|concordātiō}}, {{l|la|concordia}}, {{l|la|concorditas|concorditās}}, {{l|la|harmonia}}, {{l|la|unanimitas|ūnanimitās}}
+* {{sense|plot, conspiracy}} {{l|la|coitio|coitiō}}, {{l|la|coniuratio|coniūrātiō}}, {{l|la|consensio|cōnsēnsiō}}, {{l|la|conspiratio|cōnspīrātiō}}
+
+====Related terms====
+{{top2}}
+* {{l|la|consensio|cōnsēnsiō}}
+* {{l|la|consentanee|cōnsentāneē}}
+* {{l|la|consentaneus|cōnsentāneus}}
+{{mid2}}
+* {{l|la|consentiens|cōnsentiēns}}
+* {{l|la|consentio|cōnsentiō}}
+{{bottom}}
+
+====Descendants====
+{{top2}}
+* English: {{l|en|consensus}}
+* French: {{l|fr|consensus}}
+* Italian: {{l|it|consenso}}
+{{mid2}}
+* Portuguese: {{l|pt|consenso}}
+* Romanian: [[consens]]
+* Spanish: {{l|es|consenso}}
+{{bottom}}
+
+===Adjective===
+{{la-adj-1&amp;2|cōnsēnsus|consensa|cōnsēnsa|consensum|cōnsēnsum}}
+
+# {{context|rare|lang=la}} [[agreed]] upon
+
+====Inflection====
+{{la-decl-1&amp;2|cōnsēns}}
+
+===References===
+* {{R:L&amp;S}}
+
+[[ar:consensus]]
+[[da:consensus]]
+[[de:consensus]]
+[[et:consensus]]
+[[el:consensus]]
+[[es:consensus]]
+[[fa:consensus]]
+[[fr:consensus]]
+[[gl:consensus]]
+[[ko:consensus]]
+[[io:consensus]]
+[[id:consensus]]
+[[it:consensus]]
+[[kn:consensus]]
+[[ku:consensus]]
+[[hu:consensus]]
+[[ml:consensus]]
+[[nl:consensus]]
+[[ja:consensus]]
+[[no:consensus]]
+[[pl:consensus]]
+[[ru:consensus]]
+[[simple:consensus]]
+[[fi:consensus]]
+[[sv:consensus]]
+[[ta:consensus]]
+[[tr:consensus]]
+[[vi:consensus]]
+[[zh:consensus]]</text>
+      <sha1>g38e0bfxszhgjag0raudpr1s8h5ce5p</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

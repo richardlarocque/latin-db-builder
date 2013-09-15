@@ -1,0 +1,101 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>solus</title>
+    <ns>0</ns>
+    <id>48535</id>
+    <revision>
+      <id>21653710</id>
+      <parentid>20708183</parentid>
+      <timestamp>2013-08-14T16:57:04Z</timestamp>
+      <contributor>
+        <username>CodeCat</username>
+        <id>21371</id>
+      </contributor>
+      <minor />
+      <comment>/* Latin */</comment>
+      <text xml:space="preserve">==Latin==
+===Etymology=== 
+Probably related to {{term|se||oneself|lang=la}}
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈsoː.lus/|lang=la}}
+
+===Adjective===
+{{la-adj-1&amp;2|sōlus|sola|sōla|solum|sōlum}}
+
+# [[alone]], [[sole]], [[only]], by oneself with no others around
+# [[solitary]], [[uninhabited]]
+
+====Inflection====
+{{la-decl-1&amp;2-ius|sōl}}
+
+====Derived terms====
+{{top2}}
+* [[solitarius|sōlitārius]]
+* [[solitas|sōlitās]]
+* [[solitatim|sōlitātim]]
+{{mid2}}
+* [[solitudo|sōlitūdo]]
+* [[solum|sōlum]]
+{{bottom}}
+
+====Descendants====
+{{top2}}
+* Catalan: {{l|ca|sol}}
+* English: [[sole]], [[solo]]
+* French: {{l|fr|seul}}
+* Friulian: {{l|fur|sôl}}
+* Italian: {{l|it|solo}}
+{{mid2}}
+* Occitan: {{l|oc|sol}}
+* Portuguese: {{l|pt|solo}}, {{l|pt|só}}
+* Sardinian: {{l|sc|solu}}, {{l|sc|sou}}
+* Spanish: {{l|es|solo}}
+{{bottom}}
+----
+
+==Old Irish==
+
+===Etymology===
+{{prefix|so|lés|lang=sga}} (compare {{term|dolus|lang=sga}})
+
+===Adjective===
+{{head|sga|adjective}}
+
+# [[bright]]
+# {{qualifier|of sound}} [[clear]]
+# {{qualifier|intellectually}} clear, [[lucid]]
+
+===Noun===
+{{head|sga|noun|g=m}}
+
+# [[light]]
+# [[clarity]], [[intelligibility]]
+
+====Derived terms====
+* {{l|sga|solusta}}
+
+====Descendants====
+* Irish: {{l|ga|solas}}
+* [[Manx]]: {{l|gv|sollys}}
+* [[Scottish Gaelic]]: {{l|gd|solas}}
+
+[[cs:solus]]
+[[de:solus]]
+[[el:solus]]
+[[eo:solus]]
+[[fr:solus]]
+[[ko:solus]]
+[[kn:solus]]
+[[la:solus]]
+[[lt:solus]]
+[[mg:solus]]
+[[fj:solus]]
+[[pl:solus]]
+[[pt:solus]]
+[[ru:solus]]
+[[vi:solus]]</text>
+      <sha1>o8vccio56umfgqarywekyluuhazdpo7</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

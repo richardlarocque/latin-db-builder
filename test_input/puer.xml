@@ -1,0 +1,135 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>puer</title>
+    <ns>0</ns>
+    <id>35888</id>
+    <revision>
+      <id>21636969</id>
+      <parentid>21500099</parentid>
+      <timestamp>2013-08-13T22:36:17Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>la-decl-2nd-ER &gt; la-decl-2nd-er</comment>
+      <text xml:space="preserve">{{also|Puer}}
+==English==
+
+===Pronunciation===
+{{rfap||UK}} {{rfap||US}}
+
+===Etymology===
+Perhaps from {{etyl|fr|en}}.
+
+===Noun===
+{{en-noun|-}}
+
+# {{context|chiefly|historical|lang=en}} [[canine|Canine]] [[faeces]] used as a [[lye]] in [[tanning]].
+#* '''1903''', Henry Richardson Proctor, ''The principles of leather manufacture'', page 174: 
+#*: {{...}} The bacteria of fresh dog-dung were not found to possess a satisfactory puering effect, but those from dung with had been fermented a month (as in practice) have a result nearly equal to actual '''puer'''.
+#* '''2009''', Tony Covington, ''Tanning Chemistry: The Science of Leather'', page 166: 
+#*: {{...}} it was about 50 years before the use of '''puer''' was discontinued, at least in Europe.
+
+===Anagrams===
+* [[Peru#English|Peru]], [[Prue#English|Prue]], [[pure#English|pure]], [[re-up#English|re-up]]
+
+----
+
+==French==
+
+===Etymology===
+From {{etyl|fro|fr}} {{term|puir|lang=fro}}, from {{etyl|VL.|fr}} {{term/t|la|*putio}}, from classical {{etyl|la|fr}} {{term|putere|lang=la}}, the infinitive of {{term|puteo|puteō|lang=la}}. The change from ''-ir'' to ''-er'' can also be seen in words such as {{term|contribuer|lang=fr}} (Old French {{term|contribuir|lang=fro}}, Latin {{term|contribuere|lang=la}}).
+
+===Pronunciation===
+* {{IPA|/pɥe/|lang=fr}}, {{X-SAMPA|/pHe/}}
+* {{audio|Fr-puer.ogg|audio}}
+* {{rhymes|ɥe|lang=fr}}
+
+===Verb===
+{{fr-verb}}
+
+# {{context|intransitive|lang=fr}} to [[stink]], to [[smell]] (bad)
+
+====Conjugation====
+{{fr-conj-er|pu|avoir}}
+
+===Anagrams===
+* [[peur#French|peur]], [[pure#French|pure]], [[puré#French|puré]], [[repu#French|repu]], [[rupe#French|rupe]], [[rupé#French|rupé]]
+
+----
+
+==Latin==
+[[File:Pakistani boys.jpg|thumb|puerī indī (Pakistani boys)]]
+
+===Etymology===
+Derived from {{etyl|ine-pro|la}} {{term/t|ine-pro|*pu-}}.&lt;ref&gt;{{R:Nocentini|hw=puerile}}&lt;/ref&gt;
+Cognate to {{etyl|osc|-}} {{term|tr=puklum|lang=osc|sc=Ital}}, {{etyl|grc|-}} {{term|παῖς||child|tr=paĩs|lang=grc}}.
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈpu.er/|lang=la}}
+* {{audio|la-cls-puer.ogg|Audio (Classical)}}
+
+===Noun===
+{{la-noun|puer|pueri|puerī|m|second}}
+
+# a [[boy]]
+# a male [[servant]]
+# a [[bachelor]]
+# {{context|in the plural|lang=la}} [[children]]
+# {{inflection of|puer||voc|s|lang=la}}
+
+====Inflection====
+{{la-decl-2nd-er|puer|puer}}
+
+====Antonyms====
+* {{sense|boy}} {{l|la|puella}}
+
+====Related terms====
+* {{l|la|puella}}
+* {{l|la|puerilis|puerīlis}}
+
+====Descendants====
+* English: [[puerile]], [[puerilism]], [[puerperium]], [[puerility]], [[puerperal]] &lt;!-- rather descendants of derivations --&gt;
+
+===See also===
+* {{pedialite|lang=la}}
+
+===References===
+&lt;references/&gt;
+
+[[Category:Latin noun forms]]
+
+[[af:puer]]
+[[cs:puer]]
+[[de:puer]]
+[[el:puer]]
+[[es:puer]]
+[[fr:puer]]
+[[fy:puer]]
+[[ko:puer]]
+[[io:puer]]
+[[it:puer]]
+[[kn:puer]]
+[[la:puer]]
+[[lt:puer]]
+[[mg:puer]]
+[[fj:puer]]
+[[nl:puer]]
+[[no:puer]]
+[[pl:puer]]
+[[pt:puer]]
+[[ru:puer]]
+[[sk:puer]]
+[[sr:puer]]
+[[fi:puer]]
+[[sv:puer]]
+[[th:puer]]
+[[tr:puer]]
+[[vi:puer]]
+[[zh:puer]]</text>
+      <sha1>mcsw64vio5m0aviehk8zu5ger293twl</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

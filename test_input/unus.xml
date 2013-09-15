@@ -1,0 +1,172 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>unus</title>
+    <ns>0</ns>
+    <id>26021</id>
+    <revision>
+      <id>23170950</id>
+      <parentid>23005216</parentid>
+      <timestamp>2013-09-21T12:46:52Z</timestamp>
+      <contributor>
+        <username>Rukhabot</username>
+        <id>45268</id>
+      </contributor>
+      <minor />
+      <comment>interwikis: +[[chr:unus]] +[[et:unus]]</comment>
+      <text xml:space="preserve">==Latin==
+{{cardinalbox|la| |I|II| |duo|alt=ūnus|ord=prīmus|adv=semel|mult=simplex|dis=singulī|headlink=Appendix:Latin cardinal numbers|wplink=Unus}}
+
+===Alternative forms===
+* Symbol: '''I'''
+
+===Etymology===
+From {{etyl|OL.|la}} {{term|oinos|lang=la}}, from {{etyl|itc-pro|la}} {{term/t|itc-pro|*oinos}}, from {{etyl|ine-pro|la}} {{term/t|ine-pro|*óynos||one, single}}. Cognates include Ancient Greek {{term|sc=polytonic|οἶος|tr=oios|lang=grc}}, Sanskrit {{term|sc=Deva|एक|tr=éka|lang=sa}}, Old Church Slavonic {{term|ѥдинъ|tr=jedinŭ|lang=cu}}, and Old English {{term/t|ang|ān}} (English {{term|one|lang=en}} and {{term|an|lang=en}}).
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈuː.nus/|lang=la}}
+* {{audio|la-cls-unus.ogg|Audio (Classical)}}
+
+===Numeral===
+{{la-num-card|num=1}}
+
+# {{context|cardinal|lang=la}} [[one]]; 1
+#* {{RQ:Ovid Metamorphoses|VI|644-645}}
+#*: satis illi ad fata vel '''unum''' vulnus erat: iugulum ferro Philomela resolvit
+#*:: &quot;Sufficient was this '''one''' wound to kill; but Philomela also cut open the throat&quot;
+#* {{RQ:Vulgate|Nehemiae|1|2}} (II Esdrae 1:2)
+#*: et venit Anani '''unus''' de fratribus meis ipse et viri ex Iuda et interrogavi eos de Iudaeis qui remanserant et supererant de captivitate et de Hierusalem
+#*:: &quot;and Hanani came, '''one''' of my brethren, he and certain men of Judah; and I asked them concerning the Jews that had escaped, which were left of the captivity, and concerning Jerusalem&quot;
+#* '''6th c.''' — [[w:Boethius|Boethius]], ''[[s:la:Commentarium in librum Aristotelis Peri hermeneias primae editionis|Commentarium in librum Aristotelis Peri hermeneias primae editionis]]'', Book I, section 5
+#*: In summam igitur '''ūnārum''' ōrātiōnum aliae sunt significātiōne '''ūnae''', aliae coniūnctiōne.
+#*:: &quot;In summary therefore, '''of one''' theme others are (by signification) '''one''', some with connections.&quot;
+
+====Usage notes====
+See [[Appendix:Latin cardinal numbers#ūnus|Appendix:Latin cardinal numbers]]
+
+====Inflection====
+Irregular: similar to first and second declensions but with singular genitives ending in '''-īus''' and singular datives ending in '''-ī'''.
+
+{| class=&quot;prettytable&quot; style=&quot;background:# {{Latincolour2}};&quot;
+!style=&quot;background:#{{Latincolour3}};&quot;| ''Number''
+!style=&quot;background:#{{Latincolour3}};&quot; colspan=3| ''Singular''
+|
+!style=&quot;background:#{{Latincolour3}};&quot; colspan=3| ''Plural''
+|-
+!style=&quot;background:#{{Latincolour1}};&quot;|''Case \ Gender''
+!style=&quot;background:#{{Latincolour1}};&quot;| Masculine
+!style=&quot;background:#{{Latincolour1}};&quot;| Feminine
+!style=&quot;background:#{{Latincolour1}};&quot;| Neuter
+|
+!style=&quot;background:#{{Latincolour1}};&quot;| Masculine
+!style=&quot;background:#{{Latincolour1}};&quot;| Feminine
+!style=&quot;background:#{{Latincolour1}};&quot;| Neuter
+|-
+!style=&quot;background:#{{Latincolour1}};&quot;| ''[[nominative case|nominative]]''
+|style=&quot;background:#{{Latincolour2}};&quot;| [[unus#Latin|ūnus]] || [[una#Latin|ūna]] || [[unum#Latin|ūnum]]
+|
+|style=&quot;background:#{{Latincolour2}};&quot;| [[uni#Latin|ūnī]] || [[unae#Latin|ūnae]] || [[una#Latin|ūna]]
+|-
+!style=&quot;background:#{{Latincolour1}};&quot;| ''[[genitive case|genitive]]''
+|style=&quot;background:#{{Latincolour2}};&quot;| [[unius#Latin|ūnīus]] || [[unius#Latin|ūnīus]] || [[unius#Latin|ūnīus]]
+|
+|style=&quot;background:#{{Latincolour2}};&quot;| [[unorum#Latin|ūnōrum]] || [[unarum#Latin|ūnārum]] || [[unorum#Latin|ūnōrum]]
+|-
+!style=&quot;background:#{{Latincolour1}};&quot;| ''[[dative case|dative]]''
+|style=&quot;background:#{{Latincolour2}};&quot;| [[uni#Latin|ūnī]] || [[uni#Latin|ūnī]] || [[uni#Latin|ūnī]]
+|
+|style=&quot;background:#{{Latincolour2}};&quot;| [[unis#Latin|ūnīs]] || [[unis#Latin|ūnīs]] || [[unis#Latin|ūnīs]]
+|-
+!style=&quot;background:#{{Latincolour1}};&quot;| ''[[accusative case|accusative]]''
+|style=&quot;background:#{{Latincolour2}};&quot;| [[unum#Latin|ūnum]] || [[unam#Latin|ūnam]] || [[unum#Latin|ūnum]]
+|
+|style=&quot;background:#{{Latincolour2}};&quot;| [[unos#Latin|ūnōs]] || [[unas#Latin|ūnās]] || [[una#Latin|ūna]]
+|-
+!style=&quot;background:#{{Latincolour1}};&quot;| ''[[ablative case|ablative]]''
+|style=&quot;background:#{{Latincolour2}};&quot;| [[uno#Latin|ūnō]] || [[una#Latin|ūnā]] || [[uno#Latin|ūnō]]
+|
+|style=&quot;background:#{{Latincolour2}};&quot;| [[unis#Latin|ūnīs]] || [[unis#Latin|ūnīs]] || [[unis#Latin|ūnīs]]
+|-
+!style=&quot;background:#{{Latincolour1}};&quot;| ''[[vocative case|vocative]]''
+|style=&quot;background:#{{Latincolour2}};&quot;| [[une#Latin|ūne]] || [[una#Latin|ūna]] || [[unum#Latin|ūnum]]
+|
+|style=&quot;background:#{{Latincolour2}};&quot;| [[uni#Latin|ūnī]] || [[unae#Latin|ūnae]] || [[una#Latin|ūna]]
+|}
+
+====Derived terms====
+* [[uni-|ūni-]]
+* [[unicus|ūnicus]]
+* [[unio|ūniō]]
+* [[unitas|ūnitās]]
+
+====Descendants====
+{{top3}}
+* Aromanian: [[unu#Aromanian|unu]]
+* Asturian: [[ún]], [[unu#Asturian|unu]]
+* Bolognese: [[ón]]
+* Calabrian: [[unu#Calabrian|unu]]
+* Catalan: [[un#Catalan|un]]
+* Corsican: [[unu#Corsican|unu]]
+* Dalmatian: [[join#Dalmatian|join]]
+* Esperanto: [[unu#Esperanto|unu]]
+* French: [[un#French|un]]
+{{mid3}}
+* Friulian: [[un#Friulian|un]]
+* Galician: [[un#Galician|un]]
+* Ido: [[un#Ido|un]]
+* Interlingua: [[un#Interlingua|un]]
+* Italian: [[uno#Italian|uno]], [[un#Italian|un]]
+* Lombard: [[vun#Lombardic|vun]]
+* Novial: [[un#Novial|un]]
+* Occitan: [[un#Occitan|un]]
+* Old Portuguese: {{l|roa-ptg|ũu}}
+{{mid3}}
+* Portuguese: [[um#Portuguese|um]]
+* Provençal: [[un#Provençal|un]]
+* Romanian: [[unu#Romanian|unu]], [[un#Romanian|un]]
+* Romansch: [[in#Romansch|in]]
+* Sardinian: [[unu#Sardinian|unu]]
+* Spanish: [[uno#Spanish|uno]], [[un#Spanish|un]]
+* Walloon: [[onk]]
+{{bottom}}
+
+====See also====
+* [[Appendix:Latin cardinal numbers]]
+
+[[de:unus]]
+[[et:unus]]
+[[el:unus]]
+[[es:unus]]
+[[eu:unus]]
+[[fr:unus]]
+[[gl:unus]]
+[[ko:unus]]
+[[hy:unus]]
+[[hr:unus]]
+[[io:unus]]
+[[it:unus]]
+[[ka:unus]]
+[[ku:unus]]
+[[ky:unus]]
+[[la:unus]]
+[[lt:unus]]
+[[hu:unus]]
+[[mg:unus]]
+[[fj:unus]]
+[[nl:unus]]
+[[ja:unus]]
+[[pl:unus]]
+[[pt:unus]]
+[[ru:unus]]
+[[sr:unus]]
+[[fi:unus]]
+[[sv:unus]]
+[[ta:unus]]
+[[th:unus]]
+[[chr:unus]]
+[[tr:unus]]
+[[zh:unus]]</text>
+      <sha1>485dn9gxos0lxcrdby3b7pla98yv9v4</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

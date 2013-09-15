@@ -1,0 +1,191 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>gens</title>
+    <ns>0</ns>
+    <id>81671</id>
+    <revision>
+      <id>21649443</id>
+      <parentid>21648308</parentid>
+      <timestamp>2013-08-14T13:38:16Z</timestamp>
+      <contributor>
+        <username>Pingku</username>
+        <id>38876</id>
+      </contributor>
+      <comment>/* Etymology 2 */  tweak def; usage note</comment>
+      <text xml:space="preserve">==English==
+
+===Etymology 1===
+Shortened from {{term|generations|lang=en}}.
+
+===={{abbreviation-old|en}}====
+'''gens'''
+
+# [[generations]]
+
+=====See also=====
+* [[gen]]
+
+===Etymology 2===
+{{wikipedia}}
+From {{etyl|la|en}} {{term|gens|gēns|gens; tribe, people|lang=la}}; see also {{term|gentile|lang=en}}, {{term|gender|lang=en}}, {{term|genus|lang=en}}, {{term|generate|lang=en}}.
+
+====Noun====
+{{en-noun|pl=gentes|pl2=genses}}
+
+# {{context|historical|lang=en}} A legally defined unit of [[Roman]] society, being a collection of people related by [[birth]], [[marriage]] or [[adoption]], but allowing a greater amount of time between members and their common ancestor than is commonly implied by the term {{term|related|lang=en}}.
+# {{context|anthropology|lang=en}} A [[tribal]] [[subgroup]] whose members are characterized by having the same [[descent]], usually along the [[male]] line.
+#* '''1919''', [[w:Boris Sidis|Boris Sidis]], ''[[s:The Source and Aim of Human Progress|The Source and Aim of Human Progress]]'':
+#*: The taboos, the laws, the rules of '''genses''', tribes, and nations, from the lowest to the highest, are upheld by a vague terror and sacred awe which society impresses on man by threats of ill-luck, fearful evil, and terrible punishments befalling sinners and transgressors of the tabooed, of the holy and the forbidden, charged with a mysterious, highly contagious, and virulently infective life-consuming energy.
+
+====Usage notes====
+{{sense|historical Roman unit of society}} The concept is close to and often translated as {{term|clan|lang=en}}, but the two are not identical. The alternative {{term|tribe|lang=en}} is also sometimes used, but the {{etyl|la|-}} {{term|tribus|lang=la}} has a separate meaning.
+
+====Synonyms====
+{{sense|historical Roman unit of society}} [[clan]], [[tribe]]
+
+====Anagrams====
+* [[engs#English|engs]]
+* [[negs#English|negs]]
+
+----
+
+==Catalan==
+
+===Adverb===
+{{ca-adv}}
+
+# a [[bit]]
+# a [[few]]
+
+----
+
+==French==
+
+===Etymology===
+From an earlier {{term|gents|lang=fr}}, plural of {{term|gent|lang=fr}}, from {{etyl|la|fr}} {{term|gentem|lang=la}}, accusative of {{term|gens|gēns|lang=la}}.
+
+===Pronunciation===
+* {{IPA|/ʒɑ̃/|lang=fr}}, {{X-SAMPA|/ZA~/}}
+* {{audio|Fr-gens.ogg|Audio (France, Paris)}}
+* {{rhymes|ɑ̃|lang=fr}}
+* {{homophones|Jean|lang=fr}}
+
+===Noun===
+{{head|fr|noun|g=m-p|cat2=plurals|cat3=masculine nouns}}
+
+# {{context|pluralonly|lang=fr}} set of [[people]]
+#: ''Ces '''gens'''-là ont toujours été sympas avec moi.''
+#:: Those '''people''' have always been kind to me.
+#: ''Je n’aime pas les '''gens''' qui se prennent pour le nombril du monde.''
+#:: I don't like '''people''' who think the world revolves around them.
+
+====Related terms====
+* [[gente]]
+
+====See also====
+* [[peuple]] {{m}}
+
+----
+
+==Guernésiais==
+
+===Etymology===
+From {{etyl|la|roa-grn}} {{term|gens|gēns|lang=la}}.
+
+===Noun===
+{{roa-grn-noun|m|type=plural}}
+
+# {{context|pluralonly|lang=roa-grn}} [[people]]
+
+----
+
+==Latin==
+{{wikipedia|lang=la}}
+
+===Etymology===
+From {{etyl|ine-pro|la}} {{term/t|ine-pro|*ǵénh₁tis}}&lt;ref&gt;“kind”; in: M. Philippa e.a., ''Etymologisch Woordenboek van het Nederlands''&lt;/ref&gt;, from {{term/t|ine-pro|*ǵenh₁-}}, from which also {{term|gigno|gignō|lang=la}}, {{term|genero|generō|lang=la}}, {{term|genus|lang=la}}.
+
+===Pronunciation===
+* {{IPA|/ˈɡeːns/|lang=la}}
+
+===Noun===
+{{la-noun|gēns|gentis|gentis|f|third}}
+
+# Roman [[clan]], related by birth or marriage and sharing a common name.
+# [[tribe]]; [[people]]
+# the chief [[god]]s
+
+====Inflection====
+{{la-decl-3rd-I|gēns|gent}}
+
+====Derived terms====
+* {{l|la|genticus}}
+* {{l|la|gentilicius|gentilīcius}}
+* {{l|la|gentilis|gentīlis}}
+* {{l|la|gentilitas|gentīlitās}}
+
+====Descendants====
+{{top2}}
+* Albanian: [[gjini]]
+* Aromanian: {{l|rup|gjintã}}
+* Asturian: {{l|ast|xente}}
+* Catalan: {{l|ca|gent}}
+* French: {{l|fr|gens}}
+* Italian: {{l|it|gente}}
+* Neapolitan: {{l|it|gente}}
+{{mid2}}
+* Occitan: {{l|oc|gent}}
+* Old French: {{l/fro|gent}}
+* Portuguese: {{l|pt|gente}}
+* Romanian: {{l|ro|gintă}}
+* Sardinian: {{l|sc|gente}}, {{l|sc|genti}}, {{l|sc|tzente}}, {{l|sc|zente}}
+* Sicilian: {{l|scn|genti}}
+* Spanish: {{l|es|gente}}
+* Venetian: {{l|vec|dente}}, {{l|vec|xente}}, {{l|vec|zente}}
+{{bottom}}
+
+===References===
+&lt;references/&gt;
+
+[[Category:la:Family]]
+[[Category:la:Onomastics]]
+
+----
+
+==Swedish==
+
+===Noun===
+{{head|sv|noun form}}
+
+# {{sv-noun-form-indef-gen|gen}}
+
+[[ast:gens]]
+[[cs:gens]]
+[[de:gens]]
+[[et:gens]]
+[[el:gens]]
+[[es:gens]]
+[[eu:gens]]
+[[fr:gens]]
+[[fy:gens]]
+[[ko:gens]]
+[[io:gens]]
+[[ku:gens]]
+[[la:gens]]
+[[hu:gens]]
+[[mg:gens]]
+[[fj:gens]]
+[[nl:gens]]
+[[ja:gens]]
+[[pl:gens]]
+[[ru:gens]]
+[[sm:gens]]
+[[fi:gens]]
+[[sv:gens]]
+[[vi:gens]]
+[[zh:gens]]</text>
+      <sha1>t9grnwhzrm9utjzls1qate9ggy99grt</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

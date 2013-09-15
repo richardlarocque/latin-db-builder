@@ -1,0 +1,238 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>deus</title>
+    <ns>0</ns>
+    <id>67662</id>
+    <revision>
+      <id>22706801</id>
+      <parentid>22610408</parentid>
+      <timestamp>2013-09-11T17:07:04Z</timestamp>
+      <contributor>
+        <username>Rukhabot</username>
+        <id>45268</id>
+      </contributor>
+      <minor />
+      <comment>interwikis: +[[az:deus]] +[[chr:deus]] +[[eu:deus]]</comment>
+      <text xml:space="preserve">{{also|déus|Deus}}
+==Catalan==
+
+===Noun===
+{{ca-noun-form}}
+
+# {{plural of|deu|lang=ca|nocat=1}}
+
+===Verb===
+{{head|ca|verb form}}
+
+# {{ca-verb form of|p=2|n=sg|t=pres|m=ind|deure}}
+
+----
+
+==Galician==
+
+===Noun===
+{{gl-noun|m|deuses}}
+
+# [[god]], [[deity]]
+
+====Related terms====
+* [[Deus#Galician|deus]]
+
+[[Category:gl:Religion]]
+
+----
+
+==Latin==
+{{wikipedia|lang=la}}
+
+===Etymology===
+From {{term/t|la|*dẹ̄os}}, from {{etyl|OL.|la}} {{term|deiuos|lang=la}}, from {{etyl|ine-pro|la}} {{term/t|ine-pro|*deywós}} (cf. Welsh {{term|duw|lang=cy}}, Lithuanian {{term|dievas|lang=lt}}, {{etyl|fa|-}} {{term|دیو|tr=div|lang=fa}} ‘demon’), ''o''-stem derivative from {{term/t|ine-pro|*dyew-||sky, heaven}} (compare Latin {{term/t|la|diēs}}, Welsh {{term|dydd|lang=cy}}), from {{term/t|ine-pro|*dei-}} ‘to shine’. Doublet of {{term/t|la|dīvus}}; related to {{term|Iuppiter|Iūpiter|lang=la}}.
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈdeus/|lang=la}}
+* {{audio|la-cls-deus.ogg|Audio (Classical)}}
+
+===Noun===
+{{la-noun|deus|dei|deī|m|second}} (''nom. plural'' '''[[dei|deī]]''' or '''[[di|dī]]''')
+
+# [[god]], [[deity]]
+#* {{RQ:Cicero Catiline}}
+#*: ''O '''di''' immortales, ubinam gentium sumus? Quam rem publicam habemus? In qua urbe vivimus?.''
+#*:: O ye immortal '''gods''', where on earth are we? In what city are we living? What is the government we have?
+#* {{RQ:Vulgate|Daniel|1|2}}
+#*: {{...}} et asportavit ea in terram Sennaar in domum '''dei''' sui et vasa intulit in domum thesauri '''dei''' sui
+#*:: &quot;{{...}} which he carried into the land of Shinar to the house of his '''god'''; and he brought the vessels into the treasure house of his '''god'''.&quot;
+#: ''In principio erat Verbum et Verbum erat apud '''Deum''' et '''Deus''' erat Verbum.''
+#:: In the beginning was the Word and the Word was with '''God''' and '''God''' was the Word.
+# an imperial epithet (for [[deify|deified]] emperors)
+# {{inflection of|deus||voc|s|lang=la}}
+
+====Inflection====
+{{la-decl-deus}}
+
+====Derived terms====
+* [[deitas|deitās]]
+* [[deus ex machina]]
+
+====Related terms====
+* [[deiferus]]
+* [[deifico]]
+* [[deificus]]
+* {{l|la|Deus}}
+
+====Coordinate terms====
+* {{l|la|dea}} (goddess)
+
+====Descendants====
+{{top2}}
+* Catalan: {{l/ca|déu}}
+* English: {{l/en|deity}}
+* French: {{l/fr|dieu}}
+* Galician: {{l|gl|deus}}
+* Italian: {{l|it|dio}}
+* Occitan: {{l/oc|dieu}}
+{{mid2}}
+* Portuguese: {{l/pt|deus}}
+* Romanian: {{l|ro|zeu}}, {{l|ro|zău}}
+* Romansch: {{l|rm|dieu}}
+* Sardinian: {{l|sro|déu}}
+* Spanish: {{l/es|dios}}
+{{bottom}}
+
+[[Category:Latin noun forms]]
+[[Category:la:Gods]]
+
+----
+
+==Old French==
+
+===Alternative forms===
+* {{l/fro|deuz}}
+
+===Numeral===
+{{head|fro|numeral}}
+
+# [[two]]
+
+====Descendants====
+* English: [[deuce]]
+* French: {{l/fr|deux}}
+
+[[Category:fro:Cardinal numbers]]
+
+----
+
+==Old Portuguese==
+
+===Etymology===
+From {{etyl|la|roa-ptg}} {{term|deus||god|lang=la}}. See {{term|deus|||lang=la}} for more information.
+
+===Pronunciation===
+* {{IPA|/ˈd̪ews̺/|lang=roa-ptg}}
+
+===Noun===
+{{head|roa-ptg|noun}}
+
+# {{context|christianity|lang=roa-ptg}} [[God]]
+#* {{roa-ptg-cite-cantigas|E|3|http://www.pbm.com/~lindahl/cantigas/facsimiles/E/057small.html}}
+#*: Por ela nos perdõou / '''deus''' o pecado Dadam. / da maçãa que goſtou. per / que ſoffreu muit affan.
+#*:: By her, '''God''' forgave us of Adam’s sin. Of the apple he tasted, because she felt very anguished.
+
+====Descendants====
+* Galician: {{l|gl|deus}}, {{l|gl|Deus}}
+* Portuguese: {{l/pt|deus}}, {{l/pt|Deus}}
+
+----
+
+==Portuguese==
+
+===Alternative forms===
+* {{l/pt|Deos}} {{qualifier|obsolete}}
+
+===Etymology===
+From {{etyl|roa-ptg|pt}} {{term|deus||God|lang=roa-ptg}}, from {{etyl|la|pt}} {{term|deus|lang=la}}, from {{etyl|OL.|pt}} {{term|deiuos|lang=la}}, from {{etyl|ine-pro|pt}} {{term/t|ine-pro|*deywós}}.
+
+===Pronunciation===
+* {{a|Brazil}} {{IPA|/ˈdews/|/ˈdewʃ/|lang=pt}}
+* {{a|PT}} {{IPA|/ˈdewʃ/|lang=pt}}
+* {{homophones|Deus|lang=pt}}
+
+===Noun===
+{{pt-noun|m|es|f=deusa}}
+
+# {{l/en|god}}; {{l/en|deity}}
+
+====Synonyms====
+* {{l/pt|divindade}}
+
+====Derived terms====
+* {{l/pt|Deus}}
+* {{l/pt|deus-dará}}
+* {{l/pt|deus grego}}
+
+====Related terms====
+{{top2}}
+* {{l/pt|deus ex machina}}
+* {{l/pt|diva}}
+* {{l/pt|divinal}}
+* {{l/pt|divinar}}
+{{mid2}}
+* {{l/pt|divindade}}
+* {{l/pt|divinizar}}
+* {{l/pt|divino}}
+{{bottom}}
+
+[[Category:pt:Religion]]
+
+----
+
+==Walloon==
+
+===Etymology===
+From {{etyl|fro|wa}} {{term|deus|lang=fro}} (compare French {{term|deux|lang=fr}}), from {{etyl|la|wa}} {{term/t|la|duōs}}, masculine accusative of {{term|duo|lang=la}}.
+
+===Numeral===
+{{head|wa|numeral}}
+
+# [[two]]
+[[Category:wa:Cardinal numbers]]
+
+[[az:deus]]
+[[br:deus]]
+[[ca:deus]]
+[[cs:deus]]
+[[de:deus]]
+[[el:deus]]
+[[es:deus]]
+[[eo:deus]]
+[[eu:deus]]
+[[fa:deus]]
+[[fr:deus]]
+[[fy:deus]]
+[[gl:deus]]
+[[ko:deus]]
+[[hr:deus]]
+[[io:deus]]
+[[ku:deus]]
+[[la:deus]]
+[[lt:deus]]
+[[hu:deus]]
+[[mg:deus]]
+[[nah:deus]]
+[[fj:deus]]
+[[nl:deus]]
+[[ja:deus]]
+[[pl:deus]]
+[[pt:deus]]
+[[ru:deus]]
+[[sk:deus]]
+[[fi:deus]]
+[[chr:deus]]
+[[tr:deus]]
+[[wa:deus]]
+[[zh:deus]]</text>
+      <sha1>6og8czy0i63kgoleag623mtguav5rp0</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

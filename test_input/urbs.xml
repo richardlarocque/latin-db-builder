@@ -1,0 +1,106 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>urbs</title>
+    <ns>0</ns>
+    <id>38475</id>
+    <revision>
+      <id>21648228</id>
+      <parentid>21638040</parentid>
+      <timestamp>2013-08-14T12:12:44Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>Remove macronless parameters from la-decl, no longer needed</comment>
+      <text xml:space="preserve">==Latin==
+[[Image:Hamburgfromair2.JPG|thumb|250px|urbs (a city)]]
+
+===Etymology===
+According to the [[w:Urbian|Urbian]] theory, from *OR/UR- or *OL/UL-, &quot;huge, big, elevated&quot;. Cognate with Thracian {{term|Az-oros|lang=txh}}, Basque {{term|uri|lang=eu}}, {{term|hiri||township|lang=eu}}, Greek {{term|λαβύρινθος|tr=labyrinthos|lang=grc}} and Sumerian [[Ur]] and [[Urbillum]], today the city of [[Irbil]].
+This theory is opposed by many linguists.
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/urps/|lang=la}}&lt;!--In Classical Latin &quot;bs&quot; is pronounced /ps/ --&gt;
+* {{audio|la-cls-urbs.ogg|Audio (Classical)}}
+
+===Noun===
+{{la-noun|urbs|urbis|urbis|f|third}}
+
+# a [[city]], [[walled]] [[town]]
+#* {{RQ:Cicero Catiline}}
+#*: ''O di immortales, ubinam gentium sumus? Quam rem publicam habemus? In qua '''urbe''' vivimus?.''
+#*:: O ye immortal gods, where on earth are we? In what '''city''' are we living? What is the government we have?
+#: '''''Urbi''' ferro flammā[[-que|que]] minitatus est.''
+#:: He threatened the '''city''' with fire and sword.
+# The City, viz. [[Rome]]
+#* {{RQ:Caesar Bello Gallico|I|vii}}
+#* ''Caesari cum id nuntiatum esset, eos per provinciam nostram iter facere conari, maturat ab '''urbe''' proficisci et quam maximis potest itineribus in Galliam ulteriorem contendit et ad Genavam pervenit.''
+#*:: When it was reported to Caesar that they were attempting to make their route through our Province he hastens to set out from '''the City''', and, by as great marches as he can, proceeds to Further Gaul, and arrives at Geneva.
+#: ''[[W:Ab urbe condita|Ab '''urbe''' condita'']].
+#:: From the founding of '''the City.'''
+#: '''''Urbi''' et orbi''.
+#:: To the '''City''' and the world.
+
+====Inflection====
+{{la-decl-3rd-I|urbs|urb}}
+
+====Derived terms====
+{{top2}}
+* [[urbanatim|urbānātim]]
+* [[urbane#Latin|urbānē]]
+* [[urbanicianus|urbāniciānus]]
+* [[urbanitas|urbānitās]]
+* [[urbanus|urbānus]]
+{{mid2}}
+* [[urbicapus]]
+* [[urbicarius|urbicārius]]
+* [[urbicremus]]
+* [[urbicus]]
+* [[Urbinum|Urbīnum]]
+{{bottom}}
+
+====Descendants====
+{{top2}}
+* English: [[urban]]
+* Esperanto: [[urbo#Esperanto|urbo]]
+* French: [[urbain]]
+* Ido: [[urbo#Ido|urbo]]
+{{mid2}}
+* Italian: [[Urbe]]
+* Portuguese: [[urbe#Portuguese|urbe]]
+* Romanian: [[urbe#Romanian|urbe]]
+* Spanish: [[urbe#Spanish|urbe]]
+{{bottom}}
+
+[[ast:urbs]]
+[[ca:urbs]]
+[[cs:urbs]]
+[[el:urbs]]
+[[es:urbs]]
+[[fr:urbs]]
+[[fy:urbs]]
+[[ko:urbs]]
+[[hr:urbs]]
+[[io:urbs]]
+[[it:urbs]]
+[[ka:urbs]]
+[[ku:urbs]]
+[[ky:urbs]]
+[[lo:urbs]]
+[[la:urbs]]
+[[lt:urbs]]
+[[hu:urbs]]
+[[mg:urbs]]
+[[nl:urbs]]
+[[ja:urbs]]
+[[pl:urbs]]
+[[pt:urbs]]
+[[ru:urbs]]
+[[fi:urbs]]
+[[sv:urbs]]</text>
+      <sha1>fl8k5knnmb4pz1r4cxigbxlpscxyokn</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

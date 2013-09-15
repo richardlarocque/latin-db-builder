@@ -1,0 +1,594 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>Estonia</title>
+    <ns>0</ns>
+    <id>2116</id>
+    <revision>
+      <id>21636226</id>
+      <parentid>21543676</parentid>
+      <timestamp>2013-08-13T22:01:30Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>Add num=sg to la-decl</comment>
+      <text xml:space="preserve">{{also|estonia}}
+==English==
+{{wikipedia}}
+[[Image:EU_location_EST.png|thumb|200 px|Location of Estonia]]
+
+===Alternative forms===
+* {{l|en|Esthonia}} (dated)
+
+===Etymology===
+Borrowed from {{etyl|ML.|en}} {{term|Estonia|lang=la}}, whence also Russian {{term|Эстония|lang=ru}}. Other early Latin forms were {{term|Estia|lang=la}} and {{term|Hestia|lang=la}}, possibly derived from the tribal name {{term|Aesti|lang=la}} described by the [[Roman]] historian [[w:Tacitus|Tacitus]] in his Germania (ca. 98 AD). Compare also {{langname|non}} {{term|Eistland||Estonia|lang=is}}, {{langname|de}} {{term|Estland||Estonia|lang=de}}.
+
+===Pronunciation===
+* {{a|UK}} {{IPA|/ɛsˈtəʊ.ni.ə/}}
+* {{a|US}} {{IPA|/ɛsˈtoʊ.ni.ə/}}
+* {{audio|en-us-Estonia.ogg|Audio (US)}}
+* {{rhymes|əʊniə}}
+
+===Proper noun===
+{{en-proper noun}}
+
+# A country in North East Europe. Official name: [[Republic of Estonia]].
+
+====Related terms====
+* [[Estonian]]
+* [[Estonian SSR]]
+
+====Translations====
+{{trans-top|country}}
+* Acehnese: {{tø|ace|Èstonia}}
+* Afrikaans: {{t-|af|Estland}}
+* Albanian: {{t+|sq|Estonia}}
+* Amharic: {{t-|am|ኤስቶኒያ|sc=Ethi}}
+* Arabic: {{t-|ar|إستونيا|f|tr='istuuniya}}
+*: Egyptian Arabic: {{tø|arz|استونيا|tr=estoniya|sc=Arab}}
+* Aragonese: {{t-|an|Estonia}}
+* Aramaic: {{tø|arc|ܐܣܛܘܢܝܐ|sc=Hebr}}
+* Armenian: {{t-|hy|Էստոնիա|tr=Ēstonia}}
+* Aromanian: {{t-|rup|Estonia}}
+* Asturian: {{t+|ast|Estonia|f}}
+* Azeri: {{t+|az|Estoniya}}
+* Bambara: {{t-|bm|Estonia}}
+* Basque: {{t+|eu|Estonia}}
+* Bavarian: {{tø|bar|Estland}}
+* Belarusian: {{t-|be|Эстонія|f|tr=Estónija}}
+* Bengali: {{t-|bn|ইস্তোনিয়া|tr=istoniẏa|sc=Beng}}
+* Bikol Central: {{tø|bcl|Estonya}}
+* Bishnupriya Manipuri: {{tø|bpy|এস্তোনিয়া}}
+* Breton: {{t-|br|Estonia}}
+* Bulgarian: {{t+|bg|Естония|f|tr=Estónija}}
+* Burmese: {{t-|my|အက်စတိုးနီးယားနိုင်ငံ|tr=etsăto:ni:ya: naingngan|sc=Mymr}}
+* Catalan: {{t+|ca|Estònia}}
+* Cebuano: {{tø|ceb|Estonia}}
+* Chechen: {{tø|ce|Эстони}}
+* Chinese:
+*: Cantonese: {{tø|yue|愛沙尼亞|tr=oi3 saa1 nei4 aa3|sc=Hani}}
+*: Mandarin: {{t-|cmn|愛沙尼亞|sc=Hani}}, {{t-|cmn|爱沙尼亚|tr=Àishāníyà|sc=Hani}}
+*: Wu: {{tø|wuu|爱斯导尼亚|sc=Hani}}
+* Chuvash: {{tø|cv|Эстони|sc=Cyrl}}
+* Cornish: {{t-|kw|Estoni}}
+* Corsican: {{t-|co|Estonia}}
+* Crimean Tatar: {{tø|crh|Estoniya}}
+* Czech: {{t+|cs|Estonsko}}
+* Danish: {{t+|da|Estland}}
+* Dutch: {{t+|nl|Estland}}
+* Dzongkha: {{t-|dz|ཨིསི་ཊོ་ནི་ཡ།|sc=Tibt}}
+* Eastern Mari: {{tø|mhr|Эстоний}}
+* Erzya: {{tø|myv|Эстэнь Мастор}}
+* Esperanto: {{t+|eo|Estonio}}, {{t-|eo|Estonujo}}
+* Estonian: {{t+|et|Eesti}}
+* Ewe: {{tø|ee|Estonia}}
+* Faroese: {{t-|fo|Estland}}
+* Fiji Hindi: {{tø|hif|Estonia}}
+* Finnish: {{t+|fi|Viro}}, {{t+|fi|Eesti}}
+* {{ttbc|vls}}: {{tø|vls|Estland}}
+* Franco-Provençal: {{tø|frp|Èstonie}}
+* French: {{t+|fr|Estonie}}
+* Friulian: {{tø|fur|Estonie}}
+* Galician: {{t+|gl|Estonia|f}}
+* Georgian: {{t-|ka|ესტონეთი|tr=estoneti|sc=Geor}}
+* German: {{t+|de|Estland}}
+* Greek: {{t+|el|Εσθονία|f|tr=Esthonía}}
+* Greenlandic: {{t+|kl|Estland}}
+* Guaraní: {{t-|gn|Etoña}}
+* Gujarati: {{t-|gu|ઈસ્ટોનિયા|sc=Gujr}}
+* Haitian Creole: {{tø|ht|Estoni}}
+* Hakka: {{tø|hak|Oi-sâ-nì-â}}
+* Hawaiian: {{tø|haw|ʻEsetonia}}
+* Hebrew: {{t+|he|אסטוניה}}
+* Hindi: {{t+|hi|एस्टोनिया|m|tr=esṭoniyā}}
+* Hungarian: {{t+|hu|Észtország}}
+* Icelandic: {{t+|is|Eistland}}
+* Ido: {{t+|io|Estonia}}
+* Ilocano: {{tø|ilo|Estonia}}
+* Indonesian: {{t+|id|Estonia}}
+* Interlingua: {{t-|ia|Estonia}}
+* Interlingue: {{t-|ie|Estonia}}
+* Irish: {{t-|ga|Eastóin|alt=An Eastóin|f}}, {{t-|ga|Poblacht na hEastóine|f}}
+* Italian: {{t+|it|Estonia}}
+* Japanese: {{t+|ja|エストニア|tr=Esutonia}}
+* Jèrriais: {{tø|roa-jer|Estonnie|f}}
+* Kabyle: {{tø|kab|Isṭuni}}
+* Kamba: {{tø|kam|Estonia}}
+* Kannada: {{t+|kn|ಎಸ್ಟೊನಿಯ|tr=esṭoniya|sc=Knda}}
+* Kapampangan: {{tø|pam|Estonia}}
+* Kashubian: {{t-|csb|Estóńskô}}
+* Kazakh: {{t-|kk|Естония|tr=Estoniya|sc=Cyrl}}
+* Khmer: {{t-|km|អេស្តូនី|tr=a sto ni|sc=Khmr}}
+* Komi-Zyrian: {{tø|kv|Эстония}}
+* Kongo: {{tø|kg|Estonia}}
+* Korean: {{t+|ko|에스토니아|tr=Eseutonia|sc=Hang}}
+* Kurdish: {{t+|ku|Estonya}}
+* Kyrgyz: {{t-|ky|Эстония|tr=Estoniya|sc=Cyrl}}
+* Ladino: {{tø|lad|Estonia}}
+* Lao: {{t+|lo|ເອັສໂຕເນຍ|sc=Laoo}}
+* Latgalian: {{tø|ltg|Igauneja|f}}
+* Latin: {{t-|la|Estonia}}
+* Latvian: {{t+|lv|Igaunija|f}}
+* Ligurian: {{tø|lij|Estònia}}
+* Limburgish: {{t-|li|Esland}}
+* Lingala: {{t-|ln|Estonia}}
+* Lithuanian: {{t+|lt|Estija|f}}
+{{trans-mid}}
+* Livonian: {{tø|liv|Ēstimō}}
+* Lojban: {{t-|jbo|estis}}
+* Lombard: {{tø|lmo|Estonia}}
+* Low German: 
+*: Dutch Low Saxon: {{tø|nds-nl|Estlaand}}
+*: German Low German: {{t+|nds|Eestland}}
+* Lower Sorbian: {{tø|dsb|Estniska}}
+* Luhya: {{tø|luy|Estonia}}
+* Luo: {{tø|luo|Estonia}}
+* Luxembourgish: {{t+|lb|Estland}}
+* Macedonian: {{t+|mk|Естонија|f|tr=Estónija}}
+* Malay: {{t-|ms|Estonia}}
+* Malayalam: {{t-|ml|എസ്റ്റോണിയ|sc=Mlym}}
+* Maltese: l-{{t-|mt|Estonja}}
+* Manx: {{t-|gv|Estaan}}
+* Maori: {{t-|mi|Etonia}}
+* Marathi: {{t-|mr|एस्टोनिय|sc=Deva}}
+* Meru: {{tø|mer|Estonia}}
+* Min Nan: {{t-|nan|Eesti}}
+* Moksha: {{tø|mdf|Эсти мастор}}
+* Mongolian: {{t-|mn|Эстон|tr=Eston|sc=Cyrl}}
+* Nahuatl: {{t-|nah|Estonia}}
+* Nauruan: {{t-|na|Estonia}}
+* Navajo: {{tø|nv|Ééstii bikéyah}}
+* Nepali: {{t-|ne|इस्टोनिया|sc=Deva}}
+* Norman: {{tø|roa-nor|Estonnie}}
+* Northern Sami: {{tø|se|Estlánda}}, {{tø|se|Estteeana}}
+* Norwegian: {{t+|no|Estland}}
+* Norwegian Nynorsk: {{t+|nn|Estland}}
+* Novial: {{tø|nov|Estonia}}
+* Occitan: {{t+|oc|Estònia|f}}
+* Old Church Slavonic: {{tø|cu|Єсть|sc=Cyrs}}
+* Old English: {{t-|ang|Estland}}
+* Old Norse: {{tø|non|Eistland|n}}
+* Ossetian: {{tø|os|Эстони|sc=Cyrl}}
+* Papiamentu: {{tø|pap|Estonia}}
+* Pashto: {{t-|ps|اېسټونيا|sc=ps-Arab}}
+* Pennsylvania German: {{tø|pdc|Eschdooni}}
+* Persian: {{t+|fa|استونی|tr=Estuni}}
+* Piedmontese: {{tø|pms|Estònia}}
+* Pitcairn-Norfolk: {{tø|pih|Estonya}}
+* Polish: {{t+|pl|Estonia|f}}
+* Portuguese: {{t+|pt|Estónia}} {{qualifier|Portugal}}, {{t+|pt|Estônia}} {{qualifier|Brazil}}
+* Quechua: {{t-|qu|Istunya}}
+* Romani:
+*: Vlax Romani: {{tø|rmy|Estoniya}}
+* Romanian: {{t+|ro|Estonia|f}}
+* Russian: {{t+|ru|Эстония|f|tr=Estónija}}
+* Samogitian: {{tø|sgs|Estėjė}}
+* Sanskrit: {{t-|sa|एस्टोनिया}}
+* Sardinian: {{t-|sc|Estònia}}
+* Saterland Frisian: {{tø|stq|Estlound}}
+* Scots: {{tø|sco|Estonia}}
+* Scottish Gaelic: {{t-|gd|Eastòinia}}
+* Serbo-Croatian:
+*: Cyrillic: {{t-|sh|Естонија|f|sc=Cyrl}}
+*: Roman: {{t-|sh|Estonija|f}}
+* Sicilian: {{t-|scn|Estonia}}
+* Silesian: {{tø|szl|Estůńijo}}
+* Sinhalese: {{t-|si|එස්ටෝනියා|sc=Sinh}}
+* Slovak: {{t-|sk|Estónsko}}
+* Slovene: {{t-|sl|Estonija|alt=Estónija|f}}
+* Spanish: {{t+|es|Estonia|f}}
+* Swahili: {{t+|sw|Estonia}}
+* Swati: {{t-|ss|IWestoniya}}
+* Swedish: {{t+|sv|Estland}}
+* Tagalog: {{t+|tl|Estonya}}
+* Tajik: {{t-|tg|Эстония|tr=Estoniya|sc=Cyrl}}
+* Tamil: {{t-|ta|எசுத்தோனியா}}
+* Tatar: {{t-|tt|Éstonia}}
+* Telugu: {{t+|te|ఎస్టోనియా}}
+* Tetum: {{tø|tet|Estónia}}
+* Thai: {{t-|th|ประเทศเอสโตเนีย|tr=bpràtêt àyt-dtoh-nia|sc=Thai}}, {{t+|th|เอสโตเนีย|tr=àyt-dtoh-nia|sc=Thai}}
+* Tok Pisin: {{t-|tpi|Estonia}}
+* Turkish: {{t+|tr|Estonya}}
+* Turkmen: {{t-|tk|Estoniýa}}
+* Udmurt: {{tø|udm|Эстония|sc=Cyrl}}
+* Ukrainian: {{t+|uk|Естонія|f|tr=Estónija}}
+* Upper Sorbian: {{t-|hsb|Estiska}}
+* Urdu: {{t-|ur|استونیا|m|tr=estoniyā}}, {{t-|ur|ایسٹونیا|m|tr=esṭoniyā|sc=ur-Arab}}
+* Uyghur: {{t-|ug|ئېستونىيە|sc=ug-Arab}}
+* Uzbek: {{t-|uz|Estoniya}}
+* Venetian: {{tø|vec|Estonia}}
+* Vietnamese: {{t-|vi|Estonia}}
+* Volapük: {{t+|vo|Lestiyän}}
+* Võro: {{tø|vro|Eesti}}
+* Waray-Waray: {{tø|war|Estonya}}
+* Welsh: {{t+|cy|Estonia}}
+* West Frisian: {{t+|fy|Estlân}}
+* Western Panjabi: {{t+|pnb|اسٹونیا}}
+* Wolof: {{t-|wo|Estooni}}
+* Yakut: {{tø|sah|Эстония|sc=Cyrl}}
+* Yiddish: {{t-|yi|עסטלאנד|sc=Hebr}}
+* Yoruba: {{t-|yo|Estonia}}
+* Zazaki: {{qualifier|Southern Zazaki}} {{tø|zza|Estonya}}
+{{trans-bottom}}
+
+====See also====
+* [[Appendix:Place names in Estonia]]
+* {{list:countries of Europe/en}}
+
+===Anagrams===
+* [[astonie#English|astonie]]
+
+[[Category:English words suffixed with -ia]]
+[[Category:en:Estonia]]
+[[Category:en:Exonyms]]
+
+----
+
+==Aragonese==
+{{wikipedia|lang=an}}
+
+===Proper noun===
+{{head|an|proper noun}}
+
+# {{l|en|Estonia}}
+
+[[Category:an:Countries]]
+[[Category:an:Exonyms]]
+
+----
+
+==Asturian==
+{{wikipedia|lang=ast}}
+
+===Proper noun===
+{{ast-proper noun|f}}
+
+# {{l|en|Estonia}}
+
+[[Category:ast:Countries]]
+[[Category:ast:Exonyms]]
+
+----
+
+==Basque==
+{{wikipedia|lang=eu}}
+
+===Proper noun===
+{{head|eu|proper noun}}
+
+# {{l|en|Estonia}}
+
+====Declension====
+{{eu-decl-prop inanim noun-a|AWW=Estoni|a=1}}
+
+====Related terms====
+* [[estoniar]]
+* [[estoniera]]
+
+[[Category:eu:Countries]]
+[[Category:eu:Exonyms]]
+
+----
+
+==Breton==
+{{wikipedia|lang=br}}
+
+===Proper noun===
+{{head|br|proper noun|g=?}}
+
+# {{l|en|Estonia}}
+
+[[Category:br:Countries]]
+[[Category:br:Exonyms]]
+
+----
+
+==Galician==
+{{wikipedia|lang=gl}}
+
+===Proper noun===
+{{gl-proper noun|f}}
+
+# {{l|en|Estonia}}
+
+[[Category:gl:Countries]]
+[[Category:gl:Exonyms]]
+
+----
+
+==Ido==
+{{wikipedia|lang=io}}
+
+===Proper noun===
+{{head|io|proper noun}}
+
+# {{l|en|Estonia}}
+
+[[Category:io:Countries]]
+[[Category:io:Exonyms]]
+
+----
+
+==Ilocano==
+{{wikipedia|lang=ilo}}
+
+===Proper noun===
+{{head|ilo|proper noun}}
+
+# {{l|en|Estonia}}
+
+[[Category:ilo:Countries]]
+[[Category:ilo:Exonyms]]
+
+----
+
+==Indonesian==
+{{wikipedia|lang=id}}
+
+===Proper noun===
+{{head|id|proper noun}}
+
+# {{l|en|Estonia}}
+
+[[Category:id:Countries]]
+[[Category:id:Exonyms]]
+
+----
+
+==Interlingua==
+{{wikipedia|lang=ia}}
+
+===Proper noun===
+{{head|ia|proper noun}}
+
+# {{l|en|Estonia}}
+
+[[Category:ia:Countries]]
+[[Category:ia:Exonyms]]
+
+----
+
+==Italian==
+{{wikipedia|lang=it}}
+
+===Proper noun===
+{{it-proper noun|f}}
+
+# {{l|en|Estonia}}
+
+====Related terms====
+* [[estone]]
+
+===Anagrams===
+* [[atesino#Italian|atesino]]
+* [[esitano#Italian|esitano]]
+* [[soniate#Italian|soniate]]
+
+[[Category:it:Countries]]
+[[Category:it:Exonyms]]
+
+----
+
+==Latin==
+{{wikipedia|lang=la}}
+
+===Proper noun===
+{{la-proper noun|Estonia|Estoniae|Estoniae|f|first}}
+
+# {{l|en|Estonia}}
+
+====Inflection====
+{{la-decl-1st-loc|num=sg|Estoni}}
+
+[[Category:la:Countries]]
+[[Category:la:Exonyms]]
+[[Category:la:Place names]]
+
+----
+
+==Luhya==
+
+===Proper noun===
+{{head|luy|proper noun}}
+
+# {{l|en|Estonia}}
+
+[[Category:luy:Countries]]
+[[Category:luy:Exonyms]]
+
+----
+
+==Luo==
+
+===Proper noun===
+{{head|luo|proper noun}}
+
+# {{l|en|Estonia}}
+
+[[Category:luo:Countries]]
+[[Category:luo:Exonyms]]
+
+----
+
+==Novial==
+{{wikipedia|lang=nov}}
+
+===Proper noun===
+{{head|nov|proper noun}}
+
+# {{l|en|Estonia}}
+
+[[Category:nov:Countries]]
+[[Category:nov:Exonyms]]
+
+----
+
+==Polish==
+{{wikipedia|lang=pl}}
+
+===Pronunciation===
+* {{IPA|[ɛˈstɔɲja]|lang=pl}}
+* {{audio|Pl-Estonia.ogg|Audio}}
+
+===Proper noun===
+{{head|pl|proper noun|g=f}}
+
+# {{l|en|Estonia}}
+
+====Declension====
+{{pl-decl-noun
+|Estonia|Estonie
+|Estonii|Estonii
+|Estonii|Estoniom
+|Estonię|Estonie
+|Estonią|Estoniami
+|Estonii|Estoniach
+|Estonio|Estonie
+}}
+
+====Derived terms====
+* [[Estończyk]], [[Estonka]], [[estoński]]
+
+[[Category:pl:Countries]]
+[[Category:pl:Exonyms]]
+
+----
+
+==Romanian==
+{{wikipedia|lang=ro}}
+
+===Proper noun===
+{{head|ro|proper noun|g=f}}
+
+# {{l|en|Estonia}}
+
+====Declension====
+{{ro-country|Estoniei|gend=f}}
+
+[[Category:ro:Countries]]
+[[Category:ro:Exonyms]]
+
+----
+
+==Scots==
+{{wikipedia|lang=sco}}
+
+===Proper noun===
+{{sco-proper noun}}
+
+# {{l|en|Estonia}}
+
+[[Category:sco:Countries]]
+[[Category:sco:Exonyms]]
+
+----
+
+==Spanish==
+{{wikipedia|lang=es}}
+
+===Proper noun===
+{{es-proper noun|f}}
+
+# {{l|en|Estonia}}
+
+====Related terms====
+* [[estonio]]/[[estonia]]
+
+[[Category:es:Countries]]
+[[Category:es:Exonyms]]
+
+----
+
+==Swahili==
+
+===Proper noun===
+{{head|sw|proper noun}}
+
+# {{l|en|Estonia}}
+
+[[Category:sw:Countries]]
+[[Category:sw:Exonyms]]
+
+----
+
+==Vietnamese==
+{{wikipedia|lang=vi}}
+
+===Proper noun===
+{{head|vi|proper noun}}
+
+# {{l|en|Estonia}}
+
+[[Category:vi:Countries]]
+[[Category:vi:Exonyms]]
+
+[[ast:Estonia]]
+[[bg:Estonia]]
+[[cs:Estonia]]
+[[cy:Estonia]]
+[[da:Estonia]]
+[[de:Estonia]]
+[[et:Estonia]]
+[[el:Estonia]]
+[[es:Estonia]]
+[[eu:Estonia]]
+[[fr:Estonia]]
+[[fy:Estonia]]
+[[gl:Estonia]]
+[[ko:Estonia]]
+[[hi:Estonia]]
+[[io:Estonia]]
+[[id:Estonia]]
+[[it:Estonia]]
+[[kl:Estonia]]
+[[kn:Estonia]]
+[[sw:Estonia]]
+[[lo:Estonia]]
+[[lv:Estonia]]
+[[lt:Estonia]]
+[[hu:Estonia]]
+[[nl:Estonia]]
+[[ja:Estonia]]
+[[no:Estonia]]
+[[nn:Estonia]]
+[[km:Estonia]]
+[[nds:Estonia]]
+[[pl:Estonia]]
+[[pt:Estonia]]
+[[ro:Estonia]]
+[[ru:Estonia]]
+[[sq:Estonia]]
+[[fi:Estonia]]
+[[sv:Estonia]]
+[[ta:Estonia]]
+[[tt:Estonia]]
+[[tg:Estonia]]
+[[tr:Estonia]]
+[[uk:Estonia]]
+[[zh:Estonia]]</text>
+      <sha1>rsbntb8ej4u5b0stsvwse26ckdq418a</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

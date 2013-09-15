@@ -1,0 +1,55 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>enim</title>
+    <ns>0</ns>
+    <id>211135</id>
+    <revision>
+      <id>22745332</id>
+      <parentid>18135922</parentid>
+      <timestamp>2013-09-12T06:48:01Z</timestamp>
+      <contributor>
+        <username>Rukhabot</username>
+        <id>45268</id>
+      </contributor>
+      <minor />
+      <comment>interwikis: +[[chr:enim]] +[[mg:enim]]</comment>
+      <text xml:space="preserve">==Latin==
+
+===Conjunction===
+''First word in sentence + '' '''enim'''  {{qualifier|postpositive}}
+
+# [[truly]]
+# [[for]]
+# [[so]]
+# [[because]]
+
+[[Category:Latin conjunctions]]
+
+----
+
+==Turkish==
+
+===Noun===
+{{head|tr|noun form}}
+
+# {{first-person singular possessive of|en|lang=tr}}
+
+====Usage notes====
+{{first-person singular usage notes||e|nim|width}}
+
+[[cs:enim]]
+[[el:enim]]
+[[fr:enim]]
+[[ko:enim]]
+[[la:enim]]
+[[lt:enim]]
+[[mg:enim]]
+[[nl:enim]]
+[[ja:enim]]
+[[pl:enim]]
+[[chr:enim]]</text>
+      <sha1>p9cem6f2zicb6yvjcwfv708e6xly4bo</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

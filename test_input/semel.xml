@@ -1,0 +1,54 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>semel</title>
+    <ns>0</ns>
+    <id>210094</id>
+    <revision>
+      <id>23160477</id>
+      <parentid>22089152</parentid>
+      <timestamp>2013-09-21T05:51:02Z</timestamp>
+      <contributor>
+        <username>Rukhabot</username>
+        <id>45268</id>
+      </contributor>
+      <minor />
+      <comment>interwikis: +[[chr:semel]] +[[es:semel]]</comment>
+      <text xml:space="preserve">==Latin==
+
+===Etymology===
+From {{etyl|ine-pro|la}} {{term/t|ine-pro|*sḗm||one}}, cognate with {{term|semper|lang=la}}, {{term|similis|lang=la}}, {{term|simītū|lang=la}}, {{term|simplex|lang=la}}, {{term|simplus|lang=la}}, {{term|simul|lang=la}} and {{term|singulī|lang=la}}, with Ancient Greek {{term|ὁμός|tr=homos|lang=grc}}, English {{term|same|lang=en}}, Czech {{term|sám|lang=cs}}, {{term|samý|lang=cs}}, etc.
+
+===Adverb===
+{{la-adv|semel||-}}
+
+# [[once]], a single time
+
+====Derived terms====
+* {{l|la|semel furibundus, semper furibundus praesūmitur}}
+* {{l|la|semel in diē}}
+* {{l|la|semel prō semper}}
+
+====See also====
+* {{l|la|bis}}
+
+===References===
+* [http://www.ieed.nl/cgi-bin/response.cgi?flags=eygtnrl&amp;single=1&amp;basename=/data/ie/pokorny&amp;text_recno=1682&amp;root=leiden Pokorny ''*sem'']
+
+[[es:semel]]
+[[fr:semel]]
+[[it:semel]]
+[[la:semel]]
+[[hu:semel]]
+[[mg:semel]]
+[[nah:semel]]
+[[nl:semel]]
+[[pt:semel]]
+[[ru:semel]]
+[[sv:semel]]
+[[chr:semel]]
+[[zh:semel]]</text>
+      <sha1>rwnz6hmoeuasljgmtkts95mmd2jt4vs</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

@@ -1,0 +1,31 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>nulla osta</title>
+    <ns>0</ns>
+    <id>75148</id>
+    <revision>
+      <id>20369939</id>
+      <parentid>16539201</parentid>
+      <timestamp>2013-05-05T22:27:56Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>Move gender/invariable into head</comment>
+      <text xml:space="preserve">==Italian==
+
+===Noun===
+{{head|it|noun|g=m|invariable}}
+
+# [[visa]]
+# An official declaration not to be against something or someone
+# [[permission]]
+
+===Alternative forms===
+* [[nullaosta]]</text>
+      <sha1>tiykpdgvisjwj9wje0vq90tisvr87j7</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

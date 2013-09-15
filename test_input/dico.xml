@@ -1,0 +1,172 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>dico</title>
+    <ns>0</ns>
+    <id>188276</id>
+    <revision>
+      <id>21842038</id>
+      <parentid>21814925</parentid>
+      <timestamp>2013-08-26T21:43:44Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>Remove redundant alternative form from links</comment>
+      <text xml:space="preserve">==French==
+
+===Etymology===
+Apocopic form of {{suffix|dictionnaire|o|lang=fr}}.
+
+===Pronunciation===
+* {{IPA|/di.ko/|lang=fr}}
+
+===Noun===
+{{fr-noun|m}}
+
+# {{context|informal|lang=fr}} [[dictionary]]
+#: {{usex|J'adore ce '''dico'''!|lang=fr|translation=I love this dictionary}}
+
+[[Category:French apocopic forms]]
+
+----
+
+==Italian==
+
+===Verb form===
+{{head|it|verb form}}
+
+# {{form of|[[first-person singular]]  [[present tense]]|dire|lang=it}}
+
+----
+
+==Latin==
+
+===Etymology 1===
+From {{etyl|ine-pro|la}} {{term/t|ine-pro|*deyḱ-||to show, point out}}. Cognates include Oscan {{term|𐌃𐌄𐌉𐌊𐌖𐌌||to show, point out|tr=deíkum|lang=osc}}, Sanskrit {{term|sc=Deva|दिशति|tr=diśáti|lang=sa}}, Ancient Greek {{term|sc=polytonic|δείκνυμι|tr=deiknumi|lang=grc}} and Old English {{term/t|ang|tǣċan}} (English {{term|teach|lang=ang}}).
+
+====Pronunciation====
+* {{IPA|lang=la|/ˈdiː.koː/|lang=la}}
+* {{audio|la-cls-dico-long.ogg|Audio (Classical)}}
+
+====Verb====
+{{la-verb|dico|dīcō|dicere|dīcere|dixi|dīxī|dictum|dictum}}
+
+# I [[say]], [[utter]]; [[mention]]; [[talk]], [[speak]].
+#: '''''Dixit''' duas res ei rubori fuisse.''
+#:: He '''said''' that two things had abashed him.
+# I [[declare]], [[state]].
+## I [[affirm]], [[assert]] (positively).
+# I [[tell]].
+#* '''c. 254–184 {{B.C.E.}}''', [[w:Plautus|Plautus]], [[w:Captivi|Captivi]] (&quot;The Captives&quot;), 623, ([http://www.ihaystack.com/authors/m/plautus_titus_maccius/00016564_amphitryo_asinaria_aulularia_bacchides_captivi_amphi/00016564_englishlatin_utf8_p043.htm English and Latin text])
+#*: Eho '''dic''' mihi, quis illic igitur est?
+#*:: Hey? '''Tell''' me, who is he then?
+# I [[appoint]], [[fix]], [[name]] (to an office).
+# I [[call]], name.
+# {{context|legal|followed by ad|lang=la}} I [[plead]] (before).
+# I speak in [[reference]] to, [[refer]] to.
+
+=====Inflection=====
+* The singular imperative, {{term|dice|dīce}}, was later shortened to {{term||dīc}}.
+{{la-conj-3rd-dico|dīc|dīx|dict|11=dic|22=dix|33=dict}}
+
+=====Synonyms=====
+* {{sense|say}} {{l|la|for}}, {{l|la|loquor}}, {{l|la|āiō}}
+
+=====Derived terms=====
+{{top3}}
+* {{l|la|abdīcō}}
+* {{l|la|addīcō}}
+* {{l|la|antedīcō}}
+* {{l|la|benedīcō}}
+* {{l|la|condīcō}}
+* {{l|la|contrādīcō}}
+{{mid3}}
+* {{l|la|dictiōnārium}}
+* {{l|la|dictō}}* {{l|la|dictus}}
+* {{l|la|dixit}}
+* {{l|la|ēdīcō}}
+* {{l|la|indīcō}}
+* {{l|la|interdīcō}}
+{{mid3}}
+* {{l|la|maledīcō}}
+* {{l|la|praedīcō}}
+* {{l|la|prōdīcō}}
+* {{l|la|superdīcō}}
+* {{l|la|valedīcō}}
+{{bottom}}
+
+=====Descendants=====
+{{top2}}
+* Aromanian: {{l|rup|dzãc}}
+* Asturian: {{l|ast|dicir}}
+* Catalan: {{l/ca|dir}}
+* Dalmatian: {{l|dlm|decro}}
+* English: [[dictum]], [[ipse dixit]]
+* French: {{l/fr|dire}}
+* Friulian: {{l|fur|dî}}
+* Galician: {{l|gl|dicir}}
+* Italian: {{l|it|dire}}
+{{mid2}}
+* Neapolitan: {{l|nap|dicere}}
+* Occitan: {{l/oc|dire}}
+* Old Portuguese: {{l|roa-ptg|dizer}}
+* Old Provençal: {{l|pro|dir}}, {{l|pro|dire}}
+* Portuguese: {{l/pt|dizer}}
+* Romanian: {{l|ro|zicere}}
+* Romansch: {{l|rm|dir}}
+* Sicilian: {{l|scn|dìri}}, {{l|scn|dìciri}}
+* Spanish: {{l/es|decir}}
+{{bottom}}
+
+===Etymology 2===
+{{rfe|lang=la}}
+
+====Pronunciation====
+* {{IPA|lang=la|/ˈdi.koː/|lang=la}}
+* {{audio|la-cls-dico.ogg|Audio (Classical)}}
+
+====Verb====
+{{la-verb|dico|dicō|dicare|dicāre|dicavi|dicāvī|dicatum|dicātum}}
+
+# I [[dedicate]], [[devote]].
+# I [[consecrate]], [[deify]].
+# I [[appropriate]] to, [[devote]] to, [[assign]] to, [[set apart]] for.
+
+=====Inflection=====
+{{la-conj-1st|dic|dicāv|dicāt|11=dic|22=dicav|33=dicat}}
+
+=====Derived terms=====
+* {{l|la|abdicō}}
+* {{l|la|dēdicō}}
+* {{l|la|indicō}}
+* {{l|la|praedicō}}
+
+[[Category:la:Talking]]
+
+[[de:dico]]
+[[el:dico]]
+[[es:dico]]
+[[fr:dico]]
+[[ko:dico]]
+[[hr:dico]]
+[[io:dico]]
+[[it:dico]]
+[[la:dico]]
+[[hu:dico]]
+[[mg:dico]]
+[[fj:dico]]
+[[nl:dico]]
+[[ja:dico]]
+[[oc:dico]]
+[[pl:dico]]
+[[ru:dico]]
+[[fi:dico]]
+[[sv:dico]]
+[[chr:dico]]
+[[vi:dico]]</text>
+      <sha1>q0t4b9kgmixnamsgn7fjwzs2xhepl30</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

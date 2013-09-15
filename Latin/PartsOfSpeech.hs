@@ -14,7 +14,7 @@ data PartOfSpeech =
 	| Particle
 	| Preposition
 	| Pronoun
-	| Verb deriving (Show,Enum)
+	| Verb deriving (Show,Eq,Enum)
 
 latin_parts_of_speech :: [PartOfSpeech]
 latin_parts_of_speech =

@@ -1,0 +1,86 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>litoral</title>
+    <ns>0</ns>
+    <id>250420</id>
+    <revision>
+      <id>21364548</id>
+      <parentid>19480550</parentid>
+      <timestamp>2013-07-04T13:56:43Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>Convert es-noun parameters</comment>
+      <text xml:space="preserve">==English==
+
+===Adjective===
+{{en-adj|-}}
+
+# {{alternative spelling of|littoral}}
+
+===Noun===
+{{en-noun}}
+
+# {{alternative spelling of|littoral}}
+
+----
+
+==Spanish==
+
+===Etymology===
+From {{etyl|la|es}} {{term|litus|lang=la}}, {{term|litoris|lang=la}} + {{term|-alis|lang=la}}.
+
+Cognate to English and French {{term|littoral|lang=en}}.
+
+===Adjective===
+{{es-adj|pl=litorales}}
+
+# [[coastal]] 
+
+===Noun===
+{{es-noun|m|es}}
+
+# [[coast]]; [[coastline]]
+
+----
+
+==Portuguese==
+
+===Etymology===
+From {{etyl|la|es}} {{term|litus|lang=la}}, {{term|litoris|lang=la}} + {{term|-alis|lang=la}}.
+
+Cognate to Spanish {{term|litoral|lang=es}}.
+
+===Adjective===
+{{es-adj|pl=litorais}}
+
+# [[coastal]] 
+
+===Noun===
+{{es-noun|m|litorais}}
+
+# [[beach]]; [[coast]]; [[coastline]]
+
+====See also====
+* [[costa]] {{f}}
+
+[[fr:litoral]]
+[[ko:litoral]]
+[[io:litoral]]
+[[id:litoral]]
+[[hu:litoral]]
+[[mg:litoral]]
+[[pl:litoral]]
+[[pt:litoral]]
+[[ro:litoral]]
+[[ru:litoral]]
+[[fi:litoral]]
+[[sv:litoral]]
+[[zh:litoral]]</text>
+      <sha1>1n7o6tr6i29c1vdh6eb7ldokuyiuqm7</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

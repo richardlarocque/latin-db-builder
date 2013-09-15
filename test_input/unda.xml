@@ -1,0 +1,167 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>unda</title>
+    <ns>0</ns>
+    <id>38474</id>
+    <revision>
+      <id>23170677</id>
+      <parentid>21848989</parentid>
+      <timestamp>2013-09-21T12:31:23Z</timestamp>
+      <contributor>
+        <username>Rukhabot</username>
+        <id>45268</id>
+      </contributor>
+      <minor />
+      <comment>interwikis: +[[chr:unda]] +[[eu:unda]]</comment>
+      <text xml:space="preserve">{{also|undă}}
+==Kurdish==
+
+===Adjective===
+{{head|ku|adjective}}
+
+# [[lost]]
+
+----
+
+==Latin==
+
+===Etymology===
+From {{etyl|ine-pro|la}} {{term/t|ine-pro|*unt-}}, whence also Old English {{term/t|ang|ȳþ}}. More at {{l|en|ithe}}. Cf. also {{term/t|ine-pro|*wed-||wet}}, {{term/t|ine-pro|*wódr̥||water}}.
+
+===Noun===
+{{la-noun|unda|undae|undae|f|first}}
+
+# a [[wave]]
+# a [[billow]]
+# {{inflection of|unda||voc|s|lang=la}}
+
+{{la-noun-form|undā}}
+# {{inflection of|unda||abl|s|lang=la}}
+
+====Inflection====
+{{la-decl-1st|und}}
+
+====Derived terms====
+{{top2}}
+* [[exundo|exundō]]
+* [[inundo|inundō]]
+* [[undabundus|undābundus]]
+{{mid2}}
+* [[undatim|undātim]]
+* [[undo|undō]]
+{{bottom}}
+
+====Descendants====
+{{top2}}
+* [[Aromanian]]: {{l|rup|undã}}
+* Catalan: {{l|ca|ona}}
+* [[Dalmatian]]: {{l|dlm|jonda}}
+* English: {{l|en|und}}, {{l|en|unda maris}}
+* French: {{l|fr|onde}}
+* [[Friulian]]: {{l|fur|onde}}
+* Italian: {{l|it|onda}}
+{{mid2}}
+* Occitan: {{l|oc|onda}}
+* Portuguese: {{l|pt|onda}}
+* Romanian: {{l|ro|undă}}
+* [[Romansch]]: {{l|rm|unda}}
+* Sardinian: {{l|sc|únda}}
+* Spanish: {{l|es|onda}}
+{{bottom}}
+
+----
+
+==Romanian==
+
+===Etymology 1===
+
+====Noun====
+{{ro-noun-def|f|na|undă}}
+
+# the [[wave]]
+
+===Etymology 2===
+From {{etyl|la|ro}} {{term/t|la|undāre}}, present active infinitive of {{term/t|la|undō}}.
+
+====Verb====
+{{ro-verb|conj=1|undează|undat}}
+
+# {{context|rare|lang=ro}} to [[undulate]], [[wave]], make move like a [[wave]]
+# {{context|popular|lang=ro}} to [[bubble]] up, [[boil]], [[seethe]], [[surge]]
+
+=====Conjugation=====
+{{ro-conj-a-ez|und}}
+
+=====Synonyms=====
+* [[undi]]
+* {{sense|undulate}} [[undui]], [[ondula]]
+* {{sense|boil}} [[fierbe]], (rare) [[clocoti]]
+
+=====Related terms=====
+* [[undare]]
+* [[undă]]
+* [[undeza]]
+* [[undui]]
+* [[undit]]
+* [[undire]]
+* [[unduire]]
+* [[unduit]]
+* [[unduitor]]
+
+----
+
+==Romansch==
+
+===Alternative forms===
+* {{qualifier|Surmiran}} {{l|rm|onda}}
+* {{qualifier|Puter|Vallader}} {{l|rm|uonda}}
+
+===Etymology===
+From {{etyl|la|rm}} {{term|unda|lang=rm}}.
+
+===Noun===
+{{rm-noun|f}}
+
+# {{context|Rumantsch Grischun|Sursilvan|Sutsilvan|lang=rm}} [[wave]]
+
+----
+
+==Swahili==
+
+===Verb===
+{{head|sw|verb}}
+
+# [[manufacture]] (to make things)
+
+{{tbot entry|Swahili|manufacture|2009|July|sw}}
+
+[[cs:unda]]
+[[de:unda]]
+[[el:unda]]
+[[es:unda]]
+[[eu:unda]]
+[[fr:unda]]
+[[ko:unda]]
+[[hr:unda]]
+[[io:unda]]
+[[id:unda]]
+[[sw:unda]]
+[[la:unda]]
+[[li:unda]]
+[[hu:unda]]
+[[mg:unda]]
+[[fj:unda]]
+[[nl:unda]]
+[[ja:unda]]
+[[no:unda]]
+[[pl:unda]]
+[[pt:unda]]
+[[ru:unda]]
+[[sk:unda]]
+[[fi:unda]]
+[[chr:unda]]</text>
+      <sha1>b1osyld1rqzhdhfw48jv87a6lcnk4zl</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

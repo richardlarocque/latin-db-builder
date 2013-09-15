@@ -3,16 +3,17 @@ module Wiki.Latin.AdjectiveDecl(getAdjectiveInflections) where
 import qualified Data.Text as T
 import Data.Maybe
 
-import Latin.Declension
+import Latin.Grammar
 import Wiki.Types
 import Wiki.PageParser
 
-getAdjectiveInflections :: [TemplateRef] -> Maybe (T.Text, [InflectedAdjective])
+getAdjectiveInflections :: [TemplateRef] -> Maybe (T.Text, [GenderedInflection])
 getAdjectiveInflections trefs = listToMaybe $ mapMaybe readInflectionTemplates trefs
 
-readInflectionTemplates :: TemplateRef -> Maybe (T.Text, [InflectedAdjective])
+readInflectionTemplates :: TemplateRef -> Maybe (T.Text, [GenderedInflection])
 readInflectionTemplates (TemplateRef (name:params))
 	| name == (T.pack "la-decl-1&2") = wrapReadFunc la_decl_12 name params
+	| name == (T.pack "la-decl-1&2-ius") = wrapReadFunc la_decl_12ius name params
 	| name == (T.pack "la-decl-1&2-plural") = wrapReadFunc la_decl_12_plural name params
 	| name == (T.pack "la-decl-3rd-1E") = wrapReadFunc la_decl_3_1E name params
 	| name == (T.pack "la-decl-3rd-1E-PAR") = wrapReadFunc la_decl_3_1E_PAR name params
@@ -21,58 +22,58 @@ readInflectionTemplates (TemplateRef (name:params))
 	| name == (T.pack "la-decl-3rd-3E") = wrapReadFunc la_decl_3_3E name params
 readInflectionTemplates (TemplateRef _) = Nothing
 
-wrapReadFunc :: ([T.Text] -> Maybe [InflectedAdjective]) -> T.Text -> [T.Text] -> Maybe (T.Text, [InflectedAdjective])
+wrapReadFunc :: ([T.Text] -> Maybe [GenderedInflection]) -> T.Text -> [T.Text] -> Maybe (T.Text, [GenderedInflection])
 wrapReadFunc f n xs = f xs >>= \x -> return (n, x)
 
-nom_sg_m = InflectedAdjective Nominative Singular Masculine
-gen_sg_m = InflectedAdjective Genitive Singular Masculine
-dat_sg_m = InflectedAdjective Dative Singular Masculine
-acc_sg_m = InflectedAdjective Accusative Singular Masculine
-abl_sg_m = InflectedAdjective Ablative Singular Masculine
-voc_sg_m = InflectedAdjective Vocative Singular Masculine
-nom_pl_m = InflectedAdjective Nominative Plural Masculine
-gen_pl_m = InflectedAdjective Genitive Plural Masculine
-dat_pl_m = InflectedAdjective Dative Plural Masculine
-acc_pl_m = InflectedAdjective Accusative Plural Masculine
-abl_pl_m = InflectedAdjective Ablative Plural Masculine
-voc_pl_m = InflectedAdjective Vocative Plural Masculine
+nom_sg_m = GenderedInflection Nominative Singular Masculine
+gen_sg_m = GenderedInflection Genitive Singular Masculine
+dat_sg_m = GenderedInflection Dative Singular Masculine
+acc_sg_m = GenderedInflection Accusative Singular Masculine
+abl_sg_m = GenderedInflection Ablative Singular Masculine
+voc_sg_m = GenderedInflection Vocative Singular Masculine
+nom_pl_m = GenderedInflection Nominative Plural Masculine
+gen_pl_m = GenderedInflection Genitive Plural Masculine
+dat_pl_m = GenderedInflection Dative Plural Masculine
+acc_pl_m = GenderedInflection Accusative Plural Masculine
+abl_pl_m = GenderedInflection Ablative Plural Masculine
+voc_pl_m = GenderedInflection Vocative Plural Masculine
 
-nom_sg_f = InflectedAdjective Nominative Singular Feminine
-gen_sg_f = InflectedAdjective Genitive Singular Feminine
-dat_sg_f = InflectedAdjective Dative Singular Feminine
-acc_sg_f = InflectedAdjective Accusative Singular Feminine
-abl_sg_f = InflectedAdjective Ablative Singular Feminine
-voc_sg_f = InflectedAdjective Vocative Singular Feminine
-nom_pl_f = InflectedAdjective Nominative Plural Feminine
-gen_pl_f = InflectedAdjective Genitive Plural Feminine
-dat_pl_f = InflectedAdjective Dative Plural Feminine
-acc_pl_f = InflectedAdjective Accusative Plural Feminine
-abl_pl_f = InflectedAdjective Ablative Plural Feminine
-voc_pl_f = InflectedAdjective Vocative Plural Feminine
+nom_sg_f = GenderedInflection Nominative Singular Feminine
+gen_sg_f = GenderedInflection Genitive Singular Feminine
+dat_sg_f = GenderedInflection Dative Singular Feminine
+acc_sg_f = GenderedInflection Accusative Singular Feminine
+abl_sg_f = GenderedInflection Ablative Singular Feminine
+voc_sg_f = GenderedInflection Vocative Singular Feminine
+nom_pl_f = GenderedInflection Nominative Plural Feminine
+gen_pl_f = GenderedInflection Genitive Plural Feminine
+dat_pl_f = GenderedInflection Dative Plural Feminine
+acc_pl_f = GenderedInflection Accusative Plural Feminine
+abl_pl_f = GenderedInflection Ablative Plural Feminine
+voc_pl_f = GenderedInflection Vocative Plural Feminine
 
-nom_sg_n = InflectedAdjective Nominative Singular Neuter
-gen_sg_n = InflectedAdjective Genitive Singular Neuter
-dat_sg_n = InflectedAdjective Dative Singular Neuter
-acc_sg_n = InflectedAdjective Accusative Singular Neuter
-abl_sg_n = InflectedAdjective Ablative Singular Neuter
-voc_sg_n = InflectedAdjective Vocative Singular Neuter
-nom_pl_n = InflectedAdjective Nominative Plural Neuter
-gen_pl_n = InflectedAdjective Genitive Plural Neuter
-dat_pl_n = InflectedAdjective Dative Plural Neuter
-acc_pl_n = InflectedAdjective Accusative Plural Neuter
-abl_pl_n = InflectedAdjective Ablative Plural Neuter
-voc_pl_n = InflectedAdjective Vocative Plural Neuter
+nom_sg_n = GenderedInflection Nominative Singular Neuter
+gen_sg_n = GenderedInflection Genitive Singular Neuter
+dat_sg_n = GenderedInflection Dative Singular Neuter
+acc_sg_n = GenderedInflection Accusative Singular Neuter
+abl_sg_n = GenderedInflection Ablative Singular Neuter
+voc_sg_n = GenderedInflection Vocative Singular Neuter
+nom_pl_n = GenderedInflection Nominative Plural Neuter
+gen_pl_n = GenderedInflection Genitive Plural Neuter
+dat_pl_n = GenderedInflection Dative Plural Neuter
+acc_pl_n = GenderedInflection Accusative Plural Neuter
+abl_pl_n = GenderedInflection Ablative Plural Neuter
+voc_pl_n = GenderedInflection Vocative Plural Neuter
 
-nom_sg_m, gen_sg_m, dat_sg_m, acc_sg_m, abl_sg_m, voc_sg_m, nom_pl_m, gen_pl_m, dat_pl_m, acc_pl_m, abl_pl_m, voc_pl_m, nom_sg_f, gen_sg_f, dat_sg_f, acc_sg_f, abl_sg_f, voc_sg_f, nom_pl_f, gen_pl_f, dat_pl_f, acc_pl_f, abl_pl_f, voc_pl_f, nom_sg_n, gen_sg_n, dat_sg_n, acc_sg_n, abl_sg_n, voc_sg_n, nom_pl_n, gen_pl_n, dat_pl_n, acc_pl_n, abl_pl_n, voc_pl_n :: T.Text -> InflectedAdjective
+nom_sg_m, gen_sg_m, dat_sg_m, acc_sg_m, abl_sg_m, voc_sg_m, nom_pl_m, gen_pl_m, dat_pl_m, acc_pl_m, abl_pl_m, voc_pl_m, nom_sg_f, gen_sg_f, dat_sg_f, acc_sg_f, abl_sg_f, voc_sg_f, nom_pl_f, gen_pl_f, dat_pl_f, acc_pl_f, abl_pl_f, voc_pl_f, nom_sg_n, gen_sg_n, dat_sg_n, acc_sg_n, abl_sg_n, voc_sg_n, nom_pl_n, gen_pl_n, dat_pl_n, acc_pl_n, abl_pl_n, voc_pl_n :: T.Text -> GenderedInflection
 
 withSuffix :: T.Text -> String -> T.Text
 withSuffix a b = a `T.append` (T.pack b)
 
-la_decl_12, la_decl_12_plural, la_decl_3_1E, la_decl_3_1E_PAR, la_decl_3_2E, la_decl_3_2E_pl, la_decl_3_3E :: [T.Text] -> Maybe [InflectedAdjective]
+la_decl_12, la_decl_12ius, la_decl_12_plural, la_decl_3_1E, la_decl_3_1E_PAR, la_decl_3_2E, la_decl_3_2E_pl, la_decl_3_3E :: [T.Text] -> Maybe [GenderedInflection]
 
-la_decl_12', la_decl_12_plural', la_decl_3_2E', la_decl_3_2E_pl' :: T.Text -> Maybe [InflectedAdjective]
+la_decl_12', la_decl_12ius', la_decl_12_plural', la_decl_3_2E', la_decl_3_2E_pl' :: T.Text -> Maybe [GenderedInflection]
 
-la_decl_3_1E', la_decl_3_1E_PAR', la_decl_3_3E' :: T.Text -> T.Text -> Maybe [InflectedAdjective]
+la_decl_3_1E', la_decl_3_1E_PAR', la_decl_3_3E' :: T.Text -> T.Text -> Maybe [GenderedInflection]
 
 la_decl_12 [_,stem] = la_decl_12' stem
 la_decl_12 [stem] = la_decl_12' stem
@@ -120,6 +121,54 @@ la_decl_12' stem = Just [
 	acc_pl_n (stem `withSuffix` "a"),
 	abl_pl_n (stem `withSuffix` "īs"),
 	voc_pl_n (stem `withSuffix` "a")]
+
+la_decl_12ius [_,stem] = la_decl_12ius' stem
+la_decl_12ius [stem] = la_decl_12ius' stem
+la_decl_12ius _ = Nothing
+
+la_decl_12ius' stem = Just [
+	nom_sg_m (stem `withSuffix` "us"),
+	gen_sg_m (stem `withSuffix` "īus"),
+	dat_sg_m (stem `withSuffix` "ī"),
+	acc_sg_m (stem `withSuffix` "um"),
+	abl_sg_m (stem `withSuffix` "ō"),
+	voc_sg_m (stem `withSuffix` "e"),
+
+	nom_sg_f (stem `withSuffix` "a"),
+	gen_sg_f (stem `withSuffix` "īus"),
+	dat_sg_f (stem `withSuffix` "ī"),
+	acc_sg_f (stem `withSuffix` "am"),
+	abl_sg_f (stem `withSuffix` "ā"),
+	voc_sg_f (stem `withSuffix` "a"),
+
+	nom_sg_n (stem `withSuffix` "um"),
+	gen_sg_n (stem `withSuffix` "īus"),
+	dat_sg_n (stem `withSuffix` "ī"),
+	acc_sg_n (stem `withSuffix` "um"),
+	abl_sg_n (stem `withSuffix` "ō"),
+	voc_sg_n (stem `withSuffix` "um"),
+
+	nom_pl_m (stem `withSuffix` "ī"),
+	gen_pl_m (stem `withSuffix` "ōrum"),
+	dat_pl_m (stem `withSuffix` "īs"),
+	acc_pl_m (stem `withSuffix` "ōs"),
+	abl_pl_m (stem `withSuffix` "īs"),
+	voc_pl_m (stem `withSuffix` "ī"),
+
+	nom_pl_f (stem `withSuffix` "ae"),
+	gen_pl_f (stem `withSuffix` "ārum"),
+	dat_pl_f (stem `withSuffix` "īs"),
+	acc_pl_f (stem `withSuffix` "ās"),
+	abl_pl_f (stem `withSuffix` "īs"),
+	voc_pl_f (stem `withSuffix` "ae"),
+
+	nom_pl_n (stem `withSuffix` "a"),
+	gen_pl_n (stem `withSuffix` "ōrum"),
+	dat_pl_n (stem `withSuffix` "īs"),
+	acc_pl_n (stem `withSuffix` "a"),
+	abl_pl_n (stem `withSuffix` "īs"),
+	voc_pl_n (stem `withSuffix` "a")]
+
 
 la_decl_12_plural [_,stem] = la_decl_12_plural' stem
 la_decl_12_plural [stem] = la_decl_12_plural' stem

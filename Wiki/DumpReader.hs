@@ -14,10 +14,10 @@ saxProcessDoc = catMaybes . saxProcessDoc'
 
 saxProcessDoc' :: [SAXType] -> [Maybe Page]
 saxProcessDoc' [] = []
-saxProcessDoc' xs = let
-	(page, rest) = saxFindTag "page" xs
-	result = processPageContents page in
-	result:(saxProcessDoc' rest)
+saxProcessDoc' xs = 
+	case saxFindTag "page" xs of
+		Just (page, rest) -> (processPageContents page):(saxProcessDoc' rest)
+		Nothing -> []
 
 processPageContents :: [SAXType] -> Maybe Page
 processPageContents xs = do
@@ -29,15 +29,15 @@ isEndTag :: String -> SAXType -> Bool
 isEndTag name (EndElement etag) = etag == name
 isEndTag _ _ = False
 
-saxFindTag :: String -> [SAXType] -> ([SAXType], [SAXType])
-saxFindTag _ [] = ([], [])
-saxFindTag needle ((StartElement tag _):xs) | needle == tag = span (not.(isEndTag needle)) xs
+saxFindTag :: String -> [SAXType] -> Maybe ([SAXType], [SAXType])
+saxFindTag _ [] = Nothing
+saxFindTag needle ((StartElement tag _):xs) | needle == tag = Just $ span (not.(isEndTag needle)) xs
 saxFindTag needle (_:xs) = saxFindTag needle xs
 
 saxFindText :: String -> [SAXType] -> Maybe (T.Text, [SAXType])
-saxFindText needle xs =
-	let (in_tag, rest) = saxFindTag needle xs in
-	Just (saxTextContents in_tag, rest)
+saxFindText needle xs = do
+	(in_tag, rest) <- saxFindTag needle xs
+	return (saxTextContents in_tag, rest)
 
 saxTextContents :: [SAXType] -> T.Text 
 saxTextContents xs = T.concat $ mapMaybe getText xs

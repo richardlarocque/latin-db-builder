@@ -3,7 +3,7 @@ module Wiki.Latin.VerbConjugation(getVerbConjugations) where
 import qualified Data.Text as T
 import Data.Maybe
 
-import Latin.Conjugation
+import Latin.Grammar
 import Wiki.Types
 import Wiki.PageParser
 
@@ -27,7 +27,9 @@ verb_template_table = [
 	(T.pack "la-conj-2nd-pass3p", la_conj_2nd_pass3p.stripNamedParams),
 	(T.pack "la-conj-2nd-semi", la_conj_2nd_semi.stripNamedParams),
 	(T.pack "la-conj-3rd", la_conj_3rd.stripNamedParams),
+	(T.pack "la-conj-3rd-dico", la_conj_3rd_dico.stripNamedParams),
 	(T.pack "la-conj-3rd-IO", la_conj_3rd_IO.stripNamedParams),
+	(T.pack "la-conj-3rd-IO-facio", la_conj_3rd_IO_facio.stripNamedParams),
 	(T.pack "la-conj-3rd-IO-depon", la_conj_3rd_IO_depon.stripNamedParams),
 	(T.pack "la-conj-3rd-IO-nopass", la_conj_3rd_IO_nopass.stripNamedParams),
 	(T.pack "la-conj-3rd-IO-3p", la_conj_3rd_IO_pass3p.stripNamedParams),
@@ -66,9 +68,14 @@ withoutPerfectForms :: [VerbForm] -> [VerbForm]
 withoutPerfectForms = filter (not.isPerfectForm)
 	where isPerfectForm x = case x of
 		(Conjugated _ _ Perfect _ _ _) -> True
+		(Conjugated _ _ Pluperfect _ _ _) -> True
+		(Conjugated _ _ FuturePerfect _ _ _) -> True
 		(Imperative _ Perfect _ _) -> True
 		(Infinitive _ Perfect _) -> True
-		(Participle _ Perfect _) -> True
+		(Participle _ Perfect _ _ _ _) -> True
+                -- ban the supine forms, too.
+                (Infinitive _ Future _) -> True
+		(Participle Active Future _ _ _ _) -> True
 		_ -> False
 
 withoutPassiveForms :: [VerbForm] -> [VerbForm]
@@ -77,7 +84,7 @@ withoutPassiveForms = filter (not.isPassiveForm)
 		(Conjugated _ Passive _ _ _ _) -> True
 		(Imperative Passive _ _ _) -> True
 		(Infinitive Passive _ _) -> True
-		(Participle Passive _ _) -> True
+		(Participle Passive _ _ _ _ _) -> True
 		_ -> False
 
 filter3pPassiveForms :: [VerbForm] -> [VerbForm]
@@ -87,7 +94,7 @@ filter3pPassiveForms = filter (\x -> isThirdPerson x || (not (isPassiveForm x)))
 		(Conjugated _ Passive _ _ _ _) -> True
 		(Imperative Passive _ _ _) -> True
 		--(Infinitive Passive _ _) -> True -- NOTE: Infinitive passive *are* allowed in this case
-		(Participle Passive _ _) -> True
+		(Participle Passive _ _ _ _ _) -> True
 		_ -> False
 	isThirdPerson x = case x of
 		(Conjugated _ _ _ _ Third _) -> True
@@ -99,9 +106,9 @@ withoutSupineForms = filter (not.isSupineForm)
 	where
 	isSupineForm x = case x of
 		(Infinitive Active Future _) -> True
-		(Participle Active Present _) -> True
-		(Participle Active Future _) -> True
-		(Participle Passive Perfect _) -> True
+		(Participle Active Present _ _ _ _) -> True
+		(Participle Active Future _ _ _ _) -> True
+		(Participle Passive Perfect _ _ _ _) -> True
 		_ -> False
 
 without234 :: [VerbForm] -> [VerbForm]
@@ -112,9 +119,9 @@ without234 = filter (not.is234)
 		(Conjugated _ _ Pluperfect _ _ _) -> True
 		(Conjugated _ _ FuturePerfect _ _ _) -> True
 		(Infinitive _ _ _) -> True
-		(Participle Active Present _) -> False
-		(Participle Passive Future _) -> False
-		(Participle _ _ _) -> True
+		(Participle Active Present _ _ _ _) -> False
+		(Participle Passive Future _ _ _ _) -> False
+		(Participle _ _ _ _ _ _) -> True
 		_ -> False
 
 withImpersonalOnly :: [VerbForm] -> [VerbForm]
@@ -126,7 +133,7 @@ withImpersonalOnly = filter isImpersonal
 		_ -> True
 
 -- Helpers for interpreting Wiki's Latin conjugation tables.
-_11, _12, _13, _14, _15, _16, _21, _22, _23, _24, _25, _26, _31, _32, _33, _34, _35, _36, _41, _42, _43, _44, _45, _46, _51, _52, _53, _54, _55, _56, _61, _62, _63, _64, _65, _66, _71, _72, _73, _74, _75, _76, _81, _82, _83, _84, _85, _86, _91, _92, _93, _94, _95, _96, _101, _102, _103, _104, _105, _106, _111, _112, _113, _114, _115, _116, _121, _122, _123, _124, _125, _126, _131, _132, _133, _134, _135, _136, _141, _142, _143, _144, _145, _146, _151, _152, _153, _154, _155, _156, _161, _171, _181, _182, _183, _184, _185, _186, _191, _192, _193, _195, _196  :: T.Text -> VerbForm
+_11, _12, _13, _14, _15, _16, _21, _22, _23, _24, _25, _26, _31, _32, _33, _34, _35, _36, _41, _42, _43, _44, _45, _46, _51, _52, _53, _54, _55, _56, _61, _62, _63, _64, _65, _66, _71, _72, _73, _74, _75, _76, _81, _82, _83, _84, _85, _86, _91, _92, _93, _94, _95, _96, _101, _102, _103, _104, _105, _106, _111, _112, _113, _114, _115, _116, _121, _122, _123, _124, _125, _126, _131, _132, _133, _134, _135, _136, _141, _142, _143, _144, _145, _146, _151, _152, _153, _154, _155, _156, _161, _171, _181, _182, _183, _184, _185, _186 :: T.Text -> VerbForm
 
 _11 = Conjugated Indicative Active Present Singular First
 _12 = Conjugated Indicative Active Present Singular Second
@@ -170,26 +177,26 @@ _64 = Conjugated Indicative Active Pluperfect Plural First
 _65 = Conjugated Indicative Active Pluperfect Plural Second
 _66 = Conjugated Indicative Active Pluperfect Plural Third
 
-_71 = Conjugated Indicative Active Present Singular First
-_72 = Conjugated Indicative Active Present Singular Second
-_73 = Conjugated Indicative Active Present Singular Third
-_74 = Conjugated Indicative Active Present Plural First
-_75 = Conjugated Indicative Active Present Plural Second
-_76 = Conjugated Indicative Active Present Plural Third
+_71 = Conjugated Indicative Passive Present Singular First
+_72 = Conjugated Indicative Passive Present Singular Second
+_73 = Conjugated Indicative Passive Present Singular Third
+_74 = Conjugated Indicative Passive Present Plural First
+_75 = Conjugated Indicative Passive Present Plural Second
+_76 = Conjugated Indicative Passive Present Plural Third
 
-_81 = Conjugated Indicative Active Future Singular First
-_82 = Conjugated Indicative Active Future Singular Second
-_83 = Conjugated Indicative Active Future Singular Third
-_84 = Conjugated Indicative Active Future Plural First
-_85 = Conjugated Indicative Active Future Plural Second
-_86 = Conjugated Indicative Active Future Plural Third
+_81 = Conjugated Indicative Passive Future Singular First
+_82 = Conjugated Indicative Passive Future Singular Second
+_83 = Conjugated Indicative Passive Future Singular Third
+_84 = Conjugated Indicative Passive Future Plural First
+_85 = Conjugated Indicative Passive Future Plural Second
+_86 = Conjugated Indicative Passive Future Plural Third
 
-_91 = Conjugated Indicative Active Imperfect Singular First
-_92 = Conjugated Indicative Active Imperfect Singular Second
-_93 = Conjugated Indicative Active Imperfect Singular Third
-_94 = Conjugated Indicative Active Imperfect Plural First
-_95 = Conjugated Indicative Active Imperfect Plural Second
-_96 = Conjugated Indicative Active Imperfect Plural Third
+_91 = Conjugated Indicative Passive Imperfect Singular First
+_92 = Conjugated Indicative Passive Imperfect Singular Second
+_93 = Conjugated Indicative Passive Imperfect Singular Third
+_94 = Conjugated Indicative Passive Imperfect Plural First
+_95 = Conjugated Indicative Passive Imperfect Plural Second
+_96 = Conjugated Indicative Passive Imperfect Plural Third
 
 _101 = Conjugated Subjunctive Active Present Singular First
 _102 = Conjugated Subjunctive Active Present Singular Second
@@ -245,11 +252,167 @@ _184 = Infinitive Passive Present
 _185 = Infinitive Passive Perfect
 _186 = Infinitive Passive Future
 
-_191 = Participle Active Present
-_192 = Participle Active Perfect
-_193 = Participle Active Future
-_195 = Participle Passive Perfect
-_196 = Participle Passive Future
+act_pres_participle, act_fut_participle, act_perf_participle, pass_perf_participle, pass_fut_participle :: T.Text -> [VerbForm]
+
+act_pres_participle stem = [
+	Participle Active Present Nominative Singular Masculine (stem `withSuffix` "ns"),
+	Participle Active Present Genitive Singular Masculine (stem `withSuffix` "ntīs"),
+	Participle Active Present Dative Singular Masculine (stem `withSuffix` "ntī"),
+	Participle Active Present Accusative Singular Masculine (stem `withSuffix` "ntem"),
+	Participle Active Present Ablative Singular Masculine (stem `withSuffix` "ntī"),
+	Participle Active Present Nominative Singular Feminine (stem `withSuffix` "ns"),
+	Participle Active Present Genitive Singular Feminine (stem `withSuffix` "ntīs"),
+	Participle Active Present Dative Singular Feminine (stem `withSuffix` "ntī"),
+	Participle Active Present Accusative Singular Feminine (stem `withSuffix` "ntem"),
+	Participle Active Present Ablative Singular Feminine (stem `withSuffix` "ntī"),
+	Participle Active Present Nominative Singular Neuter (stem `withSuffix` "ns"),
+	Participle Active Present Genitive Singular Neuter (stem `withSuffix` "ntīs"),
+	Participle Active Present Dative Singular Neuter (stem `withSuffix` "ntī"),
+	Participle Active Present Accusative Singular Neuter (stem `withSuffix` "ns"),
+	Participle Active Present Ablative Singular Neuter (stem `withSuffix` "ntī"),
+	Participle Active Present Nominative Plural Masculine (stem `withSuffix` "ntēs"),
+	Participle Active Present Genitive Plural Masculine (stem `withSuffix` "ntium"),
+	Participle Active Present Dative Plural Masculine (stem `withSuffix` "ntibus"),
+	Participle Active Present Accusative Plural Masculine (stem `withSuffix` "ntēs"),
+	Participle Active Present Ablative Plural Masculine (stem `withSuffix` "ntibus"),
+	Participle Active Present Nominative Plural Feminine (stem `withSuffix` "ntēs"),
+	Participle Active Present Genitive Plural Feminine (stem `withSuffix` "ntium"),
+	Participle Active Present Dative Plural Feminine (stem `withSuffix` "ntibus"),
+	Participle Active Present Accusative Plural Feminine (stem `withSuffix` "ntēs"),
+	Participle Active Present Ablative Plural Feminine (stem `withSuffix` "ntibus"),
+	Participle Active Present Nominative Plural Neuter (stem `withSuffix` "ntia"),
+	Participle Active Present Genitive Plural Neuter (stem `withSuffix` "ntium"),
+	Participle Active Present Dative Plural Neuter (stem `withSuffix` "ntibus"),
+	Participle Active Present Accusative Plural Neuter (stem `withSuffix` "ntia"),
+	Participle Active Present Ablative Plural Neuter (stem `withSuffix` "ntibus")]
+
+act_fut_participle stem = [
+	Participle Active Future Nominative Singular Masculine (stem `withSuffix` "ūrus"),
+	Participle Active Future Genitive Singular Masculine (stem `withSuffix` "ūrī"),
+	Participle Active Future Dative Singular Masculine (stem `withSuffix` "ūrō"),
+	Participle Active Future Accusative Singular Masculine (stem `withSuffix` "ūium"),
+	Participle Active Future Ablative Singular Masculine (stem `withSuffix` "ūrō"),
+	Participle Active Future Nominative Singular Feminine (stem `withSuffix` "ūra"),
+	Participle Active Future Genitive Singular Feminine (stem `withSuffix` "ūrae"),
+	Participle Active Future Dative Singular Feminine (stem `withSuffix` "ūrae"),
+	Participle Active Future Accusative Singular Feminine (stem `withSuffix` "ūram"),
+	Participle Active Future Ablative Singular Feminine (stem `withSuffix` "ūrā"),
+	Participle Active Future Nominative Singular Neuter (stem `withSuffix` "ūrum"),
+	Participle Active Future Genitive Singular Neuter (stem `withSuffix` "ūrī"),
+	Participle Active Future Dative Singular Neuter (stem `withSuffix` "ūrō"),
+	Participle Active Future Accusative Singular Neuter (stem `withSuffix` "ūrum"),
+	Participle Active Future Ablative Singular Neuter (stem `withSuffix` "ūrō"),
+	Participle Active Future Nominative Plural Masculine (stem `withSuffix` "ūrī"),
+	Participle Active Future Genitive Plural Masculine (stem `withSuffix` "ūrōrum"),
+	Participle Active Future Dative Plural Masculine (stem `withSuffix` "ūrīs"),
+	Participle Active Future Accusative Plural Masculine (stem `withSuffix` "ūrōs"),
+	Participle Active Future Ablative Plural Masculine (stem `withSuffix` "ūrīs"),
+	Participle Active Future Nominative Plural Feminine (stem `withSuffix` "ūrae"),
+	Participle Active Future Genitive Plural Feminine (stem `withSuffix` "ūrārum"),
+	Participle Active Future Dative Plural Feminine (stem `withSuffix` "ūrīs"),
+	Participle Active Future Accusative Plural Feminine (stem `withSuffix` "ūrās"),
+	Participle Active Future Ablative Plural Feminine (stem `withSuffix` "ūrīs"),
+	Participle Active Future Nominative Plural Neuter (stem `withSuffix` "ūra"),
+	Participle Active Future Genitive Plural Neuter (stem `withSuffix` "ūrōrum"),
+	Participle Active Future Dative Plural Neuter (stem `withSuffix` "ūrīs"),
+	Participle Active Future Accusative Plural Neuter (stem `withSuffix` "ūra"),
+	Participle Active Future Ablative Plural Neuter (stem `withSuffix` "ūrīs")]
+
+act_perf_participle stem = [
+	Participle Active Perfect Nominative Singular Masculine (stem `withSuffix` "us"),
+	Participle Active Perfect Genitive Singular Masculine (stem `withSuffix` "ī"),
+	Participle Active Perfect Dative Singular Masculine (stem `withSuffix` "ō"),
+	Participle Active Perfect Accusative Singular Masculine (stem `withSuffix` "ūium"),
+	Participle Active Perfect Ablative Singular Masculine (stem `withSuffix` "ō"),
+	Participle Active Perfect Nominative Singular Feminine (stem `withSuffix` "a"),
+	Participle Active Perfect Genitive Singular Feminine (stem `withSuffix` "ae"),
+	Participle Active Perfect Dative Singular Feminine (stem `withSuffix` "ae"),
+	Participle Active Perfect Accusative Singular Feminine (stem `withSuffix` "am"),
+	Participle Active Perfect Ablative Singular Feminine (stem `withSuffix` "ā"),
+	Participle Active Perfect Nominative Singular Neuter (stem `withSuffix` "um"),
+	Participle Active Perfect Genitive Singular Neuter (stem `withSuffix` "ī"),
+	Participle Active Perfect Dative Singular Neuter (stem `withSuffix` "ō"),
+	Participle Active Perfect Accusative Singular Neuter (stem `withSuffix` "um"),
+	Participle Active Perfect Ablative Singular Neuter (stem `withSuffix` "ō"),
+	Participle Active Perfect Nominative Plural Masculine (stem `withSuffix` "ī"),
+	Participle Active Perfect Genitive Plural Masculine (stem `withSuffix` "ōrum"),
+	Participle Active Perfect Dative Plural Masculine (stem `withSuffix` "īs"),
+	Participle Active Perfect Accusative Plural Masculine (stem `withSuffix` "ōs"),
+	Participle Active Perfect Ablative Plural Masculine (stem `withSuffix` "īs"),
+	Participle Active Perfect Nominative Plural Feminine (stem `withSuffix` "ae"),
+	Participle Active Perfect Genitive Plural Feminine (stem `withSuffix` "ārum"),
+	Participle Active Perfect Dative Plural Feminine (stem `withSuffix` "īs"),
+	Participle Active Perfect Accusative Plural Feminine (stem `withSuffix` "ās"),
+	Participle Active Perfect Ablative Plural Feminine (stem `withSuffix` "īs"),
+	Participle Active Perfect Nominative Plural Neuter (stem `withSuffix` "a"),
+	Participle Active Perfect Genitive Plural Neuter (stem `withSuffix` "ōrum"),
+	Participle Active Perfect Dative Plural Neuter (stem `withSuffix` "īs"),
+	Participle Active Perfect Accusative Plural Neuter (stem `withSuffix` "a"),
+	Participle Active Perfect Ablative Plural Neuter (stem `withSuffix` "īs")]
+
+pass_perf_participle stem = [
+	Participle Passive Perfect Nominative Singular Masculine (stem `withSuffix` "us"),
+	Participle Passive Perfect Genitive Singular Masculine (stem `withSuffix` "ī"),
+	Participle Passive Perfect Dative Singular Masculine (stem `withSuffix` "ō"),
+	Participle Passive Perfect Accusative Singular Masculine (stem `withSuffix` "ūium"),
+	Participle Passive Perfect Ablative Singular Masculine (stem `withSuffix` "ō"),
+	Participle Passive Perfect Nominative Singular Feminine (stem `withSuffix` "a"),
+	Participle Passive Perfect Genitive Singular Feminine (stem `withSuffix` "ae"),
+	Participle Passive Perfect Dative Singular Feminine (stem `withSuffix` "ae"),
+	Participle Passive Perfect Accusative Singular Feminine (stem `withSuffix` "am"),
+	Participle Passive Perfect Ablative Singular Feminine (stem `withSuffix` "ā"),
+	Participle Passive Perfect Nominative Singular Neuter (stem `withSuffix` "um"),
+	Participle Passive Perfect Genitive Singular Neuter (stem `withSuffix` "ī"),
+	Participle Passive Perfect Dative Singular Neuter (stem `withSuffix` "ō"),
+	Participle Passive Perfect Accusative Singular Neuter (stem `withSuffix` "um"),
+	Participle Passive Perfect Ablative Singular Neuter (stem `withSuffix` "ō"),
+	Participle Passive Perfect Nominative Plural Masculine (stem `withSuffix` "ī"),
+	Participle Passive Perfect Genitive Plural Masculine (stem `withSuffix` "ōrum"),
+	Participle Passive Perfect Dative Plural Masculine (stem `withSuffix` "īs"),
+	Participle Passive Perfect Accusative Plural Masculine (stem `withSuffix` "ōs"),
+	Participle Passive Perfect Ablative Plural Masculine (stem `withSuffix` "īs"),
+	Participle Passive Perfect Nominative Plural Feminine (stem `withSuffix` "ae"),
+	Participle Passive Perfect Genitive Plural Feminine (stem `withSuffix` "ārum"),
+	Participle Passive Perfect Dative Plural Feminine (stem `withSuffix` "īs"),
+	Participle Passive Perfect Accusative Plural Feminine (stem `withSuffix` "ās"),
+	Participle Passive Perfect Ablative Plural Feminine (stem `withSuffix` "īs"),
+	Participle Passive Perfect Nominative Plural Neuter (stem `withSuffix` "a"),
+	Participle Passive Perfect Genitive Plural Neuter (stem `withSuffix` "ōrum"),
+	Participle Passive Perfect Dative Plural Neuter (stem `withSuffix` "īs"),
+	Participle Passive Perfect Accusative Plural Neuter (stem `withSuffix` "a"),
+	Participle Passive Perfect Ablative Plural Neuter (stem `withSuffix` "īs")]
+
+pass_fut_participle stem = [
+	Participle Passive Future Nominative Singular Masculine (stem `withSuffix` "ndus"),
+	Participle Passive Future Genitive Singular Masculine (stem `withSuffix` "ndī"),
+	Participle Passive Future Dative Singular Masculine (stem `withSuffix` "ndō"),
+	Participle Passive Future Accusative Singular Masculine (stem `withSuffix` "ūium"),
+	Participle Passive Future Ablative Singular Masculine (stem `withSuffix` "ndō"),
+	Participle Passive Future Nominative Singular Feminine (stem `withSuffix` "nda"),
+	Participle Passive Future Genitive Singular Feminine (stem `withSuffix` "ndae"),
+	Participle Passive Future Dative Singular Feminine (stem `withSuffix` "ndae"),
+	Participle Passive Future Accusative Singular Feminine (stem `withSuffix` "ndam"),
+	Participle Passive Future Ablative Singular Feminine (stem `withSuffix` "ndā"),
+	Participle Passive Future Nominative Singular Neuter (stem `withSuffix` "ndum"),
+	Participle Passive Future Genitive Singular Neuter (stem `withSuffix` "ndī"),
+	Participle Passive Future Dative Singular Neuter (stem `withSuffix` "ndō"),
+	Participle Passive Future Accusative Singular Neuter (stem `withSuffix` "ndum"),
+	Participle Passive Future Ablative Singular Neuter (stem `withSuffix` "ndō"),
+	Participle Passive Future Nominative Plural Masculine (stem `withSuffix` "ndī"),
+	Participle Passive Future Genitive Plural Masculine (stem `withSuffix` "ndōrum"),
+	Participle Passive Future Dative Plural Masculine (stem `withSuffix` "ndīs"),
+	Participle Passive Future Accusative Plural Masculine (stem `withSuffix` "ndōs"),
+	Participle Passive Future Ablative Plural Masculine (stem `withSuffix` "ndīs"),
+	Participle Passive Future Nominative Plural Feminine (stem `withSuffix` "ndae"),
+	Participle Passive Future Genitive Plural Feminine (stem `withSuffix` "ndārum"),
+	Participle Passive Future Dative Plural Feminine (stem `withSuffix` "ndīs"),
+	Participle Passive Future Accusative Plural Feminine (stem `withSuffix` "ndās"),
+	Participle Passive Future Ablative Plural Feminine (stem `withSuffix` "ndīs"),
+	Participle Passive Future Nominative Plural Neuter (stem `withSuffix` "nda"),
+	Participle Passive Future Genitive Plural Neuter (stem `withSuffix` "ndōrum"),
+	Participle Passive Future Dative Plural Neuter (stem `withSuffix` "ndīs"),
+	Participle Passive Future Accusative Plural Neuter (stem `withSuffix` "nda"),
+	Participle Passive Future Ablative Plural Neuter (stem `withSuffix` "ndīs")]
 
 ind_pass_perf, ind_pass_fperf, ind_pass_pperf, subj_pass_perf, subj_pass_pperf, ind_depon_perf, ind_depon_fperf, ind_depon_pperf, subj_depon_perf, subj_depon_pperf :: T.Text -> [VerbForm]
 
@@ -359,7 +522,7 @@ depon_past_forms sup = concat [
 	subj_depon_perf sup,
 	subj_depon_pperf sup]
 
-la_conj_1st, la_conj_1st_depon, la_conj_1st_do, la_conj_1st_nopass, la_conj_1st_pass3p, la_conj_2nd, la_conj_2nd_depon, la_conj_2nd_impers, la_conj_2nd_libet, la_conj_2nd_licet, la_conj_2nd_nopass, la_conj_2nd_noperf, la_conj_2nd_pass3p, la_conj_2nd_semi, la_conj_3rd, la_conj_3rd_IO, la_conj_3rd_IO_depon, la_conj_3rd_IO_nopass, la_conj_3rd_IO_pass3p, la_conj_3rd_depon, la_conj_3rd_fero, la_conj_3rd_no234, la_conj_3rd_nopass, la_conj_3rd_pass3p, la_conj_3rd_semi, la_conj_3rd_semi_fio, la_conj_4th, la_conj_4th_depon, la_conj_4th_nopass, la_conj_4th_pass3p :: [T.Text] -> Maybe [VerbForm]
+la_conj_1st, la_conj_1st_depon, la_conj_1st_do, la_conj_1st_nopass, la_conj_1st_pass3p, la_conj_2nd, la_conj_2nd_depon, la_conj_2nd_impers, la_conj_2nd_libet, la_conj_2nd_licet, la_conj_2nd_nopass, la_conj_2nd_noperf, la_conj_2nd_pass3p, la_conj_2nd_semi, la_conj_3rd, la_conj_3rd_dico, la_conj_3rd_IO, la_conj_3rd_IO_facio, la_conj_3rd_IO_depon, la_conj_3rd_IO_nopass, la_conj_3rd_IO_pass3p, la_conj_3rd_depon, la_conj_3rd_fero, la_conj_3rd_no234, la_conj_3rd_nopass, la_conj_3rd_pass3p, la_conj_3rd_semi, la_conj_3rd_semi_fio, la_conj_4th, la_conj_4th_depon, la_conj_4th_nopass, la_conj_4th_pass3p :: [T.Text] -> Maybe [VerbForm]
 
 la_conj_1st (pres:perf:sup:_) = Just $ [
 	_11 (pres `withSuffix` "ō"),
@@ -459,12 +622,12 @@ la_conj_1st (pres:perf:sup:_) = Just $ [
 	_183 (sup `withSuffix` "ūrus esse"),
 	_184 (pres `withSuffix` "ārī"),
 	_185 (sup `withSuffix` "us esse"),
-	_186 (sup `withSuffix` "um"),
-	_191 (pres `withSuffix` "āns"),
-	_193 (sup `withSuffix` "ūrus"),
-	_195 (sup `withSuffix` "us"),
-	_196 (pres `withSuffix` "andus")]
-	++ passive_past_forms sup
+	_186 (sup `withSuffix` "um")]
+	++ (act_pres_participle (pres `withSuffix` "ā"))
+	++ (act_fut_participle sup)
+	++ (pass_perf_participle sup)
+	++ (pass_fut_participle (pres `withSuffix` "a"))
+	++ (passive_past_forms sup)
 la_conj_1st _ = Nothing
 
 la_conj_1st_depon (pres:sup:_) = Just $ [
@@ -502,11 +665,11 @@ la_conj_1st_depon (pres:sup:_) = Just $ [
 	_171 (pres `withSuffix` "āminī"),
 	_181 (pres `withSuffix` "ārī"),
 	_182 (sup `withSuffix` "us"),
-	_183 (sup `withSuffix` "ūrus esse"),
-	_191 (pres `withSuffix` "āns"),
-	_193 (sup `withSuffix` "ūrus"),
-	_196 (pres `withSuffix` "andus")]
-	++ depon_past_forms sup
+	_183 (sup `withSuffix` "ūrus esse")]
+	++ (act_pres_participle (pres `withSuffix` "ā"))
+	++ (act_fut_participle sup)
+	++ (pass_fut_participle (pres `withSuffix` "a"))
+	++ (depon_past_forms sup)
 la_conj_1st_depon _ = Nothing
 
 la_conj_1st_do (pres:perf:sup:_) = Just $ [
@@ -607,12 +770,12 @@ la_conj_1st_do (pres:perf:sup:_) = Just $ [
 	_183 (sup `withSuffix` "ūrus esse"),
 	_184 (pres `withSuffix` "ārī"),
 	_185 (sup `withSuffix` "us esse"),
-	_186 (sup `withSuffix` "um"),
-	_191 (pres `withSuffix` "ans"),
-	_193 (sup `withSuffix` "ūrus"),
-	_195 (sup `withSuffix` "us"),
-	_196 (pres `withSuffix` "andus")]
-	++ passive_past_forms sup
+	_186 (sup `withSuffix` "um")]
+	++ (act_pres_participle (pres `withSuffix` "a"))
+	++ (act_fut_participle sup)
+	++ (pass_perf_participle sup)
+	++ (pass_fut_participle (pres `withSuffix` "a"))
+	++ (passive_past_forms sup)
 la_conj_1st_do _ = Nothing
 
 la_conj_1st_nopass (pres:perf:sup:_) =
@@ -723,13 +886,12 @@ la_conj_2nd (pres:perf:sup:_) = Just $ [
 	_183 (sup `withSuffix` "ūrus esse"),
 	_184 (pres `withSuffix` "ērī"),
 	_185 (sup `withSuffix` "us esse"),
-	_186 (sup `withSuffix` "um"),
-	_191 (pres `withSuffix` "ēns"),
-	_193 (sup `withSuffix` "ūrus"),
-	_195 (sup `withSuffix` "us"),
-	_196 (pres `withSuffix` "endus"),
-	_196 (pres `withSuffix` "endus")]
-	++ passive_past_forms sup
+	_186 (sup `withSuffix` "um")]
+	++ (act_pres_participle (pres `withSuffix` "ē"))
+	++ (act_fut_participle sup)
+	++ (pass_perf_participle sup)
+	++ (pass_fut_participle (pres `withSuffix` "e"))
+	++ (passive_past_forms sup)
 la_conj_2nd _ = Nothing
 
 la_conj_2nd_depon (pres:sup:_) = Just $ [
@@ -768,12 +930,12 @@ la_conj_2nd_depon (pres:sup:_) = Just $ [
 	_171 (pres `withSuffix` "ēminī"),
 	_181 (pres `withSuffix` "ērī"),
 	_182 (sup `withSuffix` "us esse"),
-	_183 (sup `withSuffix` "ūrus esse"),
-	_191 (pres `withSuffix` "ēns"),
-	_192 (sup `withSuffix` "us"),
-	_193 (sup `withSuffix` "ūrus"),
-	_196 (sup `withSuffix` "endus")]
-	++ depon_past_forms sup
+	_183 (sup `withSuffix` "ūrus esse")]
+	++ (act_pres_participle (pres `withSuffix` "ē"))
+	++ (act_perf_participle sup)
+	++ (act_fut_participle sup)
+	++ (pass_fut_participle (sup `withSuffix` "e"))
+	++ (depon_past_forms sup)
 la_conj_2nd_depon _ = Nothing
 
 la_conj_2nd_impers (pres:perf:sup:_) =
@@ -793,9 +955,9 @@ la_conj_2nd_libet _ = Just $ [
 	_133 (T.pack "libuisset"),
 	_136 (T.pack "libuissent"),
 	_181 (T.pack "libēre"),
-	_182 (T.pack "libuisse"),
-	_191 (T.pack "libēns "),
-	_192 (T.pack "libitum")]
+	_182 (T.pack "libuisse")]
+	++ (act_pres_participle (T.pack "libē"))
+	++ (act_perf_participle (T.pack "libit"))
 
 la_conj_2nd_licet _ = Just $ [
 	_13 (T.pack "licet"),
@@ -813,10 +975,10 @@ la_conj_2nd_licet _ = Just $ [
 	_133 (T.pack "licuisset"),
 	_181 (T.pack "licēre"),
 	_182 (T.pack "licuisse"),
-	_183 (T.pack "licitūrum esse"),
-	_191 (T.pack "licēns"),
-	_192 (T.pack "licitus"),
-	_193 (T.pack "licitūrus")]
+	_183 (T.pack "licitūrum esse")]
+	++ (act_pres_participle (T.pack "licē"))
+	++ (act_perf_participle (T.pack "licit"))
+	++ (act_fut_participle (T.pack "licit"))
 
 la_conj_2nd_nopass (pres:perf:sup:_) = 
 	la_conj_2nd [pres,perf,sup] >>= return.withoutPassiveForms
@@ -867,11 +1029,11 @@ la_conj_2nd_semi (pres:sup:_) = Just $ [
 	_171 (pres `withSuffix` "ēte"),
 	_181 (pres `withSuffix` "ēre"),
 	_182 (pres `withSuffix` "us esse"),
-	_183 (sup `withSuffix` "ūrus esse"),
-	_191 (pres `withSuffix` "ēns"),
-	_192 (sup `withSuffix` "us"),
-	_193 (sup `withSuffix` "ūrus")]
-	++ depon_past_forms sup
+	_183 (sup `withSuffix` "ūrus esse")]
+	++ (act_pres_participle (pres `withSuffix` "ē"))
+	++ (act_perf_participle sup)
+	++ (act_fut_participle sup)
+	++ (depon_past_forms sup)
 la_conj_2nd_semi _ = Nothing
 
 la_conj_3rd (pres:perf:sup:_) = Just $ [
@@ -972,13 +1134,119 @@ la_conj_3rd (pres:perf:sup:_) = Just $ [
 	_183 (sup `withSuffix` "ūrus esse"),
 	_184 (pres `withSuffix` "ī"),
 	_185 (sup `withSuffix` "us esse"),
-	_186 (sup `withSuffix` "um"),
-	_191 (pres `withSuffix` "ēns"),
-	_193 (sup `withSuffix` "ūrus"),
-	_195 (sup `withSuffix` "us"),
-	_196 (pres `withSuffix` "endus")]
-	++ passive_past_forms sup
+	_186 (sup `withSuffix` "um")]
+	++ (act_pres_participle (pres `withSuffix` "ē"))
+	++ (act_fut_participle sup)
+	++ (pass_perf_participle sup)
+	++ (pass_fut_participle (pres `withSuffix` "e"))
+	++ (passive_past_forms sup)
 la_conj_3rd _ = Nothing
+
+la_conj_3rd_dico (pres:perf:sup:_) = Just $ [
+	_11 (pres `withSuffix` "ō"),
+	_12 (pres `withSuffix` "is"),
+	_13 (pres `withSuffix` "it"),
+	_14 (pres `withSuffix` "imus"),
+	_15 (pres `withSuffix` "itis"),
+	_16 (pres `withSuffix` "unt"),
+	_21 (pres `withSuffix` "am"),
+	_22 (pres `withSuffix` "ēs"),
+	_23 (pres `withSuffix` "et"),
+	_24 (pres `withSuffix` "ēmus"),
+	_25 (pres `withSuffix` "ētis"),
+	_26 (pres `withSuffix` "ent"),
+	_31 (pres `withSuffix` "ēbam"),
+	_32 (pres `withSuffix` "ēbās"),
+	_33 (pres `withSuffix` "ēbat"),
+	_34 (pres `withSuffix` "ēbāmus"),
+	_35 (pres `withSuffix` "ēbātis"),
+	_36 (pres `withSuffix` "ēbant"),
+	_41 (perf `withSuffix` "ī"),
+	_42 (perf `withSuffix` "istī"),
+	_43 (perf `withSuffix` "it"),
+	_44 (perf `withSuffix` "imus"),
+	_45 (perf `withSuffix` "istis"),
+	_46 (perf `withSuffix` "ērunt"),
+	_51 (perf `withSuffix` "erō"),
+	_52 (perf `withSuffix` "eris"),
+	_53 (perf `withSuffix` "erit"),
+	_54 (perf `withSuffix` "erimus"),
+	_55 (perf `withSuffix` "eritis"),
+	_56 (perf `withSuffix` "erint"),
+	_61 (perf `withSuffix` "eram"),
+	_62 (perf `withSuffix` "erās"),
+	_63 (perf `withSuffix` "erat"),
+	_64 (perf `withSuffix` "erāmus"),
+	_65 (perf `withSuffix` "erātis"),
+	_66 (perf `withSuffix` "erant"),
+	_71 (pres `withSuffix` "or"),
+	_72 (pres `withSuffix` "eris"),
+	_73 (pres `withSuffix` "itur"),
+	_74 (pres `withSuffix` "imur"),
+	_75 (pres `withSuffix` "iminī"),
+	_76 (pres `withSuffix` "untur"),
+	_81 (pres `withSuffix` "ar"),
+	_82 (pres `withSuffix` "ēris"),
+	_83 (pres `withSuffix` "ētur"),
+	_84 (pres `withSuffix` "ēmur"),
+	_85 (pres `withSuffix` "ēminī"),
+	_86 (pres `withSuffix` "entur"),
+	_91 (pres `withSuffix` "ēbar"),
+	_92 (pres `withSuffix` "ēbāris"),
+	_93 (pres `withSuffix` "ēbātur"),
+	_94 (pres `withSuffix` "ēbāmur"),
+	_95 (pres `withSuffix` "ēbāminī"),
+	_96 (pres `withSuffix` "ēbantur"),
+	_101 (pres `withSuffix` "am"),
+	_102 (pres `withSuffix` "ās"),
+	_103 (pres `withSuffix` "at"),
+	_104 (pres `withSuffix` "āmus"),
+	_105 (pres `withSuffix` "ātis"),
+	_106 (pres `withSuffix` "ant"),
+	_111 (pres `withSuffix` "erem"),
+	_112 (pres `withSuffix` "erēs"),
+	_113 (pres `withSuffix` "eret"),
+	_114 (pres `withSuffix` "erēmus"),
+	_115 (pres `withSuffix` "erētis"),
+	_116 (pres `withSuffix` "erent"),
+	_121 (perf `withSuffix` "erim"),
+	_122 (perf `withSuffix` "erīs"),
+	_123 (perf `withSuffix` "erit"),
+	_124 (perf `withSuffix` "erīmus"),
+	_125 (perf `withSuffix` "erītis"),
+	_126 (perf `withSuffix` "erint"),
+	_131 (perf `withSuffix` "issem"),
+	_132 (perf `withSuffix` "issēs"),
+	_133 (perf `withSuffix` "isset"),
+	_134 (perf `withSuffix` "issēmus"),
+	_135 (perf `withSuffix` "issētis"),
+	_136 (perf `withSuffix` "issent"),
+	_141 (pres `withSuffix` "ar"),
+	_142 (pres `withSuffix` "āris"),
+	_143 (pres `withSuffix` "ātur"),
+	_144 (pres `withSuffix` "āmur"),
+	_145 (pres `withSuffix` "āminī"),
+	_146 (pres `withSuffix` "antur"),
+	_151 (pres `withSuffix` "erer"),
+	_152 (pres `withSuffix` "erēris"),
+	_153 (pres `withSuffix` "erētur"),
+	_154 (pres `withSuffix` "erēmur"),
+	_155 (pres `withSuffix` "erēminī"),
+	_156 (pres `withSuffix` "erentur"),
+	_161 pres,
+	_171 (pres `withSuffix` "ite"),
+	_181 (pres `withSuffix` "ere"),
+	_182 (perf `withSuffix` "isse"),
+	_183 (sup `withSuffix` "ūrus esse"),
+	_184 (pres `withSuffix` "ī"),
+	_185 (sup `withSuffix` "us esse"),
+	_186 (sup `withSuffix` "um")]
+	++ (act_pres_participle (pres `withSuffix` "ē"))
+	++ (act_fut_participle sup)
+	++ (pass_perf_participle sup)
+	++ (pass_fut_participle (pres `withSuffix` "e"))
+	++ (passive_past_forms sup)
+la_conj_3rd_dico _ = Nothing
 
 la_conj_3rd_IO (pres:perf:sup:_) = Just $ [
 	_11 (pres `withSuffix` "iō"),
@@ -1078,12 +1346,12 @@ la_conj_3rd_IO (pres:perf:sup:_) = Just $ [
 	_183 (sup `withSuffix` "ūrus esse"),
 	_184 (pres `withSuffix` "ī"),
 	_185 (sup `withSuffix` "us esse"),
-	_186 (sup `withSuffix` "um"),
-	_191 (pres `withSuffix` "iēns"),
-	_193 (sup `withSuffix` "ūrus"),
-	_195 (sup `withSuffix` "us"),
-	_196 (pres `withSuffix` "iendus")]
-	++ passive_past_forms sup
+	_186 (sup `withSuffix` "um")]
+	++ (act_pres_participle (pres `withSuffix` "iē"))
+	++ (act_fut_participle sup)
+	++ (pass_perf_participle sup)
+	++ (pass_fut_participle (pres `withSuffix` "ie"))
+	++ (passive_past_forms sup)
 la_conj_3rd_IO _ = Nothing
 
 la_conj_3rd_IO_depon (pres:sup:special:_) = Just $ la_conj_3rd_IO_depon' pres sup special
@@ -1126,12 +1394,12 @@ la_conj_3rd_IO_depon' pres sup special = [
 	_171 (pres `withSuffix` "iminī"),
 	_181 (pres `withSuffix` "ī"),
 	_182 (sup `withSuffix` "us esse"),
-	_183 (special `withSuffix` "ūrus esse"),
-	_191 (pres `withSuffix` "iēns"),
-	_192 (sup `withSuffix` "us"),
-	_193 (special `withSuffix` "ūrus"),
-	_196 (special `withSuffix` "iendus")]
-	++ depon_past_forms sup
+	_183 (special `withSuffix` "ūrus esse")]
+	++ (act_pres_participle (pres `withSuffix` "iē"))
+	++ (act_perf_participle sup)
+	++ (act_fut_participle special)
+	++ (pass_fut_participle (special `withSuffix` "ie"))
+	++ (depon_past_forms sup)
 
 la_conj_3rd_IO_nopass (pres:perf:sup:_) =
 	la_conj_3rd [pres,perf,sup] >>= return.withoutPassiveForms
@@ -1180,13 +1448,118 @@ la_conj_3rd_depon (pres:sup:_) = Just $ [
 	_171 (pres `withSuffix` "iminī"),
 	_181 (pres `withSuffix` "ī"),
 	_182 (sup `withSuffix` "us esse"),
-	_183 (sup `withSuffix` "ūrus esse"),
-	_191 (pres `withSuffix` "ēns"),
-	_192 (sup `withSuffix` "us"),
-	_193 (sup `withSuffix` "ūrus"),
-	_196 (pres `withSuffix` "endus")]
-	++ depon_past_forms sup
+	_183 (sup `withSuffix` "ūrus esse")]
+	++ (act_pres_participle (pres `withSuffix` "ē"))
+	++ (act_perf_participle sup)
+	++ (act_fut_participle sup)
+	++ (pass_fut_participle (pres `withSuffix` "e"))
+	++ (depon_past_forms sup)
 la_conj_3rd_depon _ = Nothing
+
+la_conj_3rd_IO_facio (stem:_) = Just $ [
+	_11 (stem `withSuffix` "aciō"),
+	_12 (stem `withSuffix` "acis"),
+	_13 (stem `withSuffix` "acit"),
+	_14 (stem `withSuffix` "acimus"),
+	_15 (stem `withSuffix` "acitis"),
+	_16 (stem `withSuffix` "aciunt"),
+	_21 (stem `withSuffix` "aciam"),
+	_22 (stem `withSuffix` "aciēs"),
+	_23 (stem `withSuffix` "aciet"),
+	_24 (stem `withSuffix` "aciēmus"),
+	_25 (stem `withSuffix` "aciētis"),
+	_26 (stem `withSuffix` "acient"),
+	_31 (stem `withSuffix` "aciēbam"),
+	_32 (stem `withSuffix` "aciēbās"),
+	_33 (stem `withSuffix` "aciēbat"),
+	_34 (stem `withSuffix` "aciēbāmus"),
+	_35 (stem `withSuffix` "aciēbātis"),
+	_36 (stem `withSuffix` "aciēbant"),
+	_41 (stem `withSuffix` "ēcī"),
+	_42 (stem `withSuffix` "ēcistī"),
+	_43 (stem `withSuffix` "ēcit"),
+	_44 (stem `withSuffix` "ēcimus"),
+	_45 (stem `withSuffix` "ēcistis"),
+	_46 (stem `withSuffix` "ēcērunt"),
+	_51 (stem `withSuffix` "ēcerō"),
+	_52 (stem `withSuffix` "ēceris"),
+	_53 (stem `withSuffix` "ēcerit"),
+	_54 (stem `withSuffix` "ēcerimus"),
+	_55 (stem `withSuffix` "ēceritis"),
+	_56 (stem `withSuffix` "ēcerint"),
+	_61 (stem `withSuffix` "ēceram"),
+	_62 (stem `withSuffix` "ēcerās"),
+	_63 (stem `withSuffix` "ēcerat"),
+	_64 (stem `withSuffix` "ēcerāmus"),
+	_65 (stem `withSuffix` "ēcerātis"),
+	_66 (stem `withSuffix` "ēcerant"),
+	_71 (stem `withSuffix` "īō"),
+	_72 (stem `withSuffix` "īs"),
+	_73 (stem `withSuffix` "it"),
+	_74 (stem `withSuffix` "īmus"),
+	_75 (stem `withSuffix` "ītis"),
+	_76 (stem `withSuffix` "īunt"),
+	_81 (stem `withSuffix` "īam"),
+	_82 (stem `withSuffix` "īēs"),
+	_83 (stem `withSuffix` "īet"),
+	_84 (stem `withSuffix` "īēmus"),
+	_85 (stem `withSuffix` "īētis"),
+	_86 (stem `withSuffix` "īent"),
+	_91 (stem `withSuffix` "īēbam"),
+	_92 (stem `withSuffix` "īēbās"),
+	_93 (stem `withSuffix` "īēbat"),
+	_94 (stem `withSuffix` "īēbāmus"),
+	_95 (stem `withSuffix` "īēbātis"),
+	_96 (stem `withSuffix` "īēbant"),
+	_101 (stem `withSuffix` "aciam"),
+	_102 (stem `withSuffix` "aciās"),
+	_103 (stem `withSuffix` "aciat"),
+	_104 (stem `withSuffix` "aciāmus"),
+	_105 (stem `withSuffix` "aciātis"),
+	_106 (stem `withSuffix` "aciant"),
+	_111 (stem `withSuffix` "acerem"),
+	_112 (stem `withSuffix` "acerēs"),
+	_113 (stem `withSuffix` "aceret"),
+	_114 (stem `withSuffix` "acerēmus"),
+	_115 (stem `withSuffix` "acerētis"),
+	_116 (stem `withSuffix` "acerent"),
+	_121 (stem `withSuffix` "ēcerim"),
+	_122 (stem `withSuffix` "ēcerīs"),
+	_123 (stem `withSuffix` "ēcerit"),
+	_124 (stem `withSuffix` "ēcerīmus"),
+	_125 (stem `withSuffix` "ēcerītis"),
+	_126 (stem `withSuffix` "ēcerint"),
+	_131 (stem `withSuffix` "ēcissem"),
+	_132 (stem `withSuffix` "ēcissēs"),
+	_133 (stem `withSuffix` "ēcisset"),
+	_134 (stem `withSuffix` "ēcissēmus"),
+	_135 (stem `withSuffix` "ēcissētis"),
+	_136 (stem `withSuffix` "ēcissent"),
+	_141 (stem `withSuffix` "īam"),
+	_142 (stem `withSuffix` "īās"),
+	_143 (stem `withSuffix` "īat"),
+	_144 (stem `withSuffix` "īāmus"),
+	_145 (stem `withSuffix` "īātis"),
+	_146 (stem `withSuffix` "īant"),
+	_151 (stem `withSuffix` "ierem"),
+	_152 (stem `withSuffix` "ierēs"),
+        _153 (stem `withSuffix` "ieret"),
+        _154 (stem `withSuffix` "ierēmus"),
+        _155 (stem `withSuffix` "ierētis"),
+	_156 (stem `withSuffix` "ierent"),
+	_161 (stem `withSuffix` "ac"),
+	_171 (stem `withSuffix` "acite"),
+	_181 (stem `withSuffix` "acere"),
+	_182 (stem `withSuffix` "ecisse"),
+	_183 (stem `withSuffix` "actūrus esse"),
+	_184 (stem `withSuffix` "ierī"),
+	_185 (stem `withSuffix` "actus esse"),
+	_186 (stem `withSuffix` "actum")]
+	++ (act_pres_participle (stem `withSuffix` "aciē"))
+	++ (act_fut_participle (stem `withSuffix` "act"))
+	++ (pass_perf_participle (stem `withSuffix` "act"))
+	++ (passive_past_forms (stem `withSuffix` "act"))
+la_conj_3rd_IO_facio _ = Nothing
 
 la_conj_3rd_fero (pres:perf:sup:_) = Just $ [
 	_11 (pres `withSuffix` "ō"),
@@ -1286,12 +1659,12 @@ la_conj_3rd_fero (pres:perf:sup:_) = Just $ [
 	_183 (sup `withSuffix` "ūrus esse"),
 	_184 (pres `withSuffix` "rī"),
 	_185 (sup `withSuffix` "us esse"),
-	_186 (sup `withSuffix` "um"),
-	_191 (pres `withSuffix` "ēns"),
-	_193 (sup `withSuffix` "ūrus"),
-	_195 (sup `withSuffix` "us"),
-	_196 (pres `withSuffix` "endus")]
-	++ passive_past_forms sup
+	_186 (sup `withSuffix` "um")]
+	++ (act_pres_participle (pres `withSuffix` "ē"))
+	++ (act_fut_participle sup)
+	++ (pass_perf_participle sup)
+	++ (pass_fut_participle (pres `withSuffix` "e"))
+	++ (passive_past_forms sup)
 la_conj_3rd_fero _ = Nothing
 
 la_conj_3rd_no234 (pres:_) = 
@@ -1344,11 +1717,11 @@ la_conj_3rd_semi (pres:sup:_) = Just $ [
 	_171 (pres `withSuffix` "ite"),
 	_181 (pres `withSuffix` "ere"),
 	_182 (sup `withSuffix` "us esse"),
-	_183 (sup `withSuffix` "ūrus esse"),
-	_191 (pres `withSuffix` "ēns"),
-	_192 (sup `withSuffix` "us"),
-	_193 (sup `withSuffix` "ūrus")]
-	++ depon_past_forms sup
+	_183 (sup `withSuffix` "ūrus esse")]
+	++ (act_pres_participle (pres `withSuffix` "ē"))
+	++ (act_perf_participle sup)
+	++ (act_fut_participle sup)
+	++ (depon_past_forms sup)
 la_conj_3rd_semi _ = Nothing
 
 -- TODO: semi perfect forms
@@ -1387,8 +1760,8 @@ la_conj_3rd_semi_fio (pres:_) = Just $ [
 	_171 (pres `withSuffix` "īte"),
 	_181 (pres `withSuffix` "erī"),
 	_182 (pres `withSuffix` "actus esse"),
-	_183 (pres `withSuffix` "actum īrī"),
-	_192 (pres `withSuffix` "actus")]
+	_183 (pres `withSuffix` "actum īrī")]
+	++ act_perf_participle (pres `withSuffix` "act")
 	++ depon_past_forms (pres `withSuffix` "actus")
 la_conj_3rd_semi_fio _ = Nothing
 
@@ -1490,12 +1863,12 @@ la_conj_4th (pres:perf:sup:_) = Just $ [
 	_183 (sup `withSuffix` "ūrus esse"),
 	_184 (pres `withSuffix` "īrī"),
 	_185 (sup `withSuffix` "us esse"),
-	_186 (sup `withSuffix` "um"),
-	_191 (pres `withSuffix` "iēns"),
-	_193 (sup `withSuffix` "ūrus"),
-	_195 (sup `withSuffix` "us"),
-	_196 (pres `withSuffix` "iendus")]
-	++ passive_past_forms sup
+	_186 (sup `withSuffix` "um")]
+	++ (act_pres_participle (pres `withSuffix` "iē"))
+	++ (act_fut_participle sup)
+	++ (pass_perf_participle sup)
+	++ (pass_fut_participle (pres `withSuffix` "ie"))
+	++ (passive_past_forms sup)
 la_conj_4th _ = Nothing
 
 -- TODO deponent perfect forms
@@ -1534,12 +1907,12 @@ la_conj_4th_depon (pres:sup:_) = Just $ [
 	_171 (pres `withSuffix` "īminī"),
 	_181 (pres `withSuffix` "īrī"),
 	_182 (sup `withSuffix` "us esse"),
-	_183 (sup `withSuffix` "ūrus esse"),
-	_191 (pres `withSuffix` "iēns"),
-	_192 (sup `withSuffix` "us"),
-	_193 (sup `withSuffix` "ūrus"),
-	_196 (pres `withSuffix` "iendus")]
-	++ depon_past_forms sup
+	_183 (sup `withSuffix` "ūrus esse")]
+	++ (act_pres_participle (pres `withSuffix` "iē"))
+	++ (act_perf_participle (sup `withSuffix` "us"))
+	++ (act_fut_participle sup)
+	++ (pass_fut_participle (pres `withSuffix` "ie"))
+	++ (depon_past_forms sup)
 la_conj_4th_depon _ = Nothing
 
 la_conj_4th_nopass (pres:perf:sup:_) = 
@@ -1624,8 +1997,8 @@ la_conj_irr_volo' = [
 	_135 (T.pack "voluissētis"),
 	_136 (T.pack "voluissent"),
 	_181 (T.pack "velle"),
-	_182 (T.pack "voluisse"),
-	_191 (T.pack "volens") ]
+	_182 (T.pack "voluisse")]
+	++ act_pres_participle (T.pack "vole")
 
 la_conj_irr_volo_11' :: T.Text -> [VerbForm]
 la_conj_irr_volo_11' a11 = [
@@ -1757,8 +2130,8 @@ la_conj_irr_nolo' = [
 	_161 (T.pack "nōlī"),
 	_171 (T.pack "nōlīte"),
 	_181 (T.pack "nolle"),
-	_182 (T.pack "noluisse"),
-	_191 (T.pack "nolens")]
+	_182 (T.pack "noluisse")]
+	++ act_pres_participle (T.pack "nole")
 
 la_conj_irr_volo_12' :: T.Text -> [VerbForm]
 la_conj_irr_volo_12' a12 = [
@@ -1823,8 +2196,8 @@ la_conj_irr_volo_12' a12 = [
 	_135 (a12 `withSuffix` "voluissētis"),
 	_136 (a12 `withSuffix` "voluissent"),
 	_181 (a12 `withSuffix` "velle"),
-	_182 (a12 `withSuffix` "voluisse"),
-	_191 (a12 `withSuffix` "volens") ]
+	_182 (a12 `withSuffix` "voluisse")]
+	++ (act_pres_participle (a12 `withSuffix` "vole"))
 
 la_conj_irr_eo :: [T.Text] -> Maybe [VerbForm]
 la_conj_irr_eo [] = Just $ filter3pPassiveForms $ la_conj_irr_eo' T.empty
@@ -1929,12 +2302,12 @@ la_conj_irr_eo' pre = [
 	_183 (pre `withSuffix` "itūrus esse"),
 	_184 (pre `withSuffix` "īrī"),
 	_185 (pre `withSuffix` "itus esse"),
-	_186 (pre `withSuffix` "itum īrī"),
-	_191 (pre `withSuffix` "iēns"),
-	_193 (pre `withSuffix` "itūrus"),
-	_195 (pre `withSuffix` "itus"),
-	_196 (pre `withSuffix` "eundus")]
-	++ passive_past_forms (pre `withSuffix` "itus")
+	_186 (pre `withSuffix` "itum īrī")]
+	++ (act_pres_participle (pre `withSuffix` "iē"))
+	++ (act_fut_participle (pre `withSuffix` "it"))
+	++ (pass_perf_participle (pre `withSuffix` "it"))
+	++ (pass_fut_participle (pre `withSuffix` "eu"))
+	++ (passive_past_forms (pre `withSuffix` "itus"))
 
 la_conj_irr_sum :: [T.Text] -> Maybe [VerbForm]
 la_conj_irr_sum [] = Just $ la_conj_irr_sum' T.empty
@@ -2006,5 +2379,5 @@ la_conj_irr_sum' pre = [
 	_171 (pre `withSuffix` "este"),
 	_181 (pre `withSuffix` "esse"),
 	_182 (pre `withSuffix` "fuisse"),
-	_183 (pre `withSuffix` "fore"),
-	_193 (pre `withSuffix` "futūrus")]
+	_183 (pre `withSuffix` "fore")]
+	++ (act_fut_participle (pre `withSuffix` "fut"))

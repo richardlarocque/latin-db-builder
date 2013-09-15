@@ -1,0 +1,188 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>fama</title>
+    <ns>0</ns>
+    <id>224030</id>
+    <revision>
+      <id>23333567</id>
+      <parentid>23256815</parentid>
+      <timestamp>2013-09-27T01:57:37Z</timestamp>
+      <contributor>
+        <ip>174.60.25.39</ip>
+      </contributor>
+      <comment>/* Latin */ cleared vandalism</comment>
+      <text xml:space="preserve">==Chickasaw==
+
+===Verb===
+{{head|cic}}
+
+# to be [[whipped]]
+
+====Related terms====
+* [[fammi]]
+
+[[Category:Chickasaw verbs]]
+
+----
+
+==Esperanto==
+
+===Pronunciation===
+* {{IPA|/ˈfama/|lang=eo}}
+* {{hyphenation|fa|ma}}
+
+===Adjective===
+{{eo-adj}}
+
+# [[famous]]
+
+====Related terms====
+* {{l|eo|fame}}
+* {{l|eo|famo}}
+* {{l|eo|famulo}}
+* {{l|eo|famiĝi}}
+* {{l|eo|famigi}}
+* {{l|eo|bonfama}}
+* {{l|eo|bonfamo}}
+* {{l|eo|fifama}}
+* {{l|eo|senfama}}
+
+----
+
+==Italian==
+
+===Etymology===
+From {{etyl|la|it}} {{term/t|la|fāma}}.
+
+===Noun===
+{{it-noun|f|fame}}
+
+# [[fame]], [[renown]]
+# [[reputation]], [[name]]
+# [[report]], [[rumor]]
+
+====Synonyms====
+* (1) [[celebrità]], [[notorietà]]
+* (2) [[reputazione]], [[nome]]
+
+====Derived terms====
+* [[famigerato]]
+
+----
+
+==Latin==
+
+===Etymology===
+From {{etyl|ine-pro|la}} {{term/t|ine-pro|*bheh₂-mā-}}, from {{term/t|ine-pro|*bheh₂-||to speak}}.
+Cognate to {{etyl|grc|-}} {{term|φήμη||talk|tr=phēmē|lang=grc}}.
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈfaːma/|lang=la}}
+* {{audio|la-cls-fama.ogg|Audio (Classical)}}
+
+===Noun===
+{{la-noun|fāma|famae#Latin|fāmae|f|first}}
+
+# [[fame]].
+# [[rumour]].
+# [[reputation]]
+#* [[w:Ovid|Ovid]] ''Heroides'' 17.17 [http://meta.montclair.edu/latintexts/ovid/heroides/heroides17.html] (translation ''Benham's Book of Quotations'' 1948)
+#*: '''''Fama''' tamen clara est; et adhuc sine crimine vixi.''
+#*:: My good '''name''' is nevertheless unstained; and so far I have lived without blame.
+#: ''Dimicanti de '''fama''' deesse.''
+#:: To abandon one whose '''reputation''' is attacked.
+#: ''Multi '''famam''', conscientiam pauci verentur.''
+#:: Many fear their reputation, few their conscience.
+# {{inflection of|fama||voc|s|lang=la}}
+
+{{la-noun-form|fāmā}}
+
+# {{inflection of|fāmā||abl|s|lang=la}}
+
+====Inflection====
+{{la-decl-1st|fām}}
+
+====Derived terms====
+* {{l|la|īnfāmis}}
+
+====Descendants====
+{{top2}}
+* Albanian: [[famë]]
+* Catalan: {{l|ca|fama}}
+* Dutch: {{l|nl|faam}}
+* English: [[fame]]
+* Italian: {{l|it|fama}}
+{{mid2}}
+* Old French: {{l|fro|fame}}
+* Portuguese: {{l|pt|fama}}
+* Romanian: {{l|ro|faimă}}
+* Spanish: {{l|es|fama}}
+{{bottom}}
+----
+
+==Portuguese==
+
+===Etymology===
+From {{etyl|roa-ptg|pt}} {{term|fama|lang=roa-ptg}}, from {{etyl|la|pt}} {{term/t|la|fāma}}, from {{etyl|ine-pro|pt}} {{term/t|ine-pro|*bheh₂-mā-}}, from {{term/t|ine-pro|*bheh₂-||to speak}}.
+
+===Pronunciation===
+* {{IPA|/ˈfɐ.mɐ/|lang=pt}}
+* {{hyphenation|fa|ma}}
+
+===Noun===
+{{pt-noun|f}}
+
+# [[reputation]]
+# [[fame]]
+
+====Related terms====
+* {{l|pt|famoso}}
+
+----
+
+==Spanish==
+
+===Etymology===
+From {{etyl|la|es}} {{term/t|la|fāma}}.
+
+===Noun===
+{{es-noun|f}}
+
+# [[reputation]]
+# [[fame]]
+
+====Related terms====
+* {{l|es|famoso}}
+
+====Derived terms====
+* {{l|es|mala fama}}
+
+[[cs:fama]]
+[[de:fama]]
+[[el:fama]]
+[[es:fama]]
+[[eo:fama]]
+[[fr:fama]]
+[[ko:fama]]
+[[io:fama]]
+[[it:fama]]
+[[ku:fama]]
+[[lt:fama]]
+[[hu:fama]]
+[[mg:fama]]
+[[nl:fama]]
+[[ja:fama]]
+[[oc:fama]]
+[[pl:fama]]
+[[pt:fama]]
+[[ro:fama]]
+[[ru:fama]]
+[[fi:fama]]
+[[tl:fama]]
+[[chr:fama]]
+[[zh:fama]]</text>
+      <sha1>aowuxdghy7wcfp5egl9ae829prtq7cv</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

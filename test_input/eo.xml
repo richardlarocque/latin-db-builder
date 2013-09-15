@@ -1,0 +1,211 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>eo</title>
+    <ns>0</ns>
+    <id>2906</id>
+    <revision>
+      <id>21496025</id>
+      <parentid>21407285</parentid>
+      <timestamp>2013-08-02T11:00:22Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>recons &gt; term/t (temporary name)</comment>
+      <text xml:space="preserve">{{also|EO|eó|eo-|e/o|E&amp;O|.e'o|Appendix:ISO 639-1 language codes}}
+==Breton==
+
+===Pronunciation===
+* {{IPA|lang=br|/êw/}}
+
+===Verb===
+{{head|br|verb form}}
+
+# Third-person singular present indicative of {{l|br|bezañ}}
+
+----
+
+==Irish==
+
+===Etymology===
+From {{etyl|sga|ga}} {{term|eó|lang=sga}} (cognate to {{etyl|wlm|-}} {{term|ehawc|lang=wlm}}, modern {{etyl|cy|-}} {{term|eog|lang=cy}}).
+
+===Noun===
+{{head|ga|noun|g=m|genitive singular and plural|iach|nominative plural|iaich}}
+
+# {{context|literary|lang=ga}} [[salmon]]
+# {{context|figuratively|lang=ga}} [[noble]] being, [[prince]]
+
+====Mutation====
+{{ga mut vowel}}
+
+====Synonyms====
+* {{sense|salmon}} {{l|ga|bradán}}
+
+[[Category:ga:Fish]]
+
+----
+
+==Latin==
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈe.oː/|lang=la}}
+* {{audio|la-cls-eo.ogg|Audio (Classical)}}
+
+===Etymology 1===
+From {{etyl|ine-pro|la}} {{term/t|ine-pro|*h₁ey-}}. Cognate with Ancient Greek {{term|sc=polytonic|εἶμι|tr=eimi|lang=grc||I go}}, Sanskrit {{term|sc=Deva|एति|tr=éti||goes|lang=sa}}, Hittite {{term|sc=Xsux|tr=iyatta|𒄿𒄿𒀀𒋫𒋫||goes|lang=hit}}, Old Persian {{term|sc=Xpeo|tr=aitiy|𐎠𐎡𐎫𐎡𐎹||goes|lang=peo}}, Old Church Slavonic {{term|sc=Cyrl|ити|tr=iti|lang=cu}}.
+
+====Verb====
+{{la-verb|eo|eō|ire|īre|ii|iī|itum|itum|pattern=[[irregular]]}}
+
+# I [[go]].
+#: ''Romani '''ite''' domum!''
+#:: Romans, '''go''' home!
+#: ''Romani '''ierunt''' domum.''
+#:: The Romans have gone home.
+# I [[proceed]], [[advance]].
+# I [[result]], [[happen]] as a consequence.
+# I [[prepare]] (for some action); I [[set about]].
+# {{context|legal|lang=la}} I [[accede]], go over to the opposing opinion or other side in voting.
+# {{context|business|lang=la}} I [[go for]]; I am [[sold]] at (a certain price).
+
+=====Usage notes=====
+The basic meaning &quot;[[go]]&quot; applies to any kind of animate or inanimate motion: [[walk]], [[ride]], [[sail]], [[fly]], etc.
+
+=====Inflection=====
+Irregular conjugation, but similar to [[Appendix:Latin fourth conjugation|fourth conjugation]].  The third principal part is most often contracted to {{term|ii|iī|lang=la}}, but occasionally appears as {{term|ivi|īvī|lang=la}}.  Likewise, the perfect active infinitive and pluperfect subjunctive stem are most often contracted to {{term|isse|lang=la}}, but rarely can be found in the full form {{term|iisse|lang=la}}.
+
+{{la-conj-irr-eo}}
+
+=====Derived terms=====
+{{top3}}
+* [[abeo|abeō]]
+* [[adeo|adeō]]
+* [[circumeo|circumeō]]
+* [[coeo|coeō]]
+* {{l|la|deeo|deeō}}
+{{mid3}}
+* [[exeo|exeō]]
+* [[ineo|ineō]]
+* [[intereo|intereō]]
+* [[itus]]
+* [[obeo|obeō]]
+{{mid3}}
+* [[pereo|pereō]]
+* [[praetereo|praetereō]]
+* [[redeo|redeō]]
+* [[subeo|subeō]]
+* [[transeo|trānseō]]
+{{bottom}}
+
+=====Descendants=====
+{{top2}}
+* Asturian: {{l|rup|dir}} {{qualifier|in part}}
+* Dalmatian: {{l|dlm|zer}}
+* French: {{l|fr|aller}} {{qualifier|in part: future tense only, form &quot;ir-&quot;}}
+* Galician: {{l|gl|ir}} {{qualifier|in part}}
+* Italian: {{l|it|gire}}, {{l|it|ire}}
+{{mid2}}
+* Neapolitan {{l|nap|ji}}, {{l|nap|i}}
+* Portuguese: {{l|pt|ir}} {{qualifier|in part}}
+* Romanian: {{l|ro|fi}} {{l|ro|fire}}
+* Romansch: {{l|rm|ir}}, {{l|rm|eir}} {{qualifier|in part}}
+* Sicilian: {{l|scn|iri}}
+* Spanish: {{l|es|ir}} {{qualifier|in part}}
+{{bottom}}
+
+===Etymology 2===
+From the ablative (and old dative) of the masculine pronoun {{term|is||he, it|lang=la}}.
+
+====Adverb====
+{{la-adv|eō||-}}
+
+# {{context|with abl. or loc.|lang=la}} [[there]], in that [[place]].
+# {{context|with ablative|lang=la}} [[therefore]], [[because]], for that [[reason]].
+# {{context|with [[quo#Latin|quo]], of quantity|lang=la}} [[so much]], by so much.
+# {{context|with dative, of motion|lang=la}} [[to]] that place, [[thither]].
+# {{context|with dative, of tendency|lang=la}} [[to that end]], with that [[purpose]].
+# {{context|with dative, of time|lang=la}} [[until]], [[so long]], [[up to]] that [[time]].
+
+====Pronoun====
+{{head|la|pronoun|head=eō}}
+
+# {{form of|ablative masculine singular|lang=la|is}}
+# {{form of|ablative neuter singular|lang=la|is}}
+
+===References===
+* {{R:L&amp;S}}
+
+----
+
+==Old Saxon==
+
+===Etymology===
+{{etyl|gem-pro|osx}} {{term/t|gem-pro|*aiwaz}}, whence also Old Norse {{term|ei|lang=non}}
+
+===Adverb===
+{{head|osx|adverb}}
+
+# [[always]]
+
+----
+
+==Scottish Gaelic==
+
+===Etymology 1===
+From {{etyl|sga|gd}} {{term|eó|lang=sga}} (cognate to {{etyl|wlm|-}} {{term|ehawc|lang=wlm}}, modern {{etyl|cy|-}} {{term|eog|lang=cy}}).
+
+====Noun====
+{{gd-noun|g=m}}
+
+# {{context|obsolete|lang=gd}} [[salmon]]
+
+===Etymology 2===
+{{rfe|lang=gd}}
+
+====Noun====
+{{gd-noun|g=m}}
+
+# {{context|obsolete|dialectal|lang=gd}} [[peg]]
+# {{context|obsolete|dialectal|lang=gd}} [[thorn]]
+# {{context|obsolete|dialectal|lang=gd}} [[pin]]
+
+===Etymology 3===
+{{rfe|lang=gd}}
+
+====Noun====
+{{gd-noun|g=m}}
+
+# {{context|obsolete|dialectal|lang=gd}} [[grave]]
+
+[[br:eo]]
+[[de:eo]]
+[[el:eo]]
+[[es:eo]]
+[[fr:eo]]
+[[ko:eo]]
+[[hr:eo]]
+[[la:eo]]
+[[lt:eo]]
+[[li:eo]]
+[[ln:eo]]
+[[jbo:eo]]
+[[hu:eo]]
+[[mg:eo]]
+[[fj:eo]]
+[[nl:eo]]
+[[ja:eo]]
+[[pl:eo]]
+[[pt:eo]]
+[[ru:eo]]
+[[st:eo]]
+[[fi:eo]]
+[[sv:eo]]
+[[vi:eo]]
+[[zh:eo]]</text>
+      <sha1>798kab5gnorjn9hdoa8az0hdb9ro6na</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

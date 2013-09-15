@@ -1,0 +1,34 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>conrideo</title>
+    <ns>0</ns>
+    <id>2216801</id>
+    <revision>
+      <id>21301455</id>
+      <parentid>19928335</parentid>
+      <timestamp>2013-06-26T19:27:05Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>Remove redundant raw link from head</comment>
+      <text xml:space="preserve">==Latin==
+
+===Alternative forms===
+* {{l|la|corrideo|corrīdeō}}
+
+===Verb===
+{{la-verb|conrideo|conrīdeō|conridere|conrīdēre|pattern=no [[perfect]] or [[supine]] forms}}
+
+# {{alternative form of|corrideo|corrīdeō|lang=la}}
+
+====Inflection====
+{{la-conj-2nd-noperf|conrīd|conrīs|conrīs|11=conrid|22=conris|33=conris}}
+
+[[ko:conrideo]]</text>
+      <sha1>8i4y2ibt193d5aodji849st0k4n6424</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

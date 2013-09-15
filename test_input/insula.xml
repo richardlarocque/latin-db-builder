@@ -1,0 +1,156 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>insula</title>
+    <ns>0</ns>
+    <id>36368</id>
+    <revision>
+      <id>21275133</id>
+      <parentid>20773614</parentid>
+      <timestamp>2013-06-21T01:42:41Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>Add lang= to context</comment>
+      <text xml:space="preserve">{{also|Insula|insulă|ínsula}}
+==English==
+
+===Etymology===
+From {{etyl|la|en}} {{term|lang=la|insula||island}}.
+
+===Pronunciation===
+*{{a|UK}} {{IPA|/ˈɪnsjuːlə/}}
+
+===Noun===
+{{en-noun|pl2=insulae}}
+
+# {{context|historical|lang=en}} A block of [[building]]s in a Roman town.
+# {{context|anatomy|lang=en}} The [[insular cortex]], a structure of the human [[brain]] located within the [[lateral sulcus]].
+#* {{quote-news|2007|February 6|Sandra Blakeslee|A Small Part of the Brain, and Its Profound Effects|newspaper=New York Times|url=http://www.nytimes.com/2007/02/06/health/psychology/06brain.html
+|passage=All mammals have '''insulas''' that read their body condition, Dr. Craig said. }}
+#*'''2011''', {{w|Steven Pinker}}, ''The Better Angels of Our Nature'', Penguin 2012, p. 608:
+#*:The '''insula''' registers our physical gut feelings, including the sensation of a distended stomach and other inner states like nausea, warmth, a full bladder, and a pounding heart.
+
+----
+
+==Esperanto==
+
+===Adjective===
+{{eo-adj}}
+
+# [[insular]]
+
+----
+
+==Latin==
+{{wikipedia|lang=la}}
+[[Image:Island.jpg|thumb|īnsula in marī Adriāticō (an island in the Adriatic Sea)]]
+
+===Etymology===
+Etymology uncertain. Has been connected to Ancient Greek {{term|sc=polytonic|νῆσος|tr=nēsos||island|lang=grc}}, Armenian ''enez'', Old Irish and Old Welsh ''[[inis]]''.
+
+Pokorny (1959) tentatively connects {{term|salum||the sea|lang=la}}, [[ellipsis|elliptically]] from {{term||terra in salo|land in the sea}}, from {{term|in||in|lang=la}} + {{term||salo}} (ablative of ''salum''), invoking Greek {{term|ἔναλος||maritime|tr=énalos|lang=grc}}.
+
+{{unreferenced}}
+Other have explained it as kindred to {{term|solus|sōlus|alone, sole, only|lang=la}}; i.e. as a nominalized feminine adjective {{term||insulus}} reflecting Old Latin phrase {{term||en salos|in the open sea}}.
+
+It has also been suggested that {{term||īnsula}} stands for *{{term||īnsōla}}, feminine adjective of *{{term||īnsōlus}}, thus standing for {{term||terra īnsōla|land by itself}}.
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈiːn.su.la/|lang=la}}
+* {{audio|la-cls-insula.ogg|Audio (Classical)}}
+
+===Noun===
+{{la-noun|īnsula|insulae|īnsulae|f|first}}
+
+# [[island]]
+# block of [[apartment|apartments]], usually for the lower class
+
+====Inflection====
+{{la-decl-1st|insul|īnsul}}
+
+====Derived terms====
+{{top2}}
+* [[Insula|Īnsula]]
+* [[insulanus|īnsulānus]]
+* [[insularis|īnsulāris]]
+* [[insularius|īnsulārius]]
+{{mid2}}
+* [[insulensis|īnsulensis]]
+* [[insulosus|īnsulōsus]]
+* [[paeninsula|paenīnsula]]
+{{bottom}}
+
+====Descendants====
+{{top2}}
+* Asturian: {{l|ast|islla}}
+* Catalan: {{l|ca|illa}}
+* English: {{l|en|isle}}
+* Esperanto: {{l|eo|insulo}}
+* French: {{l|fr|île}} ({{l|fr|ile}})
+* Friulian: {{l|fur|îsule}}
+* Galician: {{l|gl|illa}}
+* German: {{l|de|Insel}}
+{{mid2}}
+* Italian: {{l|it|isola}}
+* Occitan: {{l|oc|iscla}}
+* Portuguese: {{l|pt|ilha}}
+* Romanian: {{l|ro|insulă}}
+* Romansch: {{l|rm|insla}}
+* Sardinian: [[isula]]
+* Sicilian: [[ìsula]]
+* Spanish: {{l|es|isla}}
+{{bottom}}
+
+----
+
+==Romanian==
+
+===Pronunciation===
+* {{IPA|[ˈinsula]|lang=ro}}
+
+===Noun===
+'''insula''' {{f}}
+
+# {{ro-form-noun|s|n|insulă}} the [[island]]
+# {{ro-form-noun|s|a|insulă}} the [[island]]
+
+[[ast:insula]]
+[[zh-min-nan:insula]]
+[[cs:insula]]
+[[de:insula]]
+[[el:insula]]
+[[es:insula]]
+[[fr:insula]]
+[[fy:insula]]
+[[gl:insula]]
+[[ko:insula]]
+[[hr:insula]]
+[[io:insula]]
+[[it:insula]]
+[[lo:insula]]
+[[la:insula]]
+[[lt:insula]]
+[[hu:insula]]
+[[mg:insula]]
+[[fj:insula]]
+[[nl:insula]]
+[[ja:insula]]
+[[no:insula]]
+[[pl:insula]]
+[[pt:insula]]
+[[ru:insula]]
+[[sm:insula]]
+[[sk:insula]]
+[[fi:insula]]
+[[sv:insula]]
+[[ta:insula]]
+[[tr:insula]]
+[[vi:insula]]
+[[zh:insula]]</text>
+      <sha1>8w66r01fkw6kto9v5bf11knuicqqkhb</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

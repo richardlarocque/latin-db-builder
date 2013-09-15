@@ -1,0 +1,73 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>nullus</title>
+    <ns>0</ns>
+    <id>1117242</id>
+    <revision>
+      <id>23093089</id>
+      <parentid>22155133</parentid>
+      <timestamp>2013-09-19T11:39:33Z</timestamp>
+      <contributor>
+        <username>Rukhabot</username>
+        <id>45268</id>
+      </contributor>
+      <minor />
+      <comment>interwikis: +[[chr:nullus]]</comment>
+      <text xml:space="preserve">==Latin==
+
+===Etymology===
+From {{term|ne||not|lang=la}} + {{term|ūllus||any|lang=la}}, literally meaning &quot;not any&quot;.
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈnuːl.lus/|lang=la}}
+* {{audio|la-cls-nullus.ogg|Audio (Classical)}}
+
+===Determiner===
+{{la-adj-1&amp;2|nūllus|nulla|nūlla|nullum|nūllum}}
+
+# [[no one]], [[no]], [[not]] [[any]]
+#: '''''Nūllum''' amat.''
+#:: He loves no one.
+
+====Inflection====
+{{la-decl-1&amp;2-ius|nūll}}
+
+====Derived terms====
+* [[homo nulli coloris|homō nūlli colōris]]
+
+====Descendants====
+{{top2}}
+* Dalmatian: {{l|dlm|nolja}}
+* Dutch: {{l|nl|nul}}
+* English: {{l|en|null}}
+* French: {{l|fr|nul}}
+* German: {{l|de|Null}}
+* Icelandic: {{l|is|núll}}
+{{mid2}}
+* Interlingua: {{l|ia|nulle}}
+* Italian: {{l|it|nullo}}
+* Portuguese: {{l|pt|nulo}}
+* Romansch: {{l|rm|nulla}}, {{l|rm|nul}}, {{l|rm|nola}}, {{l|rm|nolla}}
+* Russian: {{l|ru|ноль}}, {{l|ru|нуль}}
+* Spanish: {{l|es|nulo}}
+{{bottom}}
+
+[[Category:Latin determiners]]
+
+[[de:nullus]]
+[[el:nullus]]
+[[fr:nullus]]
+[[ko:nullus]]
+[[la:nullus]]
+[[mg:nullus]]
+[[fj:nullus]]
+[[pl:nullus]]
+[[pt:nullus]]
+[[ru:nullus]]
+[[chr:nullus]]
+[[tr:nullus]]</text>
+      <sha1>gc6qlb0cv0r5klfpv9dgrqwz5864n6v</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

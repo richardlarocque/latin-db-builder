@@ -1,0 +1,167 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>accumulator</title>
+    <ns>0</ns>
+    <id>2941</id>
+    <revision>
+      <id>21403714</id>
+      <parentid>21073907</parentid>
+      <timestamp>2013-07-12T13:01:13Z</timestamp>
+      <contributor>
+        <username>MewBot</username>
+        <id>345682</id>
+      </contributor>
+      <minor />
+      <comment>Fix calls to script template lacking language code</comment>
+      <text xml:space="preserve">==English==
+
+===Etymology===
+* {{suffix|accumulate|or}}. 
+* From {{etyl|la|en}} {{term|lang=la|accumulator|accumulātor}}, agent noun of {{term|lang=la|accumulo|accumulō|pile up}}.
+
+===Pronunciation===
+* {{a|US}} {{IPA|/ə.ˈkjum.jə.ˌleɪ.tɚ/}}
+* {{audio|en-us-accumulator.ogg|Audio (US)}}
+
+===Noun===
+{{en-noun}}
+
+# One who, or that which, [[accumulate]]s.
+#: ''He is a great '''accumulator''' of bad jokes.''
+# {{context|British|lang=en}} A [[wet cell|wet-cell]] storage battery.
+#: ''Looks like it's time to recharge the '''accumulator''' again.''
+# {{context|betting|lang=en}} A collective [[bet]] on successive events, with both [[stake]] and [[winnings]] being carried forward to accumulate progressively.
+# {{context|mechanics|lang=en}} A system of elastic springs for [[relieve|relieving]] the strain upon a rope, as in [[deep-sea]] [[dredging]].
+# {{context|manufacturing|lang=en}} A vessel containing pressurized hot water ready for release as steam.
+# {{context|engineering|hydraulics|lang=en}} A container which stores hydraulic power for release, in the form of a pressurized fluid (often suspended within a larger tank of fluid under pressure).
+# {{context|computer science|lang=en}} A [[register]] in a calculator or computer used for holding the intermediate results of a [[computation]] or [[data]] [[transfer]].
+# {{context|finance|lang=en}} A [[derivative]] contract under which the seller commits to sell shares of an underlying security at a certain [[strike price]], which the buyer is obligated to buy.
+
+====Synonyms====
+* {{sense|one who or that which accumulates}} [[collector]]
+* {{sense|betting}} [[parlay]]
+* {{sense|finance}} [[share forward accumulator]]
+* {{sense|hydraulics}} [[shock absorber]]
+
+====Related terms====
+* [[accumulate]]
+* [[accumulation]]
+* [[accumulative]]
+
+====Translations====
+{{trans-top|one who or that which accumulates}}
+* Bulgarian: {{t+|bg|акумулатор}}
+* Czech: {{t+|cs|akumulátor|m}}
+* Dutch: {{t-|nl|verzamelaar|m}}
+* Finnish: {{t-|fi|varaaja}}
+* French: {{t+|fr|accumulateur|m}}
+* German: {{t+|de|Akkumulator|m}}
+* Greek: {{t+|el|συσσωρευτής|m|tr=sisoreftís}}
+* Indonesian: {{t+|id|akumulator}}
+{{trans-mid}}
+* Interlingua: accumulator
+* Italian: {{t+|it|accumulatore|m}}
+* Korean: {{t-|ko|축적자|tr=chukjeokja|sc=Hang}}
+* Portuguese: [[acumulador]] {{m}}
+* Romanian: {{t-|ro|acumulator}}
+* Russian: {{t+|ru|аккумулятор|m|tr=akkumuljátor}}
+* Spanish: {{t+|es|acumulador|m}}
+* Swedish: {{t+|sv|ackumulator}}
+{{trans-bottom}}
+
+{{trans-top|wet-cell storage battery}}
+* Czech: {{t+|cs|akumulátor|m}}
+* Dutch: {{t+|nl|accu|m}}
+* Finnish: {{t+|fi|akku}}
+{{trans-mid}}
+* German: {{t+|de|Akkumulator|m}}
+* Hungarian: {{t+|hu|akkumulátor}}
+* Polish: {{t+|pl|akumulator|m}}
+{{trans-bottom}}
+
+{{trans-top|betting: collective bet on successive events}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|mechanics: system of elastic springs for relieving strain upon a rope}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|manufacturing: vessel containing pressurized hot water ready for release as steam}}
+* Finnish: {{t-|fi|höyryakku}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|hydraulics: container which stores hydraulic power for release}}
+* Dutch: {{t+|nl|accumulator|m}}
+{{trans-mid}}
+* Finnish: {{t-|fi|painesäiliö}}
+{{trans-bottom}}
+
+{{trans-top|computer science: register for holding intermediate results}}
+* Dutch: {{t+|nl|accumulator|m}}
+{{trans-mid}}
+* Finnish: {{t-|fi|akku}}
+{{trans-bottom}}
+
+{{trans-top|finance: type of derivative contract}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* {{ttbc|eu}}: [[metagailu]]
+* {{ttbc|bg}}: [[акумулатор]] (akumulator) {{m}}
+* {{ttbc|da}}: {{t+|da|akkumulator}}
+* {{ttbc|he}}: [[מצבר]] (matzber) {{m}} (2)
+* {{ttbc|no}}: {{t+|no|akkumulator}}
+{{trans-mid}}
+* {{ttbc|fa}}: {{t|fa|انباره|tr=anbareh}}
+* {{ttbc|sv}}: {{t+|sv|ackumulator}}
+* {{ttbc|tr}}: [[akü]], [[akümülatör]]
+* {{ttbc|cy}}: {{t-|cy|cronadur|m}}
+{{trans-bottom}}
+
+===External links===
+* {{pedialite|dab=accumulator}}
+
+----
+
+==Latin==
+
+===Verb===
+{{la-verb-form|accumulātor}}
+
+# {{conjugation of|accumulo|accumulō|2|s|fut|pass|imp|lang=la}}
+# {{conjugation of|accumulo|accumulō|3|s|fut|pass|imp|lang=la}}
+
+[[ar:accumulator]]
+[[be:accumulator]]
+[[cs:accumulator]]
+[[et:accumulator]]
+[[fa:accumulator]]
+[[fr:accumulator]]
+[[ko:accumulator]]
+[[io:accumulator]]
+[[id:accumulator]]
+[[it:accumulator]]
+[[kn:accumulator]]
+[[ku:accumulator]]
+[[hu:accumulator]]
+[[mg:accumulator]]
+[[ml:accumulator]]
+[[ms:accumulator]]
+[[nl:accumulator]]
+[[ps:accumulator]]
+[[pl:accumulator]]
+[[pt:accumulator]]
+[[ru:accumulator]]
+[[fi:accumulator]]
+[[ta:accumulator]]
+[[tr:accumulator]]
+[[vi:accumulator]]
+[[zh:accumulator]]</text>
+      <sha1>sl27odew6vfg55a87c8lmnbvqeldyss</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

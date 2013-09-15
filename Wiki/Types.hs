@@ -2,11 +2,16 @@ module Wiki.Types where
 
 import qualified Data.Text as T
 
-import Latin.PartsOfSpeech
-import Latin.Conjugation
-import Latin.Declension
-
 data Page = Page T.Text T.Text
+	deriving Show
 
 data TemplateRef = TemplateRef [T.Text]
+	deriving Show
+
+data WikiLine =
+	Section Int T.Text
+	| BlankLine
+	| Line T.Text
+	| Bullet T.Text
+	| NumBullet T.Text
 	deriving Show

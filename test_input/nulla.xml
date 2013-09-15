@@ -1,0 +1,139 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>nulla</title>
+    <ns>0</ns>
+    <id>88298</id>
+    <revision>
+      <id>23093078</id>
+      <parentid>23029306</parentid>
+      <timestamp>2013-09-19T11:38:42Z</timestamp>
+      <contributor>
+        <username>Rukhabot</username>
+        <id>45268</id>
+      </contributor>
+      <minor />
+      <comment>interwikis: +[[chr:nulla]]</comment>
+      <text xml:space="preserve">{{also|nulla nulla}}
+==Hungarian==
+
+===Pronunciation===
+* {{IPA|/ˈnullɒ/|lang=hu}}
+* {{audio|Hu-nulla.ogg|Audio}}
+* {{hyphenation|nul|la}}
+
+===Numeral===
+{{head|hu|numeral}}
+
+# {{context|cardinal|lang=hu}} [[zero]]
+
+====See also====
+* [[0]] &lt; [[egy]]
+* [[nulladik]]
+* [[nullás]]
+
+===Noun===
+{{hu-noun|pl=nullák}}
+
+# [[someone]] or [[something]] of no [[importance]]; [[cipher]]
+#: ''Egy [[nagy]] '''nulla''' vagy!'' - You are a mere cipher.
+
+----
+
+==Italian==
+
+===Adjective===
+{{head|it}} {{f}}
+
+# {{feminine of|nullo|lang=it}}
+
+===Etymology===
+From {{etyl|la|it}} {{term|nūlla|lang=la}}, feminine of {{term|nūllus|lang=la}}.
+
+===Adverb===
+'''nulla'''
+
+# [[nothing]], [[anything]]
+
+===Noun===
+{{head|it|noun|g=m|invariable}}
+
+# [[nothing]]
+
+===Pronoun===
+'''nulla'''
+
+# [[nothing]], [[anything]]
+
+[[Category:Italian adjective forms]]
+[[Category:Italian adverbs]]
+[[Category:Italian pronouns]]
+
+----
+
+==Latin==
+
+===Adjective===
+{{la-adj-form|nūlla}}
+
+# {{inflection of|nūllus||nom|f|s|lang=la}}
+# {{inflection of|nūllus||nom|n|p|lang=la}}
+# {{inflection of|nūllus||acc|n|p|lang=la}}
+# {{inflection of|nūllus||voc|f|s|lang=la}}
+# {{inflection of|nūllus||voc|n|p|lang=la}}
+
+{{la-adj-form|nūllā}}
+
+# {{inflection of|nūllus||abl|f|s|lang=la}}
+
+----
+
+==Norwegian==
+
+===Noun===
+{{head|no}}
+
+# ''Definite plural'' of [[null#Norwegian|null]]
+
+[[Category:Norwegian noun forms]]
+
+----
+
+==Romansch==
+
+===Alternative forms===
+* {{qualifier|Sursilvan}} {{l|rm|nul}}
+* {{qualifier|Sutsilvan}} {{l|rm|nola}}, {{l|rm|nula}}
+* {{qualifier|Surmiran|Puter|Vallader}} {{l|rm|nolla}}
+
+===Etymology===
+From {{etyl|la|rm}} {{term|nullus|lang=la}}.
+
+===Cardinal number===
+{{head|rm|number}}
+
+# {{context|cardinal|Rumantsch Grischun|Sursilvan|lang=rm}} [[zero]]
+
+[[de:nulla]]
+[[el:nulla]]
+[[fr:nulla]]
+[[gl:nulla]]
+[[ko:nulla]]
+[[io:nulla]]
+[[it:nulla]]
+[[lt:nulla]]
+[[hu:nulla]]
+[[mg:nulla]]
+[[nl:nulla]]
+[[pl:nulla]]
+[[pt:nulla]]
+[[ru:nulla]]
+[[fi:nulla]]
+[[sv:nulla]]
+[[chr:nulla]]
+[[tr:nulla]]
+[[zh:nulla]]</text>
+      <sha1>sl4u6yirm1otyc9e6r49o6zvaednt3g</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

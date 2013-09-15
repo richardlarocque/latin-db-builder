@@ -1,0 +1,93 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>divus</title>
+    <ns>0</ns>
+    <id>2143834</id>
+    <revision>
+      <id>22709902</id>
+      <parentid>22570933</parentid>
+      <timestamp>2013-09-11T19:41:01Z</timestamp>
+      <contributor>
+        <username>Rukhabot</username>
+        <id>45268</id>
+      </contributor>
+      <minor />
+      <comment>interwikis: +[[chr:divus]]</comment>
+      <text xml:space="preserve">==Latin==
+
+===Etymology===
+
+From {{etyl|ine-pro|la}} {{term/t|ine-pro|*deywós||god, the celestial one}}, from {{term/t|ine-pro|*dyew-||sky, heaven}}. Cognate with {{etyl|grc|-}} {{term|Δεύς|tr=Deús|lang=grc}}, {{term|Ζεύς|tr=Zeús|lang=grc}}, {{etyl|sa|-}} {{term|देव|tr=devá|lang=sa}}, {{etyl|ae|-}} {{term|𐬛𐬀𐬉𐬬𐬀||god|tr=daēva|lang=ae}} (from which {{etyl|xcl|-}} {{term|դեւ||a spectre|tr=dew|lang=xcl}}, {{etyl|ka|-}} {{term|დევი||a monster|tr=devi|lang=ka}}, {{etyl|fa|-}} {{term|دیو||a demon|tr=div|lang=fa}}), {{etyl|prg|-}} {{term|deywis|lang=prg}}, {{etyl|non|-}} {{term|Týr|lang=non}}, {{term|дивъ|tr=divŭ||daemon|lang=cu}}, {{term|диво|tr=divo||wonder|lang=cu}}.
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈdiː.wus/|lang=la}}
+
+===Adjective===
+{{la-adj-1&amp;2|dīvus|diva|dīva|divum|dīvum}}
+
+# of or belonging to a [[deity]]; [[divine]]
+# [[godlike]]
+
+====Inflection====
+{{la-decl-1&amp;2|dīv}}
+
+====Derived terms====
+{{top3}}
+* {{l|la|dīvīnātiō}}
+* {{l|la|dīvīnātor}}
+* {{l|la|dīvīnātrīx}}
+* {{l|la|dīvīnē}}
+{{mid3}}
+* {{l|la|dīvīnitās}}
+* {{l|la|dīvīnitus}}
+* {{l|la|dīvīna}}
+* {{l|la|dīvīnō}}
+{{mid3}}
+* {{l|la|dīvīnum}}
+* {{l|la|dīvīnus}}
+* {{l|la|dīva}}
+* {{l|la|dīvum}}
+{{bottom}}
+
+====Related terms====
+{{top2}}
+* {{l|la|deitās}}
+* {{l|la|deus}}
+* {{l|la|Deus}}
+{{mid2}}
+* {{l|la|dīs}}
+* {{l|la|dītius}}
+* {{l|la|dīvēs}}
+{{bottom}}
+
+===Noun===
+{{la-noun|dīvus|divi|dīvī|m|second}}
+
+# [[god]]
+
+====Inflection====
+{{la-decl-2nd|dīv}}
+
+----
+
+==Latvian==
+
+===Numeral===
+{{head|lv|numeral form}}
+
+# {{lv-inflection of|divi|acc|p|m||num}}
+
+[[es:divus]]
+[[fr:divus]]
+[[ko:divus]]
+[[hr:divus]]
+[[ku:divus]]
+[[la:divus]]
+[[mg:divus]]
+[[chr:divus]]
+[[zh:divus]]</text>
+      <sha1>n6teeei9c3830218j3ztx9jr8nodzos</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>

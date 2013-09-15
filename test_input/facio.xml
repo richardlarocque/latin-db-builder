@@ -1,0 +1,130 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.8/ http://www.mediawiki.org/xml/export-0.8.xsd" version="0.8" xml:lang="en">
+  <page>
+    <title>facio</title>
+    <ns>0</ns>
+    <id>185730</id>
+    <revision>
+      <id>23379226</id>
+      <parentid>23365790</parentid>
+      <timestamp>2013-09-30T14:58:45Z</timestamp>
+      <contributor>
+        <username>GuitarDudeness</username>
+        <id>493730</id>
+      </contributor>
+      <comment>/* Derived terms */</comment>
+      <text xml:space="preserve">==Latin==
+
+===Etymology===
+From {{etyl|ine-pro|la}} {{term/t|ine-pro|*dʰeh₁-||to put, place, set}}, possibly through a later intermediate root *''dʰh₁-k-yé/ó-''. Cognates include Ancient Greek {{term|sc=polytonic|τίθημι|tr=tithēmi|lang=grc}}, Sanskrit {{term|sc=Deva|दधाति|tr=dádhāti|lang=sa}}, Old English {{term/t|ang|dōn}} (English {{term|do|lang=en}}).
+
+===Pronunciation===
+* {{a|Classical}} {{IPA|/ˈfa.ki.oː/|lang=la}}
+* {{audio|la-cls-facio.ogg|Audio (Classical)}}
+
+===Verb===
+{{la-verb|facio|faciō|facere|facere|feci|fēcī|factum|factum|pattern=irregular [[passive voice]]}}
+
+# I [[do]]; I [[make]].
+#: ''Quid ego '''feci'''?''
+#:: ''What '''have''' I '''done'''?''
+#: ''Latrocinium modo '''factum est'''.'' (''special usage''; passive perfect = took place)
+#:: ''A robbery just '''took place'''.''
+#: '''''Factum''' est.''
+#:: It is '''done'''.
+#* {{RQ:Cicero Catiline}}
+#*: ''Quam diu quisquam erit qui te defendere audeat, vives, et vives ita ut nunc vivis, multis meis et firmis praesidiis obsessus ne commovere te contra rem publicam possis. Multorum te etiam oculi et aures non sentientem, sicut adhuc '''fecerunt''', speculabuntur atque custodient.''
+#*:: As long as one person exists who can dare to defend you, you shall live; but you shall live as you do now, surrounded by my many and trusty guards, so that you shall not be able to stir one finger against the republic: many eyes and ears shall still observe and watch you, as they have hitherto '''done''', though you shall not perceive them.
+
+====Inflection====
+* The verb has an irregular conjugation as for the [[passive voice]].
+{{la-conj-3rd-IO-facio|f|11=f}}
+* The singular imperative, ''face'', was later shortened to ''fac''.
+
+====Derived terms====
+{{top4}}
+* {{l|la|afficiō}}
+* {{l|la|clārificō}}
+* {{l|la|cōnficiō}}
+* {{l|la|dēficiō}}
+* {{l|la|efficiō}}
+* {{l|la|falsificus}}
+* {{l|la|fortificō}}
+{{mid4}}
+* {{l|la|grātificor}}
+* {{l|la|īnficiō}}
+* {{l|la|interficiō}}
+* {{l|la|iustificō}}
+* {{l|la|mollifaciō}}
+* {{l|la|officiō}}
+* {{l|la|olfaciō}}
+{{mid4}}
+* {{l|la|perficiō}}
+* {{l|la|praeficiō}}
+* {{l|la|prōficiō}}
+* {{l|la|reficiō}}
+* {{l|la|sacrificō}}
+* {{l|la|sānctificō}}
+* {{l|la|satisfaciō}}
+{{mid4}}
+* {{l|la|scientificus}}
+* {{l|la|sēnsificus}}
+* {{l|la|significō}}
+* {{l|la|simplificō}}
+* {{l|la|stupefaciō}}
+* {{l|la|sufficiō}}
+* {{l|la|vērificō}}
+{{bottom}}
+
+====Descendants====
+{{top2}}
+* Aromanian: {{l|rup|fac}}, [[fatsire]]
+* Asturian: {{l|ast|facer}}, {{l|ast|facere}}
+* Catalan: {{l|ca|fer}}
+* Dalmatian: {{l|dlm|fur}}
+* Extremaduran: {{l|ext|hazel}}
+* Fala: {{l|fax|fel}}
+* French: {{l|fr|faire}}
+* Friulian: {{l|fur|fâ}}
+* Galician: {{l|gl|facer}}
+* Italian: {{l|it|fare}}
+{{mid2}}
+* Jèrriais: {{l|roa-jer|faithe}}
+* Neapolitan: {{l|nap|fà}}
+* Occitan: {{l|oc|fer}}, {{l|oc|faire}}, {{l|oc|far}}
+* Old Portuguese: {{l|roa-ptg|fazer}}
+* Old Spanish: {{l|osp|facer}}, {{l|osp|far}}, {{l|osp|fer}}, {{l|osp|her}}
+* Portuguese: {{l|pt|fazer}}
+* Romanian: {{l|ro|face}} {{l|ro|facere}}
+* Romansch: {{l|rm|far}}
+* Sardinian: [[fàchere]], [[fàere]], [[fàghere]]
+* Sicilian: {{l|scn|fari}}
+* Spanish: {{l|es|hacer}}
+{{bottom}}
+
+====References====
+* Wheelock's Latin, Wheelock, F.M. (6th ed., 2005). (Cited for abbreviation of singular imperative form; p. 51.) HarperCollins, N.Y.
+
+[[de:facio]]
+[[el:facio]]
+[[es:facio]]
+[[fr:facio]]
+[[ko:facio]]
+[[io:facio]]
+[[it:facio]]
+[[la:facio]]
+[[hu:facio]]
+[[mg:facio]]
+[[oc:facio]]
+[[pl:facio]]
+[[pt:facio]]
+[[ru:facio]]
+[[fi:facio]]
+[[sv:facio]]
+[[ta:facio]]
+[[chr:facio]]
+[[zh:facio]]</text>
+      <sha1>pgvphvgzei779ns4jw79z3g0ze7335r</sha1>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+    </revision>
+</mediawiki>
