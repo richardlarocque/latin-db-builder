@@ -6,8 +6,8 @@ set -ex
 #INPUT=sample.xml
 
 DB=latin-db.sqlite3
-INPUT=enwiktionary-20131002-pages-articles.xml
-
+INPUT=enwiktionary-20140728-pages-articles.xml
+#INPUT=enwiktionary-20131002-pages-articles.xml
 #INPUT=enwiktionary-20130814-pages-articles.xml
 
 rm $DB || true

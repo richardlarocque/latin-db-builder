@@ -33,7 +33,7 @@ executable latin-db
                        Wiki.Latin.Headword
                        Wiki.Latin.Definitions
                        Util.Normalize
-  build-depends:       base ==4.6.*,
+  build-depends:       base ==4.*,
                        text,
                        text-icu,
                        regex-tdfa,
